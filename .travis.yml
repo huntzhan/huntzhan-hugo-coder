@@ -13,11 +13,10 @@ install:
   # - sudo apt-get install -y snapd
   # - sudo snap install hugo
   #
-  # A hack from the following post:
-  # https://axdlog.com/2018/using-hugo-and-travis-ci-to-deploy-blog-to-github-pages-automatically/
-  - wget -qO- https://api.github.com/repos/gohugoio/hugo/releases/latest | sed -r -n '/browser_download_url/{/Linux-64bit.deb/{s@[^:]*:[[:space:]]*"([^"]*)".*@\1@g;p}}' | xargs wget
-  - sudo dpkg -i hugo*.deb
-  - pip install Pygments
+  # Hack to install from deb now.
+  - pip install requests Pygments
+  - python .travis/hugo_deb.py
+  - sudo dpkg -i hugo.deb
 
 script:
   - ".travis/build.sh"
