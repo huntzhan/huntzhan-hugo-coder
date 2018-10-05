@@ -1,9 +1,9 @@
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
-# build site (generate ./publish)
+# build site (generate ./public)
 hugo
-# copy ./publish to /tmp/publish
-mkdir -p /tmp/publish && cp -r ./publish /tmp/publish
-cd /tmp/publish
+# copy ./public to /tmp/hugo-public
+mkdir -p /tmp/hugo-public && cp -r ./public /tmp/hugo-public
+cd /tmp/hugo-public
 
 ls -al
