@@ -11,6 +11,6 @@ assert len(item) == 1
 browser_download_url = item[0]['browser_download_url']
 
 with open('hugo.deb', 'wb') as fout:
-    print(f'Downloading {browser_download_url}')
+    print(browser_download_url)
     rep = requests.get(browser_download_url)
     fout.write(rep.content)
