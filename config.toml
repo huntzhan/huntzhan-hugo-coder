@@ -1,0 +1,62 @@
+baseurl = "https://huntzhan.github.io"
+title = "huntzhan"
+theme = "coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "huntzhan"
+
+[params]
+    author = "Hunt Zhan"
+    info = "Deep NLP Research & Engineering"
+    description = "Just Some Insight"
+    keywords = "deep learning,nlp"
+
+    avatarurl = "https://gravatar.com/avatar/9e114d2564d6ace057250e5c4b415c8d?s=300"
+    favicon_32 = "https://gravatar.com/avatar/9e114d2564d6ace057250e5c4b415c8d?s=32"
+    favicon_16 = "https://gravatar.com/avatar/9e114d2564d6ace057250e5c4b415c8d?s=16"
+
+    footercontent = "All rights reserved"
+
+    hidecredits = false
+    hidecopyright = false
+
+    rtl = false
+
+    math = true
+    # custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/huntzhan/"
+[[params.social]]
+    name = "Wechat"
+    icon = "fab fa-weixin fa-2x"
+    weight = 2
+    url = "https://goo.gl/NhqGnn"
+[[params.social]]
+    name = "Email"
+    icon = "fas fa-envelope fa-2x"
+    weight = 3
+    url = "https://goo.gl/k43pk6"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+
+# [[menu.main]]
+#     name = "About"
+#     weight = 2
+#     url = "/about/"
