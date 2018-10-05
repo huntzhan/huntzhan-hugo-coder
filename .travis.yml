@@ -2,10 +2,22 @@ git:
   depth: false
 go:
   - 1.11
+python:
+  - 3.6
 
 install:
-  - sudo apt-get install -y snapd
-  - sudo snap install hugo
+  # This op is heavy:
+  #   Need to get 85.5 MB of archives.
+  #   After this operation, 401 MB of additional disk space will be used.
+  #
+  # - sudo apt-get install -y snapd
+  # - sudo snap install hugo
+  #
+  # A hack from the following post:
+  # https://axdlog.com/2018/using-hugo-and-travis-ci-to-deploy-blog-to-github-pages-automatically/
+  - wget -qO- https://api.github.com/repos/gohugoio/hugo/releases/latest | sed -r -n '/browser_download_url/{/Linux-64bit.deb/{s@[^:]*:[[:space:]]*"([^"]*)".*@\1@g;p}}' | xargs wget
+  - sudo dpkg -i hugo*.deb
+  - pip install Pygments
 
 script:
   - ".travis/build.sh"
