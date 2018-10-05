@@ -10,5 +10,6 @@ item = list(filter(
 assert len(item) == 1
 browser_download_url = item[0]['browser_download_url']
 
-with open('hugo.deb', 'wb') as fout, requests.get(browser_download_url) as rep:
+with open('hugo.deb', 'wb') as fout:
+    rep = requests.get(browser_download_url)
     fout.write(rep.content)
