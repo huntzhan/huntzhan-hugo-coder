@@ -1,12 +1,14 @@
 +++ 
 date = 2018-10-05T22:11:20+08:00
-title = "test"
+title = "demo"
 math = "true"
 +++
 
 # h1
 
-try to overwrite.
+Image
+
+![test](posts/series1/amazing_sky-wide.jpg)
 
 ## h2
 
