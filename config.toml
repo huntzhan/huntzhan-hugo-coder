@@ -60,3 +60,13 @@ disqusShortname = "huntzhan"
     name = "About"
     weight = 2
     url = "/about/"
+
+[[menu.main]]
+    name = "Links"
+    weight = 2
+    url = "/link-exchange/"
+
+[[menu.main]]
+    name = "RSS"
+    weight = 4
+    url = "/index.xml"
