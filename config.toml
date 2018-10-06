@@ -43,7 +43,7 @@ disqusShortname = "huntzhan"
     name = "Wechat"
     icon = "fab fa-weixin fa-2x"
     weight = 2
-    url = "https://goo.gl/NhqGnn"
+    url = "https://goo.gl/5ozLjH"
 [[params.social]]
     name = "Email"
     icon = "fas fa-envelope fa-2x"
