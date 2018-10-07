@@ -1,6 +1,7 @@
 +++
-title = "TODO"
+title = "关于我"
 slug = "about"
+
 +++
 
-TODO: add description.
+（有点懒，有空整理一下）
