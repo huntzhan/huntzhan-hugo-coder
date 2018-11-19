@@ -24,7 +24,7 @@ Related implementations:
 
 The project structure of [bilm-tf](https://github.com/allenai/bilm-tf):
 
-```
+```shell
 ├── bilm                  // ELMo is implemented under this folder.
 │   ├── __init__.py
 │   ├── data.py             // Load & batch sentences.
@@ -39,7 +39,7 @@ The project structure of [bilm-tf](https://github.com/allenai/bilm-tf):
 │   └── train_elmo.py       // For step (1).
 │
 ...
-├── usage_cached.py         // usage_* are for step (3).
+├── usage_cached.py         // usage_*.py are for step (3).
 ├── usage_character.py
 └── usage_token.py
 ```
@@ -98,7 +98,7 @@ Meanwhile, the *token embedding* implementation is defined in function [_build_w
 
 #### $L\text{-layer}$ biLM
 
-The multi-layer LSTM is defined [here](https://github.com/allenai/bilm-tf/blob/7cffee2b0986be51f5e2a747244836e1047657f4/bilm/training.py#L343-L428), with some common practices like
+The multi-layer LSTM is defined [here](https://github.com/allenai/bilm-tf/blob/7cffee2b0986be51f5e2a747244836e1047657f4/bilm/training.py#L343-L428), with some common practices:
 
 *   Cell/projection clip, [ref](https://github.com/allenai/bilm-tf/blob/7cffee2b0986be51f5e2a747244836e1047657f4/bilm/training.py#L356-L357).
 *   Skip (residual) connection, [ref](https://github.com/allenai/bilm-tf/blob/7cffee2b0986be51f5e2a747244836e1047657f4/bilm/training.py#L378-L386).
@@ -108,21 +108,25 @@ Note that the `final_lstm_state` is for *the truncated BPTT*.
 
 #### Loss & Evaluation
 
-TODO
+Loss:
 
-Evaluation: Perplexity & Bits Per Character (BPC)
+-   *jointly maximizes the log likelihood of the forward and backward directions*, [ref](https://github.com/allenai/bilm-tf/blob/7cffee2b0986be51f5e2a747244836e1047657f4/bilm/training.py#L488-L493),
+-   and use softmax sampling to approximate to full softmax, [ref](https://github.com/allenai/bilm-tf/blob/7cffee2b0986be51f5e2a747244836e1047657f4/bilm/training.py#L500-L506).
 
-https://stats.stackexchange.com/questions/129352/how-to-find-the-perplexity-of-a-corpus
+Evaluation:
 
-https://stats.stackexchange.com/questions/211858/how-to-compute-bits-per-character-bpc
+*   The definition of perplexity: [ref1](https://github.com/allenai/bilm-tf/issues/22), [ref2](https://stats.stackexchange.com/questions/129352/how-to-find-the-perplexity-of-a-corpus). FYI, the definition of BPC (Bits Per Character), [ref](https://stats.stackexchange.com/questions/211858/how-to-compute-bits-per-character-bpc). BPC is commonly used to evaluate the character-level LM.
 
-https://datascience.stackexchange.com/questions/17514/word-based-perplexity-from-char-rnn-model
+#### Training & Multi-GPU Support
 
-https://github.com/allenai/bilm-tf/issues/22
+Training:
 
-#### Multi-GPU Training
+-   Optimizer:
+-   The truncated BPTT:
 
-TODO
+Multi-GPU Support:
+
+*   
 
 ### CLI Scripts & Config
 
