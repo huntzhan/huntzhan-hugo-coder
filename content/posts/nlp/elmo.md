@@ -67,7 +67,7 @@ Hence, we will only focus on the following files in the upcoming sections.
 `bilm/data.py` offers the ability to generate unidirectional/bidirectional $\times$ word-level/char-level ids:
 
 - [BidirectionalLMDataset](https://github.com/allenai/bilm-tf/blob/7cffee2b0986be51f5e2a747244836e1047657f4/bilm/data.py#L435), load data file & generate batch for training.
-  - [LMDataset](https://github.com/allenai/bilm-tf/blob/7cffee2b0986be51f5e2a747244836e1047657f4/bilm/data.py#L315). unidirectioanl (forworad or backward) processing. *BidirectionalLMDataset* simply consists of two *LMDataset* instances for bidirectional processing.
+  - [LMDataset](https://github.com/allenai/bilm-tf/blob/7cffee2b0986be51f5e2a747244836e1047657f4/bilm/data.py#L315). unidirectioanl (forward or backward) processing. *BidirectionalLMDataset* simply consists of two *LMDataset* instances for bidirectional processing.
 
 - [UnicodeCharsVocabulary](https://github.com/allenai/bilm-tf/blob/7cffee2b0986be51f5e2a747244836e1047657f4/bilm/data.py#L98), char-level ids, referenced by *LMDataset* and *BidirectionalLMDataset*.
   - [Vocabulary](https://github.com/allenai/bilm-tf/blob/7cffee2b0986be51f5e2a747244836e1047657f4/bilm/data.py#L10), word-level ids.
