@@ -23,7 +23,7 @@ Related implementations:
 
 The project structure of [bilm-tf](https://github.com/allenai/bilm-tf):
 
-```shell
+```
 ├── bilm                  // ELMo is implemented under this folder.
 │   ├── __init__.py
 │   ├── data.py             // Data Loading & Batch Generation
