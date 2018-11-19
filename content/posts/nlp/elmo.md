@@ -1,13 +1,12 @@
 ---
-title: "Deep Dive The Implementation Of EMLo"
+title: "Deep Dive The EMLo Implementation"
 date: 2018-11-12T13:01:19+08:00
-draft: true
 math: "true"
 ---
 
 ## Introduction
 
-Intended audience: people who want to train ELMo [Peters et al. (2018)][] from scratch and understand the details of official implementation.
+Intended audience: people who want to train ELMo from scratch and understand the details of official implementation. It's recommended to read [Peters et al. (2018)][],  [Jozefowicz et al. (2016)][], and [Kim et al. (2016)][] before you continue. I hope this post could help you ramp up quickly.
 
 Training & using ELMo roughly consists of the following steps:
 
@@ -27,12 +26,12 @@ The project structure of [bilm-tf](https://github.com/allenai/bilm-tf):
 ```shell
 ├── bilm                  // ELMo is implemented under this folder.
 │   ├── __init__.py
-│   ├── data.py             // Load & batch sentences.
+│   ├── data.py             // Data Loading & Batch Generation
 │   ├── elmo.py             // ``weight_layers`` for step (3).
 │   ├── model.py            // ``BidirectionalLanguageModel`` for step (3)
-│   └── training.py         // For training & fine-tuning (step (1) and (2)). 
+│   └── training.py         // Model Definition (step (1) and (2)). 
 │
-├── bin                   // For shell execution.
+├── bin                   // CLI Scripts & Config
 │   ├── dump_weights.py     // Dump weight file for AllenNLP.
 │   ├── restart.py          // For step (2).
 │   ├── run_test.py         // Check the perplexity on the heldout dataset.
@@ -46,22 +45,22 @@ The project structure of [bilm-tf](https://github.com/allenai/bilm-tf):
 
 Note that `bilm/training.py` does not depend on `bilm/elmo.py`,  `bilm/model.py` or `usage_*`. You don't need to look into these files if you only want to use *bilm-tf* for training and fine-tuning. Using *bilm-tf* for step (3) will not be covered in this article since I think using *AllenNLP* for step (3) would be much easier.
 
-Hence, only these files are needed to be studied:
+Hence, we will only focus on the following files in the upcoming sections.
 
 ```
 ├── bilm                  // ELMo is implemented under this folder.
 │   ├── __init__.py
-│   ├── data.py             // Load & batch sentences.
-│   └── training.py         // For training & fine-tuning (step (1) and (2)). 
-│
-├── bin                   // For shell execution.
+│   ├── data.py             // Data Loading & Batch Generation
+│   └── training.py         // Model Definition (step (1) and (2)). 
+```
+
+```
+├── bin                   // CLI Scripts & Config
 │   ├── dump_weights.py     // Dump weight file for AllenNLP.
 │   ├── restart.py          // For step (2).
 │   ├── run_test.py         // Check the perplexity on the heldout dataset.
 │   └── train_elmo.py       // For step (1).
 ```
-
-TODO(In this section, ...)
 
 ### Data Loading & Batch Generation
 
@@ -121,24 +120,51 @@ Evaluation:
 
 Training:
 
--   Optimizer:
--   The truncated BPTT:
+-   Optimizer: *Adagrad* with default learning rate 0.2, [ref](https://github.com/allenai/bilm-tf/blob/7cffee2b0986be51f5e2a747244836e1047657f4/bilm/training.py#L689-L691).
+-   The truncated BPTT: 20 steps as mentioned above. The truncated BPTT is archived by maintaining the initial states of LSTM across batches, look into `init_state_values`, [ref](https://github.com/allenai/bilm-tf/blob/7cffee2b0986be51f5e2a747244836e1047657f4/bilm/training.py#L834-L878) and (`init_lstm_state`, `final_lstm_state`), [ref](https://github.com/allenai/bilm-tf/blob/7cffee2b0986be51f5e2a747244836e1047657f4/bilm/training.py#L401-L416).
 
 Multi-GPU Support:
 
-*   
+1.  Create an `LanguageModel` instance for each GPU with `tf.variable_scope('lm', reuse=k > 0)`, [ref](https://github.com/allenai/bilm-tf/blob/7cffee2b0986be51f5e2a747244836e1047657f4/bilm/training.py#L700-L713), meaning that the copies of parameters in different GPU will be synchronized after each gradient descent.
+2.  Grandients from multiple GPUs are averaged and clipped before gradient descent, [ref](https://github.com/allenai/bilm-tf/blob/7cffee2b0986be51f5e2a747244836e1047657f4/bilm/training.py#L720-L721).
 
 ### CLI Scripts & Config
 
-TODO
+Since the [README.md](https://github.com/allenai/bilm-tf/blob/master/README.md) of *bilm-tf* has given a detailed instruction on how to use the CLI scripts under `bin/` folder, we won't repeat it here. But the default hyperparameters defined in `bin/train_elmo.py` is worth mentioning, because you might need to adjust the settings if you want to train ELMo from scratch.
 
 By default, ELMo use *BidirectionalLMDataset*  & *UnicodeCharsVocabulary* to generate **bidirectional char-level ids**, as specified in [load_vocab(args.vocab_file, 50)](https://github.com/allenai/bilm-tf/blob/7cffee2b0986be51f5e2a747244836e1047657f4/bin/train_elmo.py#L12), [load_vocab](https://github.com/allenai/bilm-tf/blob/7cffee2b0986be51f5e2a747244836e1047657f4/bilm/training.py#L1058-L1060) and [BidirectionalLMDataset](https://github.com/allenai/bilm-tf/blob/7cffee2b0986be51f5e2a747244836e1047657f4/bin/train_elmo.py#L58-L59).
 
-## AllenNLP ELMo
+The char-level ids is for training the *CNN over characters* representation, in which
 
-[The tutorial of AllenNLP ELMo](https://github.com/allenai/allennlp/blob/master/tutorials/how_to/elmo.md).
+-   the character embedding size is set to `16`.
+-   `filters` defines a list of (`width`, `#filter`) to capture features from 1-gram to 7-gram.
 
-Classe references:
+```
+'char_cnn': {'activation': 'relu',
+      'embedding': {'dim': 16},
+      'filters': [[1, 32],
+       [2, 32],
+       [3, 64],
+       [4, 128],
+       [5, 256],
+       [6, 512],
+       [7, 1024]],
+      'max_characters_per_token': 50,
+      'n_characters': 261,
+      'n_highway': 2},
+```
+
+And you might need to pay attention to these hyperparameters:
+
+-   `n_gpus` defines how many GPUs to use.
+-   `n_train_tokens`  decides the number of batches, [ref](https://github.com/allenai/bilm-tf/blob/7cffee2b0986be51f5e2a747244836e1047657f4/bilm/training.py#L785-L790). Reset this value according to your corpus.
+-   `n_negative_samples_batch`: defines the number of negative softmax sampling. You could disable softmax sampling by adding `"sample_softmax": False"` to your config.
+
+## AllenNLP
+
+After dumping the weights from *bilm-tf* model using `bin/dump_weights.py`, we could use *AllenNLP* to load the weight file and build new models on top of the pre-trained ELMo model. Read [The tutorial of AllenNLP ELMo](https://github.com/allenai/allennlp/blob/master/tutorials/how_to/elmo.md) for the detailed instruction.
+
+The complete ELMo related classes in *AllenNLP*:
 
 - [batch_to_ids](https://github.com/allenai/allennlp/blob/43243acf4e91ba471923624bd48c9c9ec72332bf/allennlp/modules/elmo.py#L228), converts word to char ids in preprocessing.
     - [ELMoTokenCharactersIndexer(TokenIndexer)](https://github.com/allenai/allennlp/blob/7df8275e7f70013185f1afeaa2779c2abce4492d/allennlp/data/token_indexers/elmo_indexer.py#L78), [ref](https://github.com/allenai/allennlp/blob/43243acf4e91ba471923624bd48c9c9ec72332bf/allennlp/modules/elmo.py#L243), a *TokenIndexer* (type: `elmo_characters`).
@@ -149,8 +175,6 @@ Classe references:
         - [_ElmoCharacterEncoder(torch.nn.Module)](https://github.com/allenai/allennlp/blob/43243acf4e91ba471923624bd48c9c9ec72332bf/allennlp/modules/elmo.py#L257), [ref](https://github.com/allenai/allennlp/blob/43243acf4e91ba471923624bd48c9c9ec72332bf/allennlp/modules/elmo.py#L522), generate word-level representation by applying CNN over characters. (requries `options_file` and `weight_file`)
         - [ElmoLstm(_EncoderBase)](https://github.com/allenai/allennlp/blob/aa1b774ed8de31ec04bebf9f054200bc2507e0c5/allennlp/modules/elmo_lstm.py#L20), [ref](https://github.com/allenai/allennlp/blob/43243acf4e91ba471923624bd48c9c9ec72332bf/allennlp/modules/elmo.py#L545-L552), represents the multi-layers BiLSTM. (requries `options_file` and `weight_file`)
     - [ScalarMix(torch.nn.Module)](https://github.com/allenai/allennlp/blob/43243acf4e91ba471923624bd48c9c9ec72332bf/allennlp/modules/scalar_mix.py#L8), [ref](https://github.com/allenai/allennlp/blob/43243acf4e91ba471923624bd48c9c9ec72332bf/allennlp/modules/elmo.py#L112-L120), handles the *task specific combination of the intermediate layer representations in the biLM*  (four trainable parameters $s^{task}$ and $r^{task}$). `num_output_representations` controls the number of combinations to generate.
-
-TODO(what if we don't use char_cnn? AFAIK, AllenNLP doesn't provide impl for that.)
 
 
 [Jozefowicz et al. (2016)]: https://arxiv.org/pdf/1602.02410.pdf	"Exploring the Limits of Language Modeling"
