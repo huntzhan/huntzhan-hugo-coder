@@ -164,7 +164,9 @@ And you might need to pay attention to these hyperparameters:
 
 After dumping the weights from *bilm-tf* model using `bin/dump_weights.py`, we could use *AllenNLP* to load the weight file and build new models on top of the pre-trained ELMo model. Read [The tutorial of AllenNLP ELMo](https://github.com/allenai/allennlp/blob/master/tutorials/how_to/elmo.md) for the detailed instruction.
 
-The complete ELMo related classes in *AllenNLP*:
+### Related Classes/Functions
+
+The complete ELMo related classes/functions in *AllenNLP*:
 
 - [batch_to_ids](https://github.com/allenai/allennlp/blob/43243acf4e91ba471923624bd48c9c9ec72332bf/allennlp/modules/elmo.py#L228), converts word to char ids in preprocessing.
     - [ELMoTokenCharactersIndexer(TokenIndexer)](https://github.com/allenai/allennlp/blob/7df8275e7f70013185f1afeaa2779c2abce4492d/allennlp/data/token_indexers/elmo_indexer.py#L78), [ref](https://github.com/allenai/allennlp/blob/43243acf4e91ba471923624bd48c9c9ec72332bf/allennlp/modules/elmo.py#L243), a *TokenIndexer* (type: `elmo_characters`).
@@ -175,6 +177,16 @@ The complete ELMo related classes in *AllenNLP*:
         - [_ElmoCharacterEncoder(torch.nn.Module)](https://github.com/allenai/allennlp/blob/43243acf4e91ba471923624bd48c9c9ec72332bf/allennlp/modules/elmo.py#L257), [ref](https://github.com/allenai/allennlp/blob/43243acf4e91ba471923624bd48c9c9ec72332bf/allennlp/modules/elmo.py#L522), generate word-level representation by applying CNN over characters. (requries `options_file` and `weight_file`)
         - [ElmoLstm(_EncoderBase)](https://github.com/allenai/allennlp/blob/aa1b774ed8de31ec04bebf9f054200bc2507e0c5/allennlp/modules/elmo_lstm.py#L20), [ref](https://github.com/allenai/allennlp/blob/43243acf4e91ba471923624bd48c9c9ec72332bf/allennlp/modules/elmo.py#L545-L552), represents the multi-layers BiLSTM. (requries `options_file` and `weight_file`)
     - [ScalarMix(torch.nn.Module)](https://github.com/allenai/allennlp/blob/43243acf4e91ba471923624bd48c9c9ec72332bf/allennlp/modules/scalar_mix.py#L8), [ref](https://github.com/allenai/allennlp/blob/43243acf4e91ba471923624bd48c9c9ec72332bf/allennlp/modules/elmo.py#L112-L120), handles the *task specific combination of the intermediate layer representations in the biLM*  (four trainable parameters $s^{task}$ and $r^{task}$). `num_output_representations` controls the number of combinations to generate.
+
+### Note: BOS/EOS Tokens
+
+*AllenNLP* handels BOS/EOS tokens for you. *_ElmoCharacterEncoder.forward* adds BOS/EOS tokens to your inputs, [ref](https://github.com/allenai/allennlp/blob/43243acf4e91ba471923624bd48c9c9ec72332bf/allennlp/modules/elmo.py#L341-L348). Afterward, *Elmo* removes those tokens & timesteps from the outputs, [ref](https://github.com/allenai/allennlp/blob/43243acf4e91ba471923624bd48c9c9ec72332bf/allennlp/modules/elmo.py#L180-L183).
+
+### Note: `max_characters_per_token` Options 
+
+Always set `max_characters_per_token` to `50`, since this option has been hardcoded in *ELMoCharacterMapper*, [ref](https://github.com/allenai/allennlp/blob/7df8275e7f70013185f1afeaa2779c2abce4492d/allennlp/data/token_indexers/elmo_indexer.py#L25-L31).
+
+
 
 
 [Jozefowicz et al. (2016)]: https://arxiv.org/pdf/1602.02410.pdf	"Exploring the Limits of Language Modeling"
