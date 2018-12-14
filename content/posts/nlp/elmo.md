@@ -1,5 +1,5 @@
 ---
-title: "Deep Dive The EMLo Implementation"
+title: "Deep Dive The ELMo Implementation"
 date: 2018-11-12T13:01:19+08:00
 math: "true"
 ---
