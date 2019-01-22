@@ -14,11 +14,11 @@ This page tracks my  reading roadmap of deep learning papers.
 ## Deep Learning Theory And Practice
 
 *   LSTM
-    *        The original formulation. [^1]
-    *        Introduce the *forget gate*. [^2]
-    *        Introduce the *peephole connections*. [^4]
-    *        The *vanilla LSTM* by incorporating [^2] and [^4] into [^1], which is the *most popular* LSTM architecture. [^5]
-    *        A empirical study on the LSTM architecture. This paper shows that *none of the variants is better than the vanilla LSTM significantly*. [^3]
+    *       The original formulation. [^1]
+    *       Introduce the *forget gate*. [^2]
+    *       Introduce the *peephole connections*. [^4]
+    *       The *vanilla LSTM* by incorporating [^2], [^4] and full BPTT into [^1], which is the *most popular* LSTM architecture nowadays. [^5]
+    *       An empirical study on the LSTM architecture. This paper shows that *none of the variants is better than the vanilla LSTM significantly*. [^3]
 *   Transformer
     *   TODO
 *   CNN
