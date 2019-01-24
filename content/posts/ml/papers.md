@@ -26,7 +26,7 @@ Notation:
     *       BPTT. [^21] [^20] [^22] 🚧
     *       Forget gate. [^2] 🏷️
     *       Peephole connections. [^4] 🏷️
-    *       The vanilla LSTM achieved by incorporating [^2], [^4] and full BPTT into [^1], which is the most popular LSTM architecture nowadays. [^5] 🚧
+    *       The vanilla LSTM achieved by incorporating [^2] [^4] and full BPTT into [^1], which is the most popular LSTM architecture nowadays. [^5] 🚧
     *       Gradient norm clipping. [^6] 🏷️
     *       DropConnect dropout. [^7] ✔️
     *       Variational dropout. [^8] 
@@ -35,7 +35,7 @@ Notation:
     *       GRU. [^11] 
     *       An empirical study on the LSTM architecture. This paper shows that none of the variants is significantly better than the vanilla LSTM. [^3] 🚧❤️
 *   Transformer
-    *   The original paper [^16] and the annotated version [^17]. 🏷️
+    *   The paper [^16] and the annotated version [^17]. 🏷️
     *   Universal transformer. [^19] 
     *   Transformer-XL. [^18] 
 *   CNN
@@ -73,6 +73,36 @@ Notation:
 
 ## NLP
 
-Language Model:
+*   Language Model
+    *   LSTM-based
+        *   ELMo [^23] and the related important references [^24] [^25] . ✔️
+        *   Understanding the representation of biLM. [^26] 🚧❤️
+        *   A simple sentence representation baseline. [^27] ✔️
+        *   Doubts about the "pretraining and freezing" pattern. [^28] 🏷️
+    *   Transformer-based
+        *   BERT. [^29] 🏷️
+*   Embedding
+    *   TODO
+*   Chinese Word Segmentation
+    *   TODO
+*   Named Entity Recognition
+    *   TODO
+*   Semantic Textual Similarity / Natural Language Inference
+    *   TODO
+*   Natural Language Understanding
+    *   TODO
+*   Question Answering
+    *   TODO
+*   Text Classification
+    *   TODO
 
-*   TODO
+
+
+[^23]: Peters, Matthew E., et al. "Deep contextualized word representations." *arXiv preprint arXiv:1802.05365* (2018).
+[^24]: Jozefowicz, Rafal, et al. "Exploring the limits of language modeling." *arXiv preprint arXiv:1602.02410* (2016).
+[^25]: Kim, Yoon, et al. "Character-Aware Neural Language Models." *AAAI*. 2016.
+[^26]: Peters, Matthew E., et al. "Dissecting contextual word embeddings: Architecture and representation." *arXiv preprint arXiv:1808.08949*(2018).
+[^27]: Perone, Christian S., Roberto Silveira, and Thomas S. Paula. "Evaluation of sentence embeddings in downstream and linguistic probing tasks." *arXiv preprint arXiv:1806.06259* (2018).
+[^28]: Bowman, Samuel R., et al. "Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling." *arXiv preprint arXiv:1812.10860* (2018).
+[^29]: Devlin, Jacob, et al. "Bert: Pre-training of deep bidirectional transformers for language understanding." *arXiv preprint arXiv:1810.04805*(2018).
+
