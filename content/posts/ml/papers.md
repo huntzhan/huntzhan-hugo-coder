@@ -18,32 +18,27 @@ Notation:
 
 ## Deep Learning Theory And Practice
 
+*   General
+    *   Highway connections. [^12] [^13] 🏷️
 *   LSTM
     *       The original formulation. [^1] 🏷️
-    *       The *forget gate*. [^2] 🏷️
-    *       The *peephole connections*. [^4] 🏷️
-    *       The *vanilla LSTM* achieved by incorporating [^2], [^4] and full BPTT into [^1], which is the *most popular* LSTM architecture nowadays. [^5] 🚧
+    *       Forget gate. [^2] 🏷️
+    *       Peephole connections. [^4] 🏷️
+    *       The vanilla LSTM achieved by incorporating [^2], [^4] and full BPTT into [^1], which is the most popular LSTM architecture nowadays. [^5] 🚧
     *       Gradient norm clipping. [^6] 🏷️
     *       DropConnect dropout. [^7]
     *       Variational dropout. [^8] 🏷️
     *       Residual connections. [^9] 🏷️
     *       Recurrent projection. [^10] 🏷️
-    *       An empirical study on the LSTM architecture. This paper shows that *none of the variants* is significantly better than the vanilla LSTM. [^3] 🚧❤️
+    *       GRU. [^11] 🏷️
+    *       An empirical study on the LSTM architecture. This paper shows that none of the variants is significantly better than the vanilla LSTM. [^3] 🚧❤️
 *   Transformer
-    *   TODO
+    *   The original paper [^16] and the annotated version [^17]. 🏷️
+    *   Transformer-XL. [^18] 🏷️
 *   CNN
-    *   TODO
+    *   TCN. [^15] 🏷️
 *   Optimizer
-    *   TODO
-
-
-
-Note:
-
-*   Tensorflow's LSTM implementation is based on [^2].
-*   Pytorch's LSTM imlemntation is based on [^5]. The "peephole connections" is omitted.
-
-
+    *   AMSGRAD. [^14] 🚧
 
 
 
@@ -58,6 +53,14 @@ Note:
 [^8]: Kingma, Durk P., Tim Salimans, and Max Welling. "Variational dropout and the local reparameterization trick." *Advances in Neural Information Processing Systems*. 2015.
 [^9]: Kim, Jaeyoung, Mostafa El-Khamy, and Jungwon Lee. "Residual LSTM: Design of a deep recurrent architecture for distant speech recognition." *arXiv preprint arXiv:1701.03360* (2017).
 [^10]: Sak, Haşim, Andrew Senior, and Françoise Beaufays. "Long short-term memory recurrent neural network architectures for large scale acoustic modeling." *Fifteenth annual conference of the international speech communication association*. 2014.
+[^11]: Cho, Kyunghyun, et al. "Learning phrase representations using RNN encoder-decoder for statistical machine translation." *arXiv preprint arXiv:1406.1078* (2014).
+[^12]: Srivastava, Rupesh Kumar, Klaus Greff, and Jürgen Schmidhuber. "Highway networks." *arXiv preprint arXiv:1505.00387* (2015).
+[^13]: Srivastava, Rupesh K., Klaus Greff, and Jürgen Schmidhuber. "Training very deep networks." *Advances in neural information processing systems*. 2015.
+[^14]: Reddi, Sashank J., Satyen Kale, and Sanjiv Kumar. "On the convergence of adam and beyond." (2018).
+[^15]: Bai, Shaojie, J. Zico Kolter, and Vladlen Koltun. "An empirical evaluation of generic convolutional and recurrent networks for sequence modeling." *arXiv preprint arXiv:1803.01271* (2018).
+[^16]: Vaswani, Ashish, et al. "Attention is all you need." *Advances in Neural Information Processing Systems*. 2017.
+[^17]: http://nlp.seas.harvard.edu/2018/04/03/attention.html
+[^18]: Dai, Zihang, et al. "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context." *arXiv preprint arXiv:1901.02860* (2019).
 
 
 
