@@ -11,32 +11,35 @@ This page tracks my  reading roadmap of deep learning papers. I will update this
 
 Notation:
 
+*   ✔️: Done.
 *   ❤️: Impressive!
 *   🤔: Probably this work is controversial.
-*   🏷️: Haven't started yet.
+*   🏷️: Added to todo list but haven't started yet.
 *   🚧: Ongoing.
 
 ## Deep Learning Theory And Practice
 
 *   General
-    *   Highway connections. [^12] [^13] 🏷️
+    *   Highway connections. [^12] [^13] 
 *   LSTM
     *       The original formulation. [^1] 🏷️
+    *       BPTT. [^21] [^20] [^22] 🚧
     *       Forget gate. [^2] 🏷️
     *       Peephole connections. [^4] 🏷️
     *       The vanilla LSTM achieved by incorporating [^2], [^4] and full BPTT into [^1], which is the most popular LSTM architecture nowadays. [^5] 🚧
     *       Gradient norm clipping. [^6] 🏷️
-    *       DropConnect dropout. [^7]
-    *       Variational dropout. [^8] 🏷️
-    *       Residual connections. [^9] 🏷️
-    *       Recurrent projection. [^10] 🏷️
-    *       GRU. [^11] 🏷️
+    *       DropConnect dropout. [^7] ✔️
+    *       Variational dropout. [^8] 
+    *       Recurrent projection. [^10] 
+    *       Residual connections. [^9] 
+    *       GRU. [^11] 
     *       An empirical study on the LSTM architecture. This paper shows that none of the variants is significantly better than the vanilla LSTM. [^3] 🚧❤️
 *   Transformer
     *   The original paper [^16] and the annotated version [^17]. 🏷️
-    *   Transformer-XL. [^18] 🏷️
+    *   Universal transformer. [^19] 
+    *   Transformer-XL. [^18] 
 *   CNN
-    *   TCN. [^15] 🏷️
+    *   TCN. [^15] ✔️
 *   Optimizer
     *   AMSGRAD. [^14] 🚧
 
@@ -61,6 +64,10 @@ Notation:
 [^16]: Vaswani, Ashish, et al. "Attention is all you need." *Advances in Neural Information Processing Systems*. 2017.
 [^17]: http://nlp.seas.harvard.edu/2018/04/03/attention.html
 [^18]: Dai, Zihang, et al. "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context." *arXiv preprint arXiv:1901.02860* (2019).
+[^19]: Dehghani, Mostafa, et al. "Universal transformers." *arXiv preprint arXiv:1807.03819* (2018).
+[^20]: Mozer, Michael C. "A focused backpropagation algorithm for temporal." *Backpropagation: Theory, architectures, and applications* (1995): 137.
+[^21]: Werbos, Paul J. "Backpropagation through time: what it does and how to do it." *Proceedings of the IEEE* 78.10 (1990): 1550-1560.
+[^22]: Guo, Jiang. "Backpropagation through time." *Unpubl. ms., Harbin Institute of Technology* (2013).
 
 
 
