@@ -20,10 +20,11 @@ Notation:
 ## Deep Learning Theory And Practice
 
 *   General
-    *   Highway connections. [^12] [^13] 
+    *   Highway connection that is inspired by LSTM forget gate to ease the training of very deep networks. [^12]✔️ [^13] 🏷️
+    *   Interpretations of highway and residual networks. [^30] 🏷️
 *   LSTM
     *       The original formulation. [^1] 🏷️
-    *       BPTT. [^21] [^20] [^22] 🚧
+    *       BPTT. [^21] [^20] [^22] ✔️
     *       Forget gate. [^2] 🏷️
     *       Peephole connections. [^4] 🏷️
     *       The vanilla LSTM achieved by incorporating [^2] [^4] and full BPTT into [^1], which is the most popular LSTM architecture nowadays. [^5] 🚧
@@ -34,8 +35,9 @@ Notation:
     *       Residual connections. [^9] 
     *       GRU. [^11] 
     *       An empirical study on the LSTM architecture. This paper shows that none of the variants is significantly better than the vanilla LSTM. [^3] 🚧❤️
+    *       RHN. [^31]
 *   Transformer
-    *   The paper [^16] and the annotated version [^17]. 🏷️
+    *   The first paper and the annotated version. [^16] [^17] 🏷️
     *   Universal transformer. [^19] 
     *   Transformer-XL. [^18] 
 *   CNN
@@ -66,8 +68,10 @@ Notation:
 [^18]: Dai, Zihang, et al. "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context." *arXiv preprint arXiv:1901.02860* (2019).
 [^19]: Dehghani, Mostafa, et al. "Universal transformers." *arXiv preprint arXiv:1807.03819* (2018).
 [^20]: Mozer, Michael C. "A focused backpropagation algorithm for temporal." *Backpropagation: Theory, architectures, and applications* (1995): 137.
-[^21]: Werbos, Paul J. "Backpropagation through time: what it does and how to do it." *Proceedings of the IEEE* 78.10 (1990): 1550-1560.
+[^21]: Williams, Ronald J., and David Zipser. "Gradient-based learning algorithms for recurrent networks and their computational complexity." *Backpropagation: Theory, architectures, and applications* 1 (1995): 433-486.
 [^22]: Guo, Jiang. "Backpropagation through time." *Unpubl. ms., Harbin Institute of Technology* (2013).
+[^30]: Greff, Klaus, Rupesh K. Srivastava, and Jürgen Schmidhuber. "Highway and residual networks learn unrolled iterative estimation." *arXiv preprint arXiv:1612.07771* (2016).
+[^31]: Zilly, Julian Georg, et al. "Recurrent highway networks." *Proceedings of the 34th International Conference on Machine Learning-Volume 70*. JMLR. org, 2017.
 
 
 
