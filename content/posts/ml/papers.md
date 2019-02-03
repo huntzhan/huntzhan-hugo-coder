@@ -20,15 +20,20 @@ Notation:
 ## Deep Learning Theory And Practice
 
 *   General
-    *   Highway connection that is inspired by LSTM forget gate to ease the training of very deep networks. [^12]✔️ [^13] 🏷️
-    *   Interpretations of highway and residual networks. [^30] 🏷️
+    *   Highway connection that is inspired by LSTM forget gate to ease the training of very deep networks. [^12] ✔️ [^13] 
+    *   ResNet (deep residual nets). [^32] 
+    *   Interpretations of highway and residual networks. [^30] 
+    *   Transfer Learning / Multi-Task Learning
+        *   MTL survey. [^35] 🏷️
+        *   MT-DNN. [^36] 🏷️
+        *   Gradually adding new capabilities to a system. [^34] 🏷️
 *   LSTM
-    *       The original formulation. [^1] 🏷️
+    *       The original formulation. [^1] 
     *       BPTT. [^21] [^20] [^22] ✔️
-    *       Forget gate. [^2] 🏷️
-    *       Peephole connections. [^4] 🏷️
+    *       Forget gate. [^2] 
+    *       Peephole connections. [^4] 
     *       The vanilla LSTM achieved by incorporating [^2] [^4] and full BPTT into [^1], which is the most popular LSTM architecture nowadays. [^5] 🚧
-    *       Gradient norm clipping. [^6] 🏷️
+    *       Gradient norm clipping. [^6] 
     *       DropConnect dropout. [^7] ✔️
     *       Variational dropout. [^8] 
     *       Recurrent projection. [^10] 
@@ -73,18 +78,23 @@ Notation:
 [^30]: Greff, Klaus, Rupesh K. Srivastava, and Jürgen Schmidhuber. "Highway and residual networks learn unrolled iterative estimation." *arXiv preprint arXiv:1612.07771* (2016).
 [^31]: Zilly, Julian Georg, et al. "Recurrent highway networks." *Proceedings of the 34th International Conference on Machine Learning-Volume 70*. JMLR. org, 2017.
 
+[^32]: He, Kaiming, et al. "Deep residual learning for image recognition." *Proceedings of the IEEE conference on computer vision and pattern recognition*. 2016.
+[^34]: Li, Zhizhong, and Derek Hoiem. "Learning without forgetting." *IEEE Transactions on Pattern Analysis and Machine Intelligence* 40.12 (2018): 2935-2947.
+[^35]: Zhang, Yu, and Qiang Yang. "A survey on multi-task learning." *arXiv preprint arXiv:1707.08114* (2017).
+[^36]: https://arxiv.org/abs/1901.11504
+
 
 
 ## NLP
 
 *   Language Model
     *   LSTM-based
-        *   ELMo [^23] and the related important references [^24] [^25] . ✔️
+        *   ELMo and the related important references. [^23] [^24] [^25]  ✔️
         *   Understanding the representation of biLM. [^26] 🚧❤️
         *   A simple sentence representation baseline. [^27] ✔️
         *   Doubts about the "pretraining and freezing" pattern. [^28] 🏷️
     *   Transformer-based
-        *   BERT. [^29] 🏷️
+        *   BERT. [^29] 🏷
 *   Embedding
     *   TODO
 *   Chinese Word Segmentation
@@ -98,7 +108,7 @@ Notation:
 *   Question Answering
     *   TODO
 *   Text Classification
-    *   TODO
+    *   SGM. [^33] 
 
 
 
@@ -109,4 +119,6 @@ Notation:
 [^27]: Perone, Christian S., Roberto Silveira, and Thomas S. Paula. "Evaluation of sentence embeddings in downstream and linguistic probing tasks." *arXiv preprint arXiv:1806.06259* (2018).
 [^28]: Bowman, Samuel R., et al. "Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling." *arXiv preprint arXiv:1812.10860* (2018).
 [^29]: Devlin, Jacob, et al. "Bert: Pre-training of deep bidirectional transformers for language understanding." *arXiv preprint arXiv:1810.04805*(2018).
+
+[^33]: Yang, Pengcheng, et al. "SGM: sequence generation model for multi-label classification." *Proceedings of the 27th International Conference on Computational Linguistics*. 2018.
 
