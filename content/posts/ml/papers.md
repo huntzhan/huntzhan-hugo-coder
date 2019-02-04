@@ -69,7 +69,7 @@ Notation:
     -   BiMPM. [^41] ✔️
     -   pt-DecAtt. [^40] ✔️
     -   DIIN. 🚧
-    -   SAN, multi-step inference strategies in NLI. [^37] 🚧
+    -   SAN, applies attention mechanism and GRU to formulate the multi-step inference. [^37] ✔️🤔
 *   Text Classification
     -   SGM. [^33] 
 *   Embedding
