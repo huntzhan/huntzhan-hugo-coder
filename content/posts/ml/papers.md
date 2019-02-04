@@ -20,7 +20,7 @@ Notation:
 ## Deep Learning Theory And Practice
 
 *   General
-    *   Highway connection that is inspired by LSTM forget gate to ease the training of very deep networks. [^12] ✔️ [^13] 
+    *   Highway connection that is inspired by LSTM forget gate to ease the training of very deep networks. [^12] ✔️ [^13] 🏷️
     *   ResNet (deep residual nets). [^32] 
     *   Interpretations of highway and residual networks. [^30] 
     *   Transfer Learning / Multi-Task Learning
@@ -42,7 +42,7 @@ Notation:
     *       An empirical study on the LSTM architecture. This paper shows that none of the variants is significantly better than the vanilla LSTM. [^3] 🚧❤️
     *       RHN. [^31]
 *   Transformer
-    *   The first paper and the annotated version. [^16] [^17] 🏷️
+    *   The first paper and the annotated version. [^16] 🏷️ [^17] 🏷️
     *   Universal transformer. [^19] 
     *   Transformer-XL. [^18] 
 *   CNN
@@ -56,7 +56,7 @@ Notation:
 
 *   Language Model
     *   LSTM-based
-        *   ELMo and the related important references. [^23] [^24] [^25]  ✔️
+        *   ELMo and the related important references. [^23] ✔️ [^24] ✔️ [^25]  ✔️
         *   Understanding the representation of biLM. [^26] 🚧❤️
         *   A simple sentence representation baseline. [^27] ✔️
         *   Doubts about the "pretraining and freezing" pattern. [^28] 🏷️
