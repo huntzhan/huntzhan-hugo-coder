@@ -7,7 +7,7 @@ math = "true"
 
 ## Introduction
 
-This page tracks my  reading roadmap of deep learning papers. I will update this page occasionally (probably every 3 - 5 days) according to my progress.
+This page tracks my reading roadmap of deep learning papers. I will update this page occasionally (probably every 3 - 5 days) according to my progress.
 
 Notation:
 
@@ -19,36 +19,38 @@ Notation:
 
 ## Deep Learning Theory And Practice
 
-*   General
-    *   Highway connection that is inspired by LSTM forget gate to ease the training of very deep networks. [^12] ✔️ [^13] 🏷️
-    *   ResNet (deep residual nets). [^32] 
-    *   Interpretations of highway and residual networks. [^30] 
-    *   Transfer Learning / Multi-Task Learning
-        *   MTL survey. [^35] 🏷️
-        *   MT-DNN, achieves the STOA of GLUE by applying MTL to the fine-tuning stage of BERT and formulating the QNLI as a pairwise ranking task which is inspired by DSSM. [^36] ✔️❤️
-        *   Gradually adding new capabilities to a system. [^34] 🏷️
-*   LSTM
-    *       The original formulation. [^1] 
-    *       BPTT. [^21] [^20] [^22] ✔️
-    *       Forget gate. [^2] 
-    *       Peephole connections. [^4] 
-    *       The vanilla LSTM achieved by incorporating [^2] [^4] and full BPTT into [^1], which is the most popular LSTM architecture nowadays. [^5] 🚧
-    *       Gradient norm clipping. [^6] 
-    *       DropConnect dropout. [^7] ✔️
-    *       Variational dropout. [^8] 
-    *       Recurrent projection. [^10] 
-    *       Residual connections. [^9] 
-    *       GRU. [^11] 
-    *       An empirical study on the LSTM architecture. This paper shows that none of the variants is significantly better than the vanilla LSTM. [^3] 🚧❤️
-    *       RHN. [^31]
-*   Transformer
-    *   The first paper and the annotated version. [^16] 🏷️ [^17] 🏷️
-    *   Universal transformer. [^19] 
-    *   Transformer-XL. [^18] 
-*   CNN
-    *   TCN. [^15] ✔️
+*   Network Architecture 
+    *   General
+        *   Highway connection that is inspired by LSTM forget gate to ease the training of very deep networks. [^12] ✔️ [^13] 🏷️
+        *   ResNet (deep residual nets). [^32] 
+        *   Interpretations of highway and residual networks. [^30] 
+        *   Maxout. [^43]
+    *   LSTM
+        *       The original formulation. [^1] 
+        *       BPTT. [^21] [^20] [^22] ✔️
+        *       Forget gate. [^2] 
+        *       Peephole connections. [^4] 
+        *       The vanilla LSTM achieved by incorporating [^2] [^4] and full BPTT into [^1], which is the most popular LSTM architecture nowadays. [^5] 🚧
+        *       Gradient norm clipping. [^6] 
+        *       DropConnect dropout. [^7] ✔️
+        *       Variational dropout. [^8] 
+        *       Recurrent projection. [^10] 
+        *       Residual connections. [^9] 
+        *       GRU. [^11] 
+        *       An empirical study on the LSTM architecture. This paper shows that none of the variants is significantly better than the vanilla LSTM. [^3] 🚧❤️
+        *       RHN. [^31]
+    *   Transformer
+        *   The first paper and the annotated version. [^16] 🏷️ [^17] 🏷️
+        *   Universal transformer. [^19] 
+        *   Transformer-XL. [^18] 
+    *   CNN
+        *   TCN. [^15] ✔️
 *   Optimizer
-    *   AMSGRAD. [^14] 🚧
+    *   AMSGRAD. [^14] 🏷️
+*   Transfer Learning / Multi-Task Learning
+    -   MTL survey. [^35] 🏷️
+    -   MT-DNN, achieves the STOA of GLUE by applying MTL to the fine-tuning stage of BERT and formulating the QNLI as a pairwise ranking task which is inspired by DSSM. [^36] ✔️❤️
+    -   Gradually adding new capabilities to a system. [^34] 🏷️
 
 
 
@@ -67,19 +69,14 @@ Notation:
     -   BiMPM. [^41] ✔️
     -   pt-DecAtt. [^40] ✔️
     -   DIIN. 🚧
-    -   SAN. [^37] 🚧
+    -   SAN, multi-step inference strategies in NLI. [^37] 🚧
 *   Text Classification
     -   SGM. [^33] 
 *   Embedding
-    *   TODO
 *   Chinese Word Segmentation
-    *   TODO
 *   Named Entity Recognition
-    *   TODO
 *   Natural Language Understanding
-    *   TODO
 *   Question Answering
-    *   TODO
 
 
 
@@ -126,4 +123,5 @@ Notation:
 [^40]: Tomar, Gaurav Singh, et al. "Neural paraphrase identification of questions with noisy pretraining." *arXiv preprint arXiv:1704.04565* (2017).
 [^41]: Wang, Zhiguo, Wael Hamza, and Radu Florian. "Bilateral multi-perspective matching for natural language sentences." *arXiv preprint arXiv:1702.03814* (2017).
 [^42]: Gong, Yichen, Heng Luo, and Jian Zhang. "Natural language inference over interaction space." *arXiv preprint arXiv:1709.04348* (2017).
+[^43]: Goodfellow, Ian J., et al. "Maxout networks." *arXiv preprint arXiv:1302.4389* (2013).
 
