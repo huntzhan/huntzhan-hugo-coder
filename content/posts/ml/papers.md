@@ -48,7 +48,7 @@ Notation:
 *   Optimizer
     *   AMSGRAD. [^14] 🏷️
 *   Transfer Learning / Multi-Task Learning
-    -   MTL survey. [^35] 🏷️
+    -   MTL surveys. [^35] [^44] 🏷️
     -   MT-DNN, achieves the STOA of GLUE by applying MTL to the fine-tuning stage of BERT and formulating the QNLI as a pairwise ranking task which is inspired by DSSM. [^36] ✔️❤️
     -   Gradually adding new capabilities to a system. [^34] 🏷️
 
@@ -68,10 +68,12 @@ Notation:
     -   DSSM/CDSSM. [^38] 🏷️ [^39] ✔️
     -   BiMPM. [^41] ✔️
     -   pt-DecAtt. [^40] ✔️
-    -   DIIN. 🚧
+    -   DIIN. 🏷️
     -   SAN, applies attention mechanism and GRU to formulate the multi-step inference. [^37] ✔️🤔
+    -   An analysis of NN designs for sentence pair modeling. [^47] 🏷️
 *   Text Classification
-    -   SGM. [^33] 
+    -   SGM. [^33] 🚧 [^45] 🚧
+    -   Seq2Set. [^46] 🚧
 *   Embedding
 *   Chinese Word Segmentation
 *   Named Entity Recognition
@@ -124,4 +126,9 @@ Notation:
 [^41]: Wang, Zhiguo, Wael Hamza, and Radu Florian. "Bilateral multi-perspective matching for natural language sentences." *arXiv preprint arXiv:1702.03814* (2017).
 [^42]: Gong, Yichen, Heng Luo, and Jian Zhang. "Natural language inference over interaction space." *arXiv preprint arXiv:1709.04348* (2017).
 [^43]: Goodfellow, Ian J., et al. "Maxout networks." *arXiv preprint arXiv:1302.4389* (2013).
+
+[^44]: http://ruder.io/multi-task/
+[^45]: Wiseman, Sam, and Alexander M. Rush. "Sequence-to-sequence learning as beam-search optimization." *arXiv preprint arXiv:1606.02960*(2016).
+[^46]: Yang, Pengcheng, et al. "A Deep Reinforced Sequence-to-Set Model for Multi-Label Text Classification." *arXiv preprint arXiv:1809.03118*(2018).
+[^47]: Lan, Wuwei, and Wei Xu. "Neural Network Models for Paraphrase Identification, Semantic Textual Similarity, Natural Language Inference, and Question Answering." *arXiv preprint arXiv:1806.04330* (2018).
 
