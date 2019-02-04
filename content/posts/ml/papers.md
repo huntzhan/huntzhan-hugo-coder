@@ -25,7 +25,7 @@ Notation:
     *   Interpretations of highway and residual networks. [^30] 
     *   Transfer Learning / Multi-Task Learning
         *   MTL survey. [^35] 🏷️
-        *   MT-DNN. [^36] 🏷️
+        *   MT-DNN, achieves the STOA of GLUE by applying MTL to the fine-tuning stage of BERT and formulating the QNLI as a pairwise ranking task which is inspired by DSSM. [^36] ✔️❤️
         *   Gradually adding new capabilities to a system. [^34] 🏷️
 *   LSTM
     *       The original formulation. [^1] 
@@ -52,13 +52,43 @@ Notation:
 
 
 
+## NLP
+
+*   Language Model
+    *   LSTM-based
+        *   ELMo and the related important references. [^23] [^24] [^25]  ✔️
+        *   Understanding the representation of biLM. [^26] 🚧❤️
+        *   A simple sentence representation baseline. [^27] ✔️
+        *   Doubts about the "pretraining and freezing" pattern. [^28] 🏷️
+    *   Transformer-based
+        *   BERT. [^29] 🏷
+*   Semantic Textual Similarity / Natural Language Inference
+    -   DSSM/CDSSM. [^38] 🏷️ [^39] ✔️
+    -   BiMPM. [^41] ✔️
+    -   pt-DecAtt. [^40] ✔️
+    -   DIIN. 🚧
+    -   SAN. [^37] 🚧
+*   Text Classification
+    -   SGM. [^33] 
+*   Embedding
+    *   TODO
+*   Chinese Word Segmentation
+    *   TODO
+*   Named Entity Recognition
+    *   TODO
+*   Natural Language Understanding
+    *   TODO
+*   Question Answering
+    *   TODO
+
+
+
 [^1]: Hochreiter, Sepp, and Jürgen Schmidhuber. "Long short-term memory." *Neural computation* 9.8 (1997): 1735-1780.APA
 [^2]: Gers, Felix A., Jürgen Schmidhuber, and Fred Cummins. "Learning to forget: Continual prediction with LSTM." (1999): 850-855.
 [^3]: Greff, Klaus, et al. "LSTM: A search space odyssey." *IEEE transactions on neural networks and learning systems* 28.10 (2017): 2222-2232.
-[^4]:Gers, Felix A., and Jürgen Schmidhuber. "Recurrent nets that time and count." *Proceedings of the IEEE-INNS-ENNS International Joint Conference on Neural Networks. IJCNN 2000. Neural Computing: New Challenges and Perspectives for the New Millennium*. Vol. 3. IEEE, 2000.
+[^4]: Gers, Felix A., and Jürgen Schmidhuber. "Recurrent nets that time and count." *Proceedings of the IEEE-INNS-ENNS International Joint Conference on Neural Networks. IJCNN 2000. Neural Computing: New Challenges and Perspectives for the New Millennium*. Vol. 3. IEEE, 2000.
 [^5]: Graves, Alex, and Jürgen Schmidhuber. "Framewise phoneme classification with bidirectional LSTM and other neural network architectures." *Neural Networks* 18.5-6 (2005): 602-610.
-
-[^6]:Pascanu, Razvan, Tomas Mikolov, and Yoshua Bengio. "On the difficulty of training recurrent neural networks." *International Conference on Machine Learning*. 2013.
+[^6]: Pascanu, Razvan, Tomas Mikolov, and Yoshua Bengio. "On the difficulty of training recurrent neural networks." *International Conference on Machine Learning*. 2013.
 [^7]: Wan, Li, et al. "Regularization of neural networks using dropconnect." *International Conference on Machine Learning*. 2013.
 [^8]: Kingma, Durk P., Tim Salimans, and Max Welling. "Variational dropout and the local reparameterization trick." *Advances in Neural Information Processing Systems*. 2015.
 [^9]: Kim, Jaeyoung, Mostafa El-Khamy, and Jungwon Lee. "Residual LSTM: Design of a deep recurrent architecture for distant speech recognition." *arXiv preprint arXiv:1701.03360* (2017).
@@ -77,41 +107,10 @@ Notation:
 [^22]: Guo, Jiang. "Backpropagation through time." *Unpubl. ms., Harbin Institute of Technology* (2013).
 [^30]: Greff, Klaus, Rupesh K. Srivastava, and Jürgen Schmidhuber. "Highway and residual networks learn unrolled iterative estimation." *arXiv preprint arXiv:1612.07771* (2016).
 [^31]: Zilly, Julian Georg, et al. "Recurrent highway networks." *Proceedings of the 34th International Conference on Machine Learning-Volume 70*. JMLR. org, 2017.
-
 [^32]: He, Kaiming, et al. "Deep residual learning for image recognition." *Proceedings of the IEEE conference on computer vision and pattern recognition*. 2016.
 [^34]: Li, Zhizhong, and Derek Hoiem. "Learning without forgetting." *IEEE Transactions on Pattern Analysis and Machine Intelligence* 40.12 (2018): 2935-2947.
 [^35]: Zhang, Yu, and Qiang Yang. "A survey on multi-task learning." *arXiv preprint arXiv:1707.08114* (2017).
 [^36]: https://arxiv.org/abs/1901.11504
-
-
-
-## NLP
-
-*   Language Model
-    *   LSTM-based
-        *   ELMo and the related important references. [^23] [^24] [^25]  ✔️
-        *   Understanding the representation of biLM. [^26] 🚧❤️
-        *   A simple sentence representation baseline. [^27] ✔️
-        *   Doubts about the "pretraining and freezing" pattern. [^28] 🏷️
-    *   Transformer-based
-        *   BERT. [^29] 🏷
-*   Embedding
-    *   TODO
-*   Chinese Word Segmentation
-    *   TODO
-*   Named Entity Recognition
-    *   TODO
-*   Semantic Textual Similarity / Natural Language Inference
-    *   TODO
-*   Natural Language Understanding
-    *   TODO
-*   Question Answering
-    *   TODO
-*   Text Classification
-    *   SGM. [^33] 
-
-
-
 [^23]: Peters, Matthew E., et al. "Deep contextualized word representations." *arXiv preprint arXiv:1802.05365* (2018).
 [^24]: Jozefowicz, Rafal, et al. "Exploring the limits of language modeling." *arXiv preprint arXiv:1602.02410* (2016).
 [^25]: Kim, Yoon, et al. "Character-Aware Neural Language Models." *AAAI*. 2016.
@@ -121,4 +120,10 @@ Notation:
 [^29]: Devlin, Jacob, et al. "Bert: Pre-training of deep bidirectional transformers for language understanding." *arXiv preprint arXiv:1810.04805*(2018).
 
 [^33]: Yang, Pengcheng, et al. "SGM: sequence generation model for multi-label classification." *Proceedings of the 27th International Conference on Computational Linguistics*. 2018.
+[^37]: Liu, Xiaodong, Kevin Duh, and Jianfeng Gao. "Stochastic Answer Networks for Natural Language Inference." *arXiv preprint arXiv:1804.07888* (2018).
+[^38]: Huang, Po-Sen, et al. "Learning deep structured semantic models for web search using clickthrough data." *Proceedings of the 22nd ACM international conference on Conference on information & knowledge management*. ACM, 2013.
+[^39]: Shen, Yelong, et al. "Learning semantic representations using convolutional neural networks for web search." *Proceedings of the 23rd International Conference on World Wide Web*. ACM, 2014.
+[^40]: Tomar, Gaurav Singh, et al. "Neural paraphrase identification of questions with noisy pretraining." *arXiv preprint arXiv:1704.04565* (2017).
+[^41]: Wang, Zhiguo, Wael Hamza, and Radu Florian. "Bilateral multi-perspective matching for natural language sentences." *arXiv preprint arXiv:1702.03814* (2017).
+[^42]: Gong, Yichen, Heng Luo, and Jian Zhang. "Natural language inference over interaction space." *arXiv preprint arXiv:1709.04348* (2017).
 
