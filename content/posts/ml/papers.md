@@ -17,6 +17,8 @@ Notation:
 *   🏷️: Added to todo list but haven't started yet.
 *   🚧: Ongoing.
 
+
+
 ## Deep Learning Theory And Practice
 
 *   Network Architecture 
@@ -40,7 +42,7 @@ Notation:
         *       An empirical study on the LSTM architecture. This paper shows that none of the variants is significantly better than the vanilla LSTM. [^3] 🚧❤️
         *       RHN. [^31]
     *   Transformer
-        *   The first paper and the annotated version. [^16] 🏷️ [^17] 🏷️
+        *   The first proposed paper and the annotated version. [^16] 🏷️ [^17] 🏷️
         *   Universal transformer. [^19] 
         *   Transformer-XL. [^18] 
     *   CNN
@@ -64,6 +66,9 @@ Notation:
         *   Doubts about the "pretraining and freezing" pattern. [^28] 🏷️
     *   Transformer-based
         *   BERT. [^29] 🏷
+*   Sequence-to-Sequence Modeling
+    *   First proposed papers. [^48] [^49] ✔️
+    *   Beam search optimization. [^45] 🚧 [^51] 🚧
 *   Semantic Textual Similarity / Natural Language Inference
     -   DSSM/CDSSM. [^38] 🏷️ [^39] ✔️
     -   BiMPM. [^41] ✔️
@@ -72,13 +77,21 @@ Notation:
     -   SAN, applies attention mechanism and GRU to formulate the multi-step inference. [^37] ✔️🤔
     -   An analysis of NN designs for sentence pair modeling. [^47] 🏷️
 *   Text Classification
-    -   SGM. [^33] 🚧 [^45] 🚧
+    -   SGM. [^33] 🚧
     -   Seq2Set. [^46] 🚧
 *   Embedding
 *   Chinese Word Segmentation
 *   Named Entity Recognition
 *   Natural Language Understanding
 *   Question Answering
+*   Others
+    *   PyText. [^52] ✔️
+
+
+
+## Classical Machine Learning
+
+*   CRF. [^50]
 
 
 
@@ -131,4 +144,10 @@ Notation:
 [^45]: Wiseman, Sam, and Alexander M. Rush. "Sequence-to-sequence learning as beam-search optimization." *arXiv preprint arXiv:1606.02960*(2016).
 [^46]: Yang, Pengcheng, et al. "A Deep Reinforced Sequence-to-Set Model for Multi-Label Text Classification." *arXiv preprint arXiv:1809.03118*(2018).
 [^47]: Lan, Wuwei, and Wei Xu. "Neural Network Models for Paraphrase Identification, Semantic Textual Similarity, Natural Language Inference, and Question Answering." *arXiv preprint arXiv:1806.04330* (2018).
+[^48]: Sutskever, Ilya, James Martens, and Geoffrey E. Hinton. "Generating text with recurrent neural networks." *Proceedings of the 28th International Conference on Machine Learning (ICML-11)*. 2011.
+[^49]: Sutskever, Ilya, Oriol Vinyals, and Quoc V. Le. "Sequence to sequence learning with neural networks." *Advances in neural information processing systems*. 2014.
+[^50]: Lafferty, John, Andrew McCallum, and Fernando CN Pereira. "Conditional random fields: Probabilistic models for segmenting and labeling sequence data." (2001).
+[^51]: Learning as Search Optimization: Approximate Large Margin Methods for Structured Prediction
+
+[^52]: Aly, Ahmed, et al. "PyText: A Seamless Path from NLP research to production." *arXiv preprint arXiv:1812.08729* (2018).
 
