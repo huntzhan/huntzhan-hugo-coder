@@ -70,7 +70,8 @@ Notation:
     *   First proposed papers. [^48] [^49] ✔️
     *   Beam search optimization. [^45] 🚧 [^51] 🚧
 *   Semantic Textual Similarity / Natural Language Inference
-    -   DSSM/CDSSM. [^38] 🏷️ [^39] ✔️
+    -   DSSM [^38] 🏷️
+    -   CDSSM (a.k.a. CLSM) [^53] ✔️❤️ [^39] ✔️
     -   BiMPM. [^41] ✔️
     -   pt-DecAtt. [^40] ✔️
     -   DIIN. 🏷️
@@ -150,4 +151,5 @@ Notation:
 [^51]: Learning as Search Optimization: Approximate Large Margin Methods for Structured Prediction
 
 [^52]: Aly, Ahmed, et al. "PyText: A Seamless Path from NLP research to production." *arXiv preprint arXiv:1812.08729* (2018).
+[^53]: Shen, Yelong, et al. "A latent semantic model with convolutional-pooling structure for information retrieval." *Proceedings of the 23rd ACM International Conference on Conference on Information and Knowledge Management*. ACM, 2014.
 
