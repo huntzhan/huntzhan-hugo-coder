@@ -123,7 +123,7 @@ Notation:
 [^32]: He, Kaiming, et al. "Deep residual learning for image recognition." *Proceedings of the IEEE conference on computer vision and pattern recognition*. 2016.
 [^34]: Li, Zhizhong, and Derek Hoiem. "Learning without forgetting." *IEEE Transactions on Pattern Analysis and Machine Intelligence* 40.12 (2018): 2935-2947.
 [^35]: Zhang, Yu, and Qiang Yang. "A survey on multi-task learning." *arXiv preprint arXiv:1707.08114* (2017).
-[^36]: https://arxiv.org/abs/1901.11504
+[^36]: Liu, Xiaodong, et al. "Multi-Task Deep Neural Networks for Natural Language Understanding." *arXiv preprint arXiv:1901.11504* (2019).
 [^23]: Peters, Matthew E., et al. "Deep contextualized word representations." *arXiv preprint arXiv:1802.05365* (2018).
 [^24]: Jozefowicz, Rafal, et al. "Exploring the limits of language modeling." *arXiv preprint arXiv:1602.02410* (2016).
 [^25]: Kim, Yoon, et al. "Character-Aware Neural Language Models." *AAAI*. 2016.
