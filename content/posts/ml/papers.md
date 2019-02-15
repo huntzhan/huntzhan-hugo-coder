@@ -53,6 +53,9 @@ Notation:
     -   MTL surveys. [^35] [^44] 🏷️
     -   MT-DNN, achieves the STOA of GLUE by applying MTL to the fine-tuning stage of BERT and formulating the QNLI as a pairwise ranking task which is inspired by DSSM. [^36] ✔️❤️
     -   Gradually adding new capabilities to a system. [^34] 🏷️
+*   Pruning / Quantization:
+    *   Pruning CNN. [^55] [^56]
+    *   Deep Compression. [^57]
 
 
 
@@ -61,16 +64,17 @@ Notation:
 *   Language Model
     *   LSTM-based
         *   ELMo and the related important references. [^23] ✔️ [^24] ✔️ [^25]  ✔️
-        *   Understanding the representation of biLM. [^26] 🚧❤️
+        *   Understanding the representation of biLMs (BiLSTM, Transformer, Gated CNN). [^26] ✔️❤️
         *   A simple sentence representation baseline. [^27] ✔️
         *   Doubts about the "pretraining and freezing" pattern. [^28] 🏷️
     *   Transformer-based
         *   BERT. [^29] 🏷
+        *   GPT-2. [^54] 🏷
 *   Sequence-to-Sequence Modeling
     *   First proposed papers. [^48] [^49] ✔️
     *   Beam search optimization. [^45] 🚧 [^51] 🚧
 *   Semantic Textual Similarity / Natural Language Inference
-    -   DSSM [^38] 🏷️
+    -   DSSM [^38] 
     -   CDSSM (a.k.a. CLSM) [^53] ✔️❤️ [^39] ✔️
     -   BiMPM. [^41] ✔️
     -   pt-DecAtt. [^40] ✔️
@@ -152,4 +156,8 @@ Notation:
 
 [^52]: Aly, Ahmed, et al. "PyText: A Seamless Path from NLP research to production." *arXiv preprint arXiv:1812.08729* (2018).
 [^53]: Shen, Yelong, et al. "A latent semantic model with convolutional-pooling structure for information retrieval." *Proceedings of the 23rd ACM International Conference on Conference on Information and Knowledge Management*. ACM, 2014.
+[^54]: https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf
+[^55]: https://jacobgil.github.io/deeplearning/pruning-deep-learning
+[^56]: Molchanov, Pavlo, et al. "Pruning convolutional neural networks for resource efficient inference." *arXiv preprint arXiv:1611.06440* (2016).
+[^57]: Han, Song, Huizi Mao, and William J. Dally. "Deep compression: Compressing deep neural networks with pruning, trained quantization and huffman coding." *arXiv preprint arXiv:1510.00149* (2015).
 
