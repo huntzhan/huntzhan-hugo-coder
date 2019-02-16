@@ -46,6 +46,7 @@ Notation:
         *   Universal transformer. [^19] 
         *   Transformer-XL. [^18] 
     *   CNN
+        *   A guide with excellent visualization. [^59] ✔️❤️
         *   TCN. [^15] ✔️
 *   Optimizer
     *   AMSGRAD. [^14] 🏷️
@@ -160,4 +161,6 @@ Notation:
 [^55]: https://jacobgil.github.io/deeplearning/pruning-deep-learning
 [^56]: Molchanov, Pavlo, et al. "Pruning convolutional neural networks for resource efficient inference." *arXiv preprint arXiv:1611.06440* (2016).
 [^57]: Han, Song, Huizi Mao, and William J. Dally. "Deep compression: Compressing deep neural networks with pruning, trained quantization and huffman coding." *arXiv preprint arXiv:1510.00149* (2015).
+
+[^58]: Dumoulin, Vincent, and Francesco Visin. "A guide to convolution arithmetic for deep learning." *arXiv preprint arXiv:1603.07285* (2016).  Github: https://github.com/vdumoulin/conv_arithmetic
 
