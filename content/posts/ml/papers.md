@@ -52,7 +52,7 @@ Notation:
     *   AMSGRAD. [^14] 🏷️
 *   Transfer Learning / Multi-Task Learning
     -   MTL surveys. [^35] [^44] 🏷️
-    -   MT-DNN, achieves the STOA of GLUE by applying MTL to the fine-tuning stage of BERT and formulating the QNLI as a pairwise ranking task which is inspired by DSSM. [^36] ✔️❤️
+    -   MT-DNN, achieves the SOTA of GLUE by applying MTL to the fine-tuning stage of BERT and formulating the QNLI as a pairwise ranking task which is inspired by DSSM. [^36] ✔️❤️
     -   Gradually adding new capabilities to a system. [^34] 🏷️
 *   Pruning / Quantization:
     *   Pruning CNN. [^55] [^56]
