@@ -27,6 +27,9 @@ Notation:
         *   ResNet (deep residual nets). [^32] 
         *   Interpretations of highway and residual networks. [^30] 
         *   Maxout. [^43]
+    *   CNN
+        -   A guide with excellent visualization. [^58] ✔️❤️
+        -   TCN. [^15] ✔️
     *   LSTM
         *       The original formulation. [^1] 
         *       BPTT. [^21] [^20] [^22] ✔️
@@ -45,9 +48,6 @@ Notation:
         *   The first proposed paper and the annotated version. [^16] 🏷️ [^17] 🏷️
         *   Universal transformer. [^19] 
         *   Transformer-XL. [^18] 
-    *   CNN
-        *   A guide with excellent visualization. [^58] ✔️❤️
-        *   TCN. [^15] ✔️
 *   Optimizer
     *   AMSGRAD. [^14] 🏷️
 *   Transfer Learning / Multi-Task Learning
