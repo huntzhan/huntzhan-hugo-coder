@@ -91,7 +91,7 @@ title = "腾讯一年感受"
 
 这是一个典型的「elephant in the room」现象：大多数人都知道有这个问题，但基本上没有人会想去解决这个问题。
 
-![elephant-in-the-room.jpg](posts/misc/elephant-in-the-room.jpg)
+![elephant-in-the-room.jpg](elephant-in-the-room.jpg)
 
 ### 部门间割裂情况较为普遍
 
