@@ -46,7 +46,7 @@ Notation:
         *   Universal transformer. [^19] 
         *   Transformer-XL. [^18] 
     *   CNN
-        *   A guide with excellent visualization. [^59] ✔️❤️
+        *   A guide with excellent visualization. [^58] ✔️❤️
         *   TCN. [^15] ✔️
 *   Optimizer
     *   AMSGRAD. [^14] 🏷️
