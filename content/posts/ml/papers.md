@@ -79,9 +79,10 @@ Notation:
     -   CDSSM (a.k.a. CLSM) [^53] ✔️❤️ [^39] ✔️
     -   BiMPM. [^41] ✔️
     -   pt-DecAtt. [^40] ✔️
-    -   DIIN. 🏷️
+    -   DIIN. [^42] 🏷️
     -   SAN, applies attention mechanism and GRU to formulate the multi-step inference. [^37] ✔️🤔
     -   An analysis of NN designs for sentence pair modeling. [^47] 🏷️
+    -   MwAN. [^59] 🏷️
 *   Text Classification
     -   SGM. [^33] 🚧
     -   Seq2Set. [^46] 🚧
@@ -163,4 +164,5 @@ Notation:
 [^57]: Han, Song, Huizi Mao, and William J. Dally. "Deep compression: Compressing deep neural networks with pruning, trained quantization and huffman coding." *arXiv preprint arXiv:1510.00149* (2015).
 
 [^58]: Dumoulin, Vincent, and Francesco Visin. "A guide to convolution arithmetic for deep learning." *arXiv preprint arXiv:1603.07285* (2016).  Github: https://github.com/vdumoulin/conv_arithmetic
+[^59]: Tan, Chuanqi, et al. "Multiway Attention Networks for Modeling Sentence Pairs." *IJCAI*. 2018.
 
