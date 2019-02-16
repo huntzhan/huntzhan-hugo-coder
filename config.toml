@@ -33,7 +33,7 @@ googleAnalytics = "UA-132899384-1"
     rtl = false
 
     math = true
-    # custom_css = ["css/custom.css"]
+    custom_css = ["css/custom.css"]
 
 # Social links
 [[params.social]]

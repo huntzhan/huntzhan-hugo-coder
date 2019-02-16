@@ -1,0 +1,12 @@
+.footnote-ref {
+    top: unset;
+    font-size: unset;
+    font-family: serif;
+}
+
+.footnote-ref > a:after {
+    content:"]";
+}
+.footnote-ref > a:before {
+    content:"[";
+}
