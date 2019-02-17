@@ -63,11 +63,14 @@ Notation:
 ## NLP
 
 *   Language Model
+    *   General
+        *   Understanding the representation of biLMs (BiLSTM, Transformer, Gated CNN). [^26] ✔️❤️
+        *   Doubts about the "pretraining and freezing" pattern. [^28] 🏷️
+        *   Effects on sentiment. [^61] ✔️
+        *   Effects on commonsense reasoning. [^60] 🏷️
     *   LSTM-based
         *   ELMo and the related important references. [^23] ✔️ [^24] ✔️ [^25]  ✔️
-        *   Understanding the representation of biLMs (BiLSTM, Transformer, Gated CNN). [^26] ✔️❤️
         *   A simple sentence representation baseline. [^27] ✔️
-        *   Doubts about the "pretraining and freezing" pattern. [^28] 🏷️
     *   Transformer-based
         *   BERT. [^29] 🏷
         *   GPT-2. [^54] 🏷
@@ -87,6 +90,8 @@ Notation:
     -   SGM. [^33] 🚧
     -   Seq2Set. [^46] 🚧
 *   Embedding
+    *   A theoretical understanding of the dimensionality. [^63]
+    *   A systematic study on the geometry of various KGE. [^62]
 *   Chinese Word Segmentation
 *   Named Entity Recognition
 *   Natural Language Understanding
@@ -165,4 +170,9 @@ Notation:
 
 [^58]: Dumoulin, Vincent, and Francesco Visin. "A guide to convolution arithmetic for deep learning." *arXiv preprint arXiv:1603.07285* (2016).  Github: https://github.com/vdumoulin/conv_arithmetic
 [^59]: Tan, Chuanqi, et al. "Multiway Attention Networks for Modeling Sentence Pairs." *IJCAI*. 2018.
+
+[^60]: Trinh, Trieu H., and Quoc V. Le. "A simple method for commonsense reasoning." *arXiv preprint arXiv:1806.02847*(2018).
+[^61]: Radford, Alec, Rafal Jozefowicz, and Ilya Sutskever. "Learning to generate reviews and discovering sentiment." *arXiv preprint arXiv:1704.01444* (2017).
+[^62]: Sharma, Aditya, and Partha Talukdar. "Towards understanding the geometry of knowledge graph embeddings." *Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)*. Vol. 1. 2018.
+[^63]: Yin, Zi, and Yuanyuan Shen. "On the dimensionality of word embedding." *Advances in Neural Information Processing Systems*. 2018.
 
