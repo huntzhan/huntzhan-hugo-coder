@@ -33,6 +33,7 @@ Notation:
     *   LSTM
         *       The original formulation. [^1] 
         *       BPTT. [^21] [^20] [^22] ✔️
+        *       Enhance TBPTT by auxiliary losses. [^64] 🏷️
         *       Forget gate. [^2] 
         *       Peephole connections. [^4] 
         *       The vanilla LSTM achieved by incorporating [^2] [^4] and full BPTT into [^1], which is the most popular LSTM architecture nowadays. [^5] 🚧
@@ -175,4 +176,6 @@ Notation:
 [^61]: Radford, Alec, Rafal Jozefowicz, and Ilya Sutskever. "Learning to generate reviews and discovering sentiment." *arXiv preprint arXiv:1704.01444* (2017).
 [^62]: Sharma, Aditya, and Partha Talukdar. "Towards understanding the geometry of knowledge graph embeddings." *Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)*. Vol. 1. 2018.
 [^63]: Yin, Zi, and Yuanyuan Shen. "On the dimensionality of word embedding." *Advances in Neural Information Processing Systems*. 2018.
+
+[^64]: Trinh, Trieu H., et al. "Learning longer-term dependencies in rnns with auxiliary losses." *arXiv preprint arXiv:1803.00144* (2018).
 
