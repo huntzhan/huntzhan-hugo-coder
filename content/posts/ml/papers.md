@@ -12,7 +12,7 @@ This page tracks my reading roadmap of deep learning papers. I will update this 
 Notation:
 
 *   ✔️: Done.
-*   ❤️: Impressive!
+*   ❤️: Love it!
 *   🤔: Probably this work is controversial.
 *   🏷️: Added to todo list but haven't started yet.
 *   🚧: Ongoing.
@@ -67,7 +67,7 @@ Notation:
         *   Understanding the representation of biLMs (BiLSTM, Transformer, Gated CNN). [^26] ✔️❤️
         *   Doubts about the "pretraining and freezing" pattern. [^28] 🏷️
         *   Effects on sentiment. [^61] ✔️
-        *   Effects on commonsense reasoning. [^60] 🏷️
+        *   Effects on commonsense reasoning. [^60] ✔️❤️
     *   LSTM-based
         *   ELMo and the related important references. [^23] ✔️ [^24] ✔️ [^25]  ✔️
         *   A simple sentence representation baseline. [^27] ✔️
