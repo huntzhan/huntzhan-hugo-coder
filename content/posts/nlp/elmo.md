@@ -17,7 +17,10 @@ Training & using ELMo roughly consists of the following steps:
 Related implementations:
 
 *   [bilm-tf](https://github.com/allenai/bilm-tf): The original tensorflow implementation of ELMo, supporting all steps mentioned above.
-*   [AllenNLP](https://allennlp.org/elmo): a powerful pytorch based Deep NLP framework, supporting only *the step (3)*, but with a better user experience.
+*   [AllenNLP](https://allennlp.org/elmo): A powerful pytorch based Deep NLP framework, supporting only *the step (3)*, but with a better user experience.
+*   [pytorch-fast-elmo](https://github.com/cnt-dev/pytorch-fast-elmo): An alternative to AllenNLP's implementaion.
+
+
 
 ## bilm-tf
 
@@ -178,13 +181,7 @@ The complete ELMo related classes/functions in *AllenNLP*:
         - [ElmoLstm(_EncoderBase)](https://github.com/allenai/allennlp/blob/aa1b774ed8de31ec04bebf9f054200bc2507e0c5/allennlp/modules/elmo_lstm.py#L20), [ref](https://github.com/allenai/allennlp/blob/43243acf4e91ba471923624bd48c9c9ec72332bf/allennlp/modules/elmo.py#L545-L552), represents the multi-layers BiLSTM. (requries `options_file` and `weight_file`)
     - [ScalarMix(torch.nn.Module)](https://github.com/allenai/allennlp/blob/43243acf4e91ba471923624bd48c9c9ec72332bf/allennlp/modules/scalar_mix.py#L8), [ref](https://github.com/allenai/allennlp/blob/43243acf4e91ba471923624bd48c9c9ec72332bf/allennlp/modules/elmo.py#L112-L120), handles the *task specific combination of the intermediate layer representations in the biLM*  (four trainable parameters $s^{task}$ and $r^{task}$). `num_output_representations` controls the number of combinations to generate.
 
-### Note: BOS/EOS Tokens
 
-*AllenNLP* handels BOS/EOS tokens for you. *_ElmoCharacterEncoder.forward* adds BOS/EOS tokens to your inputs, [ref](https://github.com/allenai/allennlp/blob/43243acf4e91ba471923624bd48c9c9ec72332bf/allennlp/modules/elmo.py#L341-L348). Afterward, *Elmo* removes those tokens & timesteps from the outputs, [ref](https://github.com/allenai/allennlp/blob/43243acf4e91ba471923624bd48c9c9ec72332bf/allennlp/modules/elmo.py#L180-L183).
-
-### Note: `max_characters_per_token` Options 
-
-Always set `max_characters_per_token` to `50`, since this option has been hardcoded in *ELMoCharacterMapper*, [ref](https://github.com/allenai/allennlp/blob/7df8275e7f70013185f1afeaa2779c2abce4492d/allennlp/data/token_indexers/elmo_indexer.py#L25-L31).
 
 
 
