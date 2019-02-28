@@ -97,6 +97,10 @@ Notation:
 *   Named Entity Recognition
 *   Natural Language Understanding
 *   Question Answering
+    *   Danqi Chen's dissertation. [^67] 🚧
+*   Dialogue
+    *   DSTC overview. [^65] 🚧
+    *   PyDial. [^66]
 *   Others
     *   PyText. [^52] ✔️
 
@@ -178,4 +182,8 @@ Notation:
 [^63]: Yin, Zi, and Yuanyuan Shen. "On the dimensionality of word embedding." *Advances in Neural Information Processing Systems*. 2018.
 
 [^64]: Trinh, Trieu H., et al. "Learning longer-term dependencies in rnns with auxiliary losses." *arXiv preprint arXiv:1803.00144* (2018).
+
+[^65]: Williams, Jason, Antoine Raux, and Matthew Henderson. "The dialog state tracking challenge series: A review." *Dialogue & Discourse* 7.3 (2016): 4-33.
+[^66]: Ultes, Stefan, et al. "Pydial: A multi-domain statistical dialogue system toolkit." *Proceedings of ACL 2017, System Demonstrations* (2017): 73-78.
+[^67]: Chen, Danqi. *Neural Reading Comprehension and Beyond*. Diss. Stanford University, 2018.  https://stacks.stanford.edu/file/druid:gd576xb1833/thesis-augmented.pdf
 
