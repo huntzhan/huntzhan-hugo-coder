@@ -102,7 +102,7 @@ Notation:
     *   A theoretical understanding of the dimensionality. [^63] 
     *   Hybrid CBOW-CMOW. [^83] 🏷️
     *   DSG, and the Chinese word embeddings published by Tencent AI Lab. [^70] 🏷️
-    *   Segmentation-free embedding. [^76] ✔️ [^71] ✔️
+    *   Segmentation-free embedding. [^76] ✔️ [^74] ✔️
     *   A systematic study on the geometry of various KGE. [^62]
 *   Chinese Word Segmentation
 *   Named Entity Recognition
@@ -115,7 +115,7 @@ Notation:
 *   Information Retrieval
     *   A theoretical understanding of IDF. [^73]
     *   WMD. [^72]
-    *   Incorporating with word embedding. [^74] ✔️
+    *   Incorporating with word embedding. [^71] ✔️
 *   Others
     *   PyText. [^52] ✔️
 
