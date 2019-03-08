@@ -81,17 +81,28 @@ Notation:
 *   Semantic Textual Similarity / Natural Language Inference
     -   DSSM [^38] 
     -   CDSSM (a.k.a. CLSM) [^53] ✔️❤️ [^39] ✔️
+    -   ESIM. [^68] 🚧
     -   BiMPM. [^41] ✔️
     -   pt-DecAtt. [^40] ✔️
     -   DIIN. [^42] 🏷️
     -   SAN, applies attention mechanism and GRU to formulate the multi-step inference. [^37] ✔️🤔
     -   An analysis of NN designs for sentence pair modeling. [^47] 🏷️
     -   MwAN. [^59] 🏷️
+    -   COTA, Uber's practice. [^69]
 *   Text Classification
     -   SGM. [^33] 🚧
     -   Seq2Set. [^46] 🚧
 *   Embedding
-    *   A theoretical understanding of the dimensionality. [^63]
+    *   Word2Vec. [^81] [^82]
+    *   A good tutorial on CBOW, SG, hierarchical softmax, and negative sampling. [^75] ✔️ ❤️
+    *   Glove. [^79] 
+    *   FastText. [^80] 🏷️
+    *   Wang2Vec. [^77] ✔️
+    *   Sense2Vec. [^78] ✔️
+    *   A theoretical understanding of the dimensionality. [^63] 
+    *   Hybrid CBOW-CMOW. [^83] 🏷️
+    *   DSG, and the Chinese word embeddings published by Tencent AI Lab. [^70] 🏷️
+    *   Segmentation-free embedding. [^76] ✔️ [^71] ✔️
     *   A systematic study on the geometry of various KGE. [^62]
 *   Chinese Word Segmentation
 *   Named Entity Recognition
@@ -101,6 +112,10 @@ Notation:
 *   Dialogue
     *   DSTC overview. [^65] 🚧
     *   PyDial. [^66]
+*   Information Retrieval
+    *   A theoretical understanding of IDF. [^73]
+    *   WMD. [^72]
+    *   Incorporating with word embedding. [^74] ✔️
 *   Others
     *   PyText. [^52] ✔️
 
@@ -186,4 +201,23 @@ Notation:
 [^65]: Williams, Jason, Antoine Raux, and Matthew Henderson. "The dialog state tracking challenge series: A review." *Dialogue & Discourse* 7.3 (2016): 4-33.
 [^66]: Ultes, Stefan, et al. "Pydial: A multi-domain statistical dialogue system toolkit." *Proceedings of ACL 2017, System Demonstrations* (2017): 73-78.
 [^67]: Chen, Danqi. *Neural Reading Comprehension and Beyond*. Diss. Stanford University, 2018.  https://stacks.stanford.edu/file/druid:gd576xb1833/thesis-augmented.pdf
+[^68]: Chen, Qian, et al. "Enhanced lstm for natural language inference." *arXiv preprint arXiv:1609.06038* (2016).
+
+[^69]: Molino, Piero, Huaixiu Zheng, and Yi-Chia Wang. "COTA: Improving the Speed and Accuracy of Customer Support through Ranking and Deep Networks." *Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining*. ACM, 2018.
+[^70]: Song, Yan, et al. "Directional Skip-Gram: Explicitly Distinguishing Left and Right Context for Word Embeddings." *Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 2 (Short Papers)*. Vol. 2. 2018.  https://ai.tencent.com/ailab/nlp/embedding.html
+[^71]: Galke, Lukas, Ahmed Saleh, and Ansgar Scherp. "Word embeddings for practical information retrieval." *INFORMATIK 2017* (2017).
+[^72]: Kusner, Matt, et al. "From word embeddings to document distances." *International Conference on Machine Learning*. 2015.
+
+[^73]: Robertson, Stephen. "Understanding inverse document frequency: on theoretical arguments for IDF." *Journal of documentation* 60.5 (2004): 503-520.
+
+[^74]: Kim, Geewook, Kazuki Fukui, and Hidetoshi Shimodaira. "Segmentation-free compositional $ n $-gram embedding." *arXiv preprint arXiv:1809.00918* (2018).
+[^75]: Rong, Xin. "word2vec parameter learning explained." *arXiv preprint arXiv:1411.2738* (2014).
+[^76]: Oshikiri, Takamasa. "Segmentation-free word embedding for unsegmented languages." *Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing*. 2017.
+[^77]: Ling, Wang, et al. "Two/too simple adaptations of word2vec for syntax problems." *Proceedings of the 2015 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*. 2015.
+[^78]: Trask, Andrew, Phil Michalak, and John Liu. "sense2vec-a fast and accurate method for word sense disambiguation in neural word embeddings." *arXiv preprint arXiv:1511.06388* (2015).
+[^79]: Pennington, Jeffrey, Richard Socher, and Christopher Manning. "Glove: Global vectors for word representation." *Proceedings of the 2014 conference on empirical methods in natural language processing (EMNLP)*. 2014.
+[^80]: Bojanowski, Piotr, et al. "Enriching word vectors with subword information." *Transactions of the Association for Computational Linguistics* 5 (2017): 135-146.APA
+[^81]: Mikolov, Tomas, et al. "Efficient estimation of word representations in vector space." *arXiv preprint arXiv:1301.3781* (2013).
+[^82]: Mikolov, Tomas, et al. "Distributed representations of words and phrases and their compositionality." *Advances in neural information processing systems*. 2013.
+[^83]: Mai, Florian, Lukas Galke, and Ansgar Scherp. "CBOW Is Not All You Need: Combining CBOW with the Compositional Matrix Space Model." *arXiv preprint arXiv:1902.06423* (2019).
 
