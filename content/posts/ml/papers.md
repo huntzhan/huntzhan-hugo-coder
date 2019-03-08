@@ -100,9 +100,10 @@ Notation:
     *   Wang2Vec. [^77] ✔️
     *   Sense2Vec. [^78] ✔️
     *   A theoretical understanding of the dimensionality. [^63] 
-    *   Hybrid CBOW-CMOW. [^83] 🏷️
+    *   Hybrid CBOW-CMOW. [^83] ✔️
     *   DSG, and the Chinese word embeddings published by Tencent AI Lab. [^70] 🏷️
     *   Segmentation-free embedding. [^76] ✔️ [^74] ✔️
+    *   Evaluation on linguistic properties. [^84]  
     *   A systematic study on the geometry of various KGE. [^62]
 *   Chinese Word Segmentation
 *   Named Entity Recognition
@@ -219,5 +220,6 @@ Notation:
 [^80]: Bojanowski, Piotr, et al. "Enriching word vectors with subword information." *Transactions of the Association for Computational Linguistics* 5 (2017): 135-146.APA
 [^81]: Mikolov, Tomas, et al. "Efficient estimation of word representations in vector space." *arXiv preprint arXiv:1301.3781* (2013).
 [^82]: Mikolov, Tomas, et al. "Distributed representations of words and phrases and their compositionality." *Advances in neural information processing systems*. 2013.
-[^83]: Mai, Florian, Lukas Galke, and Ansgar Scherp. "CBOW Is Not All You Need: Combining CBOW with the Compositional Matrix Space Model." *arXiv preprint arXiv:1902.06423* (2019).
+[^83]: Mai, Florian, Lukas Galke, and Ansgar Scherp. "CBOW Is Not All You Need: Combining CBOW with the Compositional Matrix Space Model." *arXiv preprint arXiv:1902.06423* (2019).  Review: https://openreview.net/forum?id=H1MgjoR9tQ
+[^84]: Conneau, Alexis, et al. "What you can cram into a single vector: Probing sentence embeddings for linguistic properties." *arXiv preprint arXiv:1805.01070* (2018).
 
