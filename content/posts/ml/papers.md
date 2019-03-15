@@ -66,21 +66,25 @@ Notation:
 ## NLP
 
 *   Embedding
-    -   The original papers of word2vec [^81] and negative sampling [^82] .
-    -   A good tutorial on CBOW, SG, hierarchical softmax, and negative sampling. [^75] ✔️ ❤️
-    -   The gains of hyperparameter optimization. [^88] 🏷️
-    -   Glove. [^79] ✔️
-    -   FastText. [^80] ✔️
-    -   Wang2Vec. [^77] ✔️
-    -   Sense2Vec. [^78] ✔️
-    -   "Discourse atoms" for polysemy. [^90] 🏷️
-    -   PMI-based. [^89] 🏷️
-    -   A theoretical understanding of the dimensionality. [^63] 🏷️
-    -   Hybrid CBOW-CMOW. [^83] ✔️
-    -   DSG, and the Chinese word embeddings published by Tencent AI Lab. [^70] 
-    -   Segmentation-free embedding. [^76] ✔️ [^74] ✔️
-    -   Evaluation on linguistic properties. [^84] [^87]
-    -   A systematic study on the geometry of various KGE. [^62]
+    *   Word-Level
+        *   The original papers of word2vec [^81] and negative sampling [^82] .
+        *   A good tutorial on CBOW, SG, hierarchical softmax, and negative sampling. [^75] ✔️ ❤️
+        *   The gains of hyperparameter optimization. [^88] 🏷️
+        *   Glove. [^79] ✔️
+        *   FastText. [^80] ✔️
+        *   Wang2Vec. [^77] ✔️
+        *   Sense2Vec. [^78] ✔️
+        *   "Discourse atoms" for polysemy. [^90] 🏷️
+        *   PMI-based. [^89] 🏷️
+        *   A theoretical understanding of the dimensionality. [^63] 🏷️
+        *   Hybrid CBOW-CMOW. [^83] ✔️
+        *   DSG, and the Chinese word embeddings published by Tencent AI Lab. [^70] 
+        *   Segmentation-free embedding. [^76] ✔️ [^74] ✔️
+        *   Evaluation on linguistic properties. [^84] [^87]
+    *   Above Word-Level
+        *   TODO
+    *   Knowledge Graph
+        *   A systematic study on the geometry of various KGE. [^62]
 *   Language Model
     *   General
         *   Understanding the representation of biLMs (BiLSTM, Transformer, Gated CNN). [^26] ✔️❤️
