@@ -65,6 +65,22 @@ Notation:
 
 ## NLP
 
+*   Embedding
+    -   The original papers of word2vec [^81] and negative sampling [^82] .
+    -   The gains of hyperparameter optimization. [^88] 🏷️
+    -   A good tutorial on CBOW, SG, hierarchical softmax, and negative sampling. [^75] ✔️ ❤️
+    -   Glove. [^79] ✔️
+    -   FastText. [^80] ✔️
+    -   Wang2Vec. [^77] ✔️
+    -   Sense2Vec. [^78] ✔️
+    -   "Discourse atoms" for polysemy. [^90] 🏷️
+    -   PMI-based. [^89] 🏷️
+    -   A theoretical understanding of the dimensionality. [^63] 🏷️
+    -   Hybrid CBOW-CMOW. [^83] ✔️
+    -   DSG, and the Chinese word embeddings published by Tencent AI Lab. [^70] 
+    -   Segmentation-free embedding. [^76] ✔️ [^74] ✔️
+    -   Evaluation on linguistic properties. [^84] [^87]
+    -   A systematic study on the geometry of various KGE. [^62]
 *   Language Model
     *   General
         *   Understanding the representation of biLMs (BiLSTM, Transformer, Gated CNN). [^26] ✔️❤️
@@ -77,10 +93,6 @@ Notation:
     *   Transformer-based
         *   BERT. [^29] 
         *   GPT-2. [^54] 
-*   Sequence-to-Sequence Modeling
-    *   First proposed papers. [^48] [^49] ✔️
-    *   Beam search optimization. [^45] 🚧 [^51] 🚧
-    *   Copy Mechanism. [^85]
 *   Semantic Textual Similarity / Natural Language Inference
     -   DSSM [^38] 
     -   CDSSM (a.k.a. CLSM) [^53] ✔️❤️ [^39] ✔️
@@ -95,22 +107,6 @@ Notation:
 *   Text Classification
     -   SGM. [^33] 🚧
     -   Seq2Set. [^46] 🚧
-*   Embedding
-    *   The original papers of word2vec [^81] and negative sampling [^82] .
-    *   The gains of hyperparameter optimization. [^88] 🏷️
-    *   A good tutorial on CBOW, SG, hierarchical softmax, and negative sampling. [^75] ✔️ ❤️
-    *   Glove. [^79] ✔️
-    *   FastText. [^80] ✔️
-    *   Wang2Vec. [^77] ✔️
-    *   Sense2Vec. [^78] ✔️
-    *   "Discourse atoms" for polysemy. [^90] 🏷️
-    *   PMI-based. [^89] 🏷️
-    *   A theoretical understanding of the dimensionality. [^63] 🏷️
-    *   Hybrid CBOW-CMOW. [^83] ✔️
-    *   DSG, and the Chinese word embeddings published by Tencent AI Lab. [^70] 
-    *   Segmentation-free embedding. [^76] ✔️ [^74] ✔️
-    *   Evaluation on linguistic properties. [^84] [^87]
-    *   A systematic study on the geometry of various KGE. [^62]
 *   Chinese Word Segmentation
 *   Named Entity Recognition
 *   Natural Language Understanding
@@ -119,6 +115,10 @@ Notation:
 *   Dialogue
     *   DSTC overview. [^65] 🚧
     *   PyDial. [^66]
+*   Sequence-to-Sequence Modeling
+    -   First proposed papers. [^48] [^49] ✔️
+    -   Beam search optimization. [^45] 🚧 [^51] 🚧
+    -   Copy Mechanism. [^85]
 *   Information Retrieval
     *   A theoretical understanding of IDF. [^73]
     *   WMD. [^72]
