@@ -5,6 +5,8 @@ math = "true"
 
 +++
 
+
+
 ## Introduction
 
 This page tracks my reading roadmap of deep learning papers. I will update this page occasionally (probably every 3 - 5 days) according to my progress.
@@ -23,7 +25,7 @@ Notation:
 
 *   Network Architecture 
     *   General
-        *   Highway connection that is inspired by LSTM forget gate to ease the training of very deep networks. [^12] ✔️ [^13] 🏷️
+        *   Highway connection that is inspired by LSTM forget gate to ease the training of very deep networks. [^12] ✔️ [^13] 
         *   ResNet (deep residual nets). [^32] 
         *   Interpretations of highway and residual networks. [^30] 
         *   Maxout. [^43]
@@ -31,9 +33,9 @@ Notation:
         -   A guide with excellent visualization. [^58] ✔️❤️
         -   TCN. [^15] ✔️
     *   LSTM
-        *       The original formulation. [^1] 
+        *       The original formulation. [^1]
         *       BPTT. [^21] [^20] [^22] ✔️
-        *       Enhance TBPTT by auxiliary losses. [^64] 🏷️
+        *       Enhance TBPTT by auxiliary losses. [^64] 
         *       Forget gate. [^2] 
         *       Peephole connections. [^4] 
         *       The vanilla LSTM achieved by incorporating [^2] [^4] and full BPTT into [^1], which is the most popular LSTM architecture nowadays. [^5] 🚧
@@ -46,15 +48,15 @@ Notation:
         *       An empirical study on the LSTM architecture. This paper shows that none of the variants is significantly better than the vanilla LSTM. [^3] 🚧❤️
         *       RHN. [^31]
     *   Transformer
-        *   The first proposed paper and the annotated version. [^16] 🏷️ [^17] 🏷️
+        *   The first proposed paper and the annotated version. [^16]  [^17] 
         *   Universal transformer. [^19] 
         *   Transformer-XL. [^18] 
 *   Optimizer
-    *   AMSGRAD. [^14] 🏷️
+    *   AMSGRAD. [^14] 
 *   Transfer Learning / Multi-Task Learning
     -   MTL surveys. [^35] [^44] 🏷️
     -   MT-DNN, achieves the SOTA of GLUE by applying MTL to the fine-tuning stage of BERT and formulating the QNLI as a pairwise ranking task which is inspired by DSSM. [^36] ✔️❤️
-    -   Gradually adding new capabilities to a system. [^34] 🏷️
+    -   Gradually adding new capabilities to a system. [^34] 
 *   Pruning / Quantization:
     *   Pruning CNN. [^55] [^56]
     *   Deep Compression. [^57]
@@ -66,44 +68,48 @@ Notation:
 *   Language Model
     *   General
         *   Understanding the representation of biLMs (BiLSTM, Transformer, Gated CNN). [^26] ✔️❤️
-        *   Doubts about the "pretraining and freezing" pattern. [^28] 🏷️
+        *   Doubts about the "pretraining and freezing" pattern. [^28] 
         *   Effects on sentiment. [^61] ✔️
         *   Effects on commonsense reasoning. [^60] ✔️❤️
     *   LSTM-based
         *   ELMo and the related important references. [^23] ✔️ [^24] ✔️ [^25]  ✔️
         *   A simple sentence representation baseline. [^27] ✔️
     *   Transformer-based
-        *   BERT. [^29] 🏷
-        *   GPT-2. [^54] 🏷
+        *   BERT. [^29] 
+        *   GPT-2. [^54] 
 *   Sequence-to-Sequence Modeling
     *   First proposed papers. [^48] [^49] ✔️
     *   Beam search optimization. [^45] 🚧 [^51] 🚧
+    *   Copy Mechanism. [^85]
 *   Semantic Textual Similarity / Natural Language Inference
     -   DSSM [^38] 
     -   CDSSM (a.k.a. CLSM) [^53] ✔️❤️ [^39] ✔️
     -   ESIM. [^68] 🚧
     -   BiMPM. [^41] ✔️
     -   pt-DecAtt. [^40] ✔️
-    -   DIIN. [^42] 🏷️
+    -   DIIN. [^42] 
     -   SAN, applies attention mechanism and GRU to formulate the multi-step inference. [^37] ✔️🤔
-    -   An analysis of NN designs for sentence pair modeling. [^47] 🏷️
-    -   MwAN. [^59] 🏷️
+    -   An analysis of NN designs for sentence pair modeling. [^47] 
+    -   MwAN. [^59] 
     -   COTA, Uber's practice. [^69]
 *   Text Classification
     -   SGM. [^33] 🚧
     -   Seq2Set. [^46] 🚧
 *   Embedding
-    *   Word2Vec. [^81] [^82]
+    *   The original papers of word2vec [^81] and negative sampling [^82 ].
+    *   The gains of hyperparameter optimization. [^88] 🏷️
     *   A good tutorial on CBOW, SG, hierarchical softmax, and negative sampling. [^75] ✔️ ❤️
-    *   Glove. [^79] 
-    *   FastText. [^80] 🏷️
+    *   Glove. [^79] ✔️
+    *   FastText. [^80] ✔️
     *   Wang2Vec. [^77] ✔️
     *   Sense2Vec. [^78] ✔️
-    *   A theoretical understanding of the dimensionality. [^63] 
+    *   "Discourse atoms" for polysemy. [^90] 🏷️
+    *   PMI-based. [^89] 🏷️
+    *   A theoretical understanding of the dimensionality. [^63] 🏷️
     *   Hybrid CBOW-CMOW. [^83] ✔️
-    *   DSG, and the Chinese word embeddings published by Tencent AI Lab. [^70] 🏷️
+    *   DSG, and the Chinese word embeddings published by Tencent AI Lab. [^70] 
     *   Segmentation-free embedding. [^76] ✔️ [^74] ✔️
-    *   Evaluation on linguistic properties. [^84]  
+    *   Evaluation on linguistic properties. [^84] [^87]
     *   A systematic study on the geometry of various KGE. [^62]
 *   Chinese Word Segmentation
 *   Named Entity Recognition
@@ -117,6 +123,7 @@ Notation:
     *   A theoretical understanding of IDF. [^73]
     *   WMD. [^72]
     *   Incorporating with word embedding. [^71] ✔️
+    *   Keyphrase generation in seq2seq pattern. [^86]
 *   Others
     *   PyText. [^52] ✔️
 
@@ -222,4 +229,11 @@ Notation:
 [^82]: Mikolov, Tomas, et al. "Distributed representations of words and phrases and their compositionality." *Advances in neural information processing systems*. 2013.
 [^83]: Mai, Florian, Lukas Galke, and Ansgar Scherp. "CBOW Is Not All You Need: Combining CBOW with the Compositional Matrix Space Model." *arXiv preprint arXiv:1902.06423* (2019).  Review: https://openreview.net/forum?id=H1MgjoR9tQ
 [^84]: Conneau, Alexis, et al. "What you can cram into a single vector: Probing sentence embeddings for linguistic properties." *arXiv preprint arXiv:1805.01070* (2018).
+
+[^85]: Gu, Jiatao, et al. "Incorporating copying mechanism in sequence-to-sequence learning." *arXiv preprint arXiv:1603.06393* (2016).APA
+[^86]: Meng, Rui, et al. "Deep keyphrase generation." *arXiv preprint arXiv:1704.06879* (2017).
+[^87]: Schnabel, Tobias, et al. "Evaluation methods for unsupervised word embeddings." *Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing*. 2015.APA
+[^88]: Levy, Omer, Yoav Goldberg, and Ido Dagan. "Improving distributional similarity with lessons learned from word embeddings." *Transactions of the Association for Computational Linguistics* 3 (2015): 211-225.
+[^89]: Arora, Sanjeev, et al. "A latent variable model approach to pmi-based word embeddings." *Transactions of the Association for Computational Linguistics* 4 (2016): 385-399.
+[^90]: Arora, Sanjeev, et al. "Linear algebraic structure of word senses, with applications to polysemy." *Transactions of the Association of Computational Linguistics* 6 (2018): 483-495.
 
