@@ -67,8 +67,8 @@ Notation:
 
 *   Embedding
     -   The original papers of word2vec [^81] and negative sampling [^82] .
-    -   The gains of hyperparameter optimization. [^88] 🏷️
     -   A good tutorial on CBOW, SG, hierarchical softmax, and negative sampling. [^75] ✔️ ❤️
+    -   The gains of hyperparameter optimization. [^88] 🏷️
     -   Glove. [^79] ✔️
     -   FastText. [^80] ✔️
     -   Wang2Vec. [^77] ✔️
