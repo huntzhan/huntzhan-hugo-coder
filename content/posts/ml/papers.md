@@ -82,7 +82,10 @@ Notation:
         *   Segmentation-free embedding. [^76] ✔️ [^74] ✔️
         *   Evaluation on linguistic properties. [^84] [^87]
     *   Above Word-Level
-        *   TODO
+        *   Skip-Thought. [^91] ✔️
+        *   InferSent. [^92] ✔️
+        *   Quick-Thought. [^93] ✔️
+        *   Sent2Vec. [^94] ✔️
     *   Knowledge Graph
         *   A systematic study on the geometry of various KGE. [^62]
 *   Language Model
@@ -240,4 +243,9 @@ Notation:
 [^88]: Levy, Omer, Yoav Goldberg, and Ido Dagan. "Improving distributional similarity with lessons learned from word embeddings." *Transactions of the Association for Computational Linguistics* 3 (2015): 211-225.
 [^89]: Arora, Sanjeev, et al. "A latent variable model approach to pmi-based word embeddings." *Transactions of the Association for Computational Linguistics* 4 (2016): 385-399.
 [^90]: Arora, Sanjeev, et al. "Linear algebraic structure of word senses, with applications to polysemy." *Transactions of the Association of Computational Linguistics* 6 (2018): 483-495.
+
+[^91]: Kiros, Ryan, et al. "Skip-thought vectors." *Advances in neural information processing systems*. 2015.
+[^92]: Conneau, Alexis, et al. "Supervised learning of universal sentence representations from natural language inference data." *arXiv preprint arXiv:1705.02364* (2017).
+[^93]: Logeswaran, Lajanugen, and Honglak Lee. "An efficient framework for learning sentence representations." *arXiv preprint arXiv:1803.02893*(2018).
+[^94]: Pagliardini, Matteo, Prakhar Gupta, and Martin Jaggi. "Unsupervised learning of sentence embeddings using compositional n-gram features." *Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers)*. Vol. 1. 2018.
 
