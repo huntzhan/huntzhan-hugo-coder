@@ -96,7 +96,7 @@ Notation:
     -   SGM. [^33] 🚧
     -   Seq2Set. [^46] 🚧
 *   Embedding
-    *   The original papers of word2vec [^81] and negative sampling [^82 ].
+    *   The original papers of word2vec [^81] and negative sampling [^82] .
     *   The gains of hyperparameter optimization. [^88] 🏷️
     *   A good tutorial on CBOW, SG, hierarchical softmax, and negative sampling. [^75] ✔️ ❤️
     *   Glove. [^79] ✔️
