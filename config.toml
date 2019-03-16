@@ -17,9 +17,9 @@ googleAnalytics = "UA-132899384-1"
 
 [params]
     author = "Hunt Zhan"
-    info = "Deep NLP Research & Engineering"
+    info = "(x & 0xC0) == 0x80"
     description = "Just Some Insights"
-    keywords = "deep learning,nlp"
+    keywords = "machine learning,deep learning,nlp"
 
     avatarurl = "https://gravatar.com/avatar/9e114d2564d6ace057250e5c4b415c8d?s=300"
     favicon_32 = "https://gravatar.com/avatar/9e114d2564d6ace057250e5c4b415c8d?s=32"
