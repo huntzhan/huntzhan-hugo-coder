@@ -15,7 +15,7 @@ Notation:
 
 *   ✔️: Done.
 *   ❤️: Love it!
-*   🤔: Probably this work is controversial.
+*   🤔: Probably something is not right.
 *   🏷️: Added to todo list but haven't started yet.
 *   🚧: Ongoing.
 
@@ -31,6 +31,7 @@ Notation:
         *   Maxout. [^43]
     *   CNN
         -   A guide with excellent visualization. [^58] ✔️❤️
+        -   1x1 Convolutions. [^95]
         -   TCN. [^15] ✔️
     *   LSTM
         *       The original formulation. [^1]
@@ -53,6 +54,8 @@ Notation:
         *   Transformer-XL. [^18] 
 *   Optimizer
     *   AMSGRAD. [^14] 
+    *   CLR. [^99]
+    *   SGDR. [^100]
 *   Transfer Learning / Multi-Task Learning
     -   MTL surveys. [^35] [^44] 🏷️
     -   MT-DNN, achieves the SOTA of GLUE by applying MTL to the fine-tuning stage of BERT and formulating the QNLI as a pairwise ranking task which is inspired by DSSM. [^36] ✔️❤️
@@ -65,9 +68,9 @@ Notation:
 
 ## NLP
 
-*   Embedding
+*   Embedding (Context-Independent)
     *   Word-Level
-        *   The original papers of word2vec [^81] and negative sampling [^82] .
+        *   The original papers of Word2Vec [^81] and negative sampling [^82] .
         *   A good tutorial on CBOW, SG, hierarchical softmax, and negative sampling. [^75] ✔️ ❤️
         *   The gains of hyperparameter optimization. [^88] 🏷️
         *   Glove. [^79] ✔️
@@ -76,12 +79,14 @@ Notation:
         *   Sense2Vec. [^78] ✔️
         *   "Discourse atoms" for polysemy. [^90] 🏷️
         *   PMI-based. [^89] 🏷️
-        *   A theoretical understanding of the dimensionality. [^63] 🏷️
+        *   A theoretical understanding of the dimensionality. [^63] 🏷️❤️
         *   Hybrid CBOW-CMOW. [^83] ✔️
-        *   DSG, and the Chinese word embeddings published by Tencent AI Lab. [^70] 
+        *   DSG. [^70] ✔️
+        *   Ngram2vec. [^102]
         *   Segmentation-free embedding. [^76] ✔️ [^74] ✔️
         *   Evaluation on linguistic properties. [^84] [^87]
     *   Above Word-Level
+        *   CNN baselines for sentence-level classification. [^101]
         *   Skip-Thought. [^91] ✔️
         *   InferSent. [^92] ✔️
         *   Quick-Thought. [^93] ✔️
@@ -115,6 +120,9 @@ Notation:
     -   SGM. [^33] 🚧
     -   Seq2Set. [^46] 🚧
 *   Chinese Word Segmentation
+    *   Wang2vec + stacking bi-LSTM, simple yet effective baseline [^96] ✔️
+    *   With multi-criteria leanring (MTL). [^97]  ✔️
+    *   WEB-CWS. [^98]
 *   Named Entity Recognition
 *   Natural Language Understanding
 *   Question Answering
@@ -248,4 +256,14 @@ Notation:
 [^92]: Conneau, Alexis, et al. "Supervised learning of universal sentence representations from natural language inference data." *arXiv preprint arXiv:1705.02364* (2017).
 [^93]: Logeswaran, Lajanugen, and Honglak Lee. "An efficient framework for learning sentence representations." *arXiv preprint arXiv:1803.02893*(2018).
 [^94]: Pagliardini, Matteo, Prakhar Gupta, and Martin Jaggi. "Unsupervised learning of sentence embeddings using compositional n-gram features." *Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers)*. Vol. 1. 2018.
+
+[^95]: Lin, Min, Qiang Chen, and Shuicheng Yan. "Network in network." *arXiv preprint arXiv:1312.4400* (2013).
+[^96]: Ma, Ji, Kuzman Ganchev, and David Weiss. "State-of-the-art Chinese word segmentation with bi-lstms." *arXiv preprint arXiv:1808.06511* (2018).
+[^97]: He, Han, et al. "Effective Neural Solution for Multi-criteria Word Segmentation." *Smart Intelligent Computing and Applications*. Springer, Singapore, 2019. 133-142.
+[^98]: Ye, Yuxiao, et al. "Improving Cross-Domain Chinese Word Segmentation with Word Embeddings." *arXiv preprint arXiv:1903.01698*(2019).
+
+[^99]: Smith, Leslie N. "Cyclical learning rates for training neural networks." *2017 IEEE Winter Conference on Applications of Computer Vision (WACV)*. IEEE, 2017.
+[^100]: Loshchilov, Ilya, and Frank Hutter. "Sgdr: Stochastic gradient descent with warm restarts." *arXiv preprint arXiv:1608.03983* (2016).
+[^101]: Kim, Yoon. "Convolutional neural networks for sentence classification." *arXiv preprint arXiv:1408.5882* (2014).
+[^102]: Zhao, Zhe, et al. "Ngram2vec: Learning improved word representations from ngram co-occurrence statistics." *Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing*. 2017.
 
