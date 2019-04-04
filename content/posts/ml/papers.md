@@ -70,7 +70,7 @@ Notation:
 
 *   Embedding (Context-Independent)
     *   Word-Level
-        *   The original papers of Word2Vec [^81] and negative sampling [^82] .
+        *   The groundbreaking papers: Word2Vec [^81] and negative sampling [^82] .
         *   A good tutorial on CBOW, SG, hierarchical softmax, and negative sampling. [^75] ✔️ ❤️
         *   The gains of hyperparameter optimization. [^88] 🏷️
         *   Glove. [^79] ✔️
@@ -83,7 +83,7 @@ Notation:
         *   Hybrid CBOW-CMOW. [^83] ✔️
         *   DSG. [^70] ✔️
         *   Ngram2vec. [^102]
-        *   Segmentation-free embedding. [^76] ✔️ [^74] ✔️
+        *   Segmentation-free embedding [^76] ✔️ [^74] ✔️ [^104] 🏷️
         *   Evaluation on linguistic properties. [^84] [^87]
     *   Above Word-Level
         *   CNN baselines for sentence-level classification. [^101]
@@ -91,8 +91,6 @@ Notation:
         *   InferSent. [^92] ✔️
         *   Quick-Thought. [^93] ✔️
         *   Sent2Vec. [^94] ✔️
-    *   Knowledge Graph
-        *   A systematic study on the geometry of various KGE. [^62]
 *   Language Model
     *   General
         *   Understanding the representation of biLMs (BiLSTM, Transformer, Gated CNN). [^26] ✔️❤️
@@ -116,6 +114,7 @@ Notation:
     -   An analysis of NN designs for sentence pair modeling. [^47] 
     -   MwAN. [^59] 
     -   COTA, Uber's practice. [^69]
+    -   LCQMC dataset. [^112] ✔️❤️
 *   Text Classification
     -   SGM. [^33] 🚧
     -   Seq2Set. [^46] 🚧
@@ -123,10 +122,12 @@ Notation:
     *   Wang2vec + stacking bi-LSTM, simple yet effective baseline [^96] ✔️
     *   With multi-criteria leanring (MTL). [^97]  ✔️
     *   WEB-CWS. [^98]
+    *   With Lattice LSTM. [^103]
 *   Named Entity Recognition
 *   Natural Language Understanding
 *   Question Answering
     *   Danqi Chen's dissertation. [^67] 🚧
+    *   ComQA dataset with paraphrase clusters, showing that the current QA systems can not handle the complex (compositional, temporal, comparison) questions. This dataset could be transformed to evaluate STS/NLI/IR system.  [^111] ❤️ ✔️
 *   Dialogue
     *   DSTC overview. [^65] 🚧
     *   PyDial. [^66]
@@ -139,8 +140,20 @@ Notation:
     *   WMD. [^72]
     *   Incorporating with word embedding. [^71] ✔️
     *   Keyphrase generation in seq2seq pattern. [^86]
+*   Knowledge Graph
+    -   Survey papers. [^109] [^110]
+    -   A systematic study on the geometry of various KGE. [^62]
+    -   KEQA. [^108]
 *   Others
     *   PyText. [^52] ✔️
+
+
+
+## CV
+
+*   Document Layout Analysis
+    *   Scholarly figure/table: PDFFigures [^105] and PDFFigures2 [^106] .
+    *   TableBank. [^107]
 
 
 
@@ -266,4 +279,16 @@ Notation:
 [^100]: Loshchilov, Ilya, and Frank Hutter. "Sgdr: Stochastic gradient descent with warm restarts." *arXiv preprint arXiv:1608.03983* (2016).
 [^101]: Kim, Yoon. "Convolutional neural networks for sentence classification." *arXiv preprint arXiv:1408.5882* (2014).
 [^102]: Zhao, Zhe, et al. "Ngram2vec: Learning improved word representations from ngram co-occurrence statistics." *Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing*. 2017.
+
+[^103]: Yang, Jie, Yue Zhang, and Shuailong Liang. "Subword Encoding in Lattice LSTM for Chinese Word Segmentation." *arXiv preprint arXiv:1810.12594* (2018).
+[^104]: Heinzerling, Benjamin, and Michael Strube. "Bpemb: Tokenization-free pre-trained subword embeddings in 275 languages." *arXiv preprint arXiv:1710.02187* (2017).
+[^105]: Clark, Christopher Andreas, and Santosh Divvala. "Looking beyond text: Extracting figures, tables and captions from computer science papers." *Workshops at the Twenty-Ninth AAAI Conference on Artificial Intelligence*. 2015.
+[^106]: Clark, Christopher, and Santosh Divvala. "Pdffigures 2.0: Mining figures from research papers." *2016 IEEE/ACM Joint Conference on Digital Libraries (JCDL)*. IEEE, 2016.
+[^107]: Li, Minghao, et al. "TableBank: Table Benchmark for Image-based Table Detection and Recognition." *arXiv preprint arXiv:1903.01949* (2019).
+[^108]: Huang, Xiao, et al. "Knowledge graph embedding based question answering." *Proceedings of the Twelfth ACM International Conference on Web Search and Data Mining*. ACM, 2019.  Github: <https://github.com/xhuang31/KEQA_WSDM19/tree/master>
+[^109]: Wang, Quan, et al. "Knowledge graph embedding: A survey of approaches and applications." *IEEE Transactions on Knowledge and Data Engineering*29.12 (2017): 2724-2743.
+[^110]: Nickel, Maximilian, et al. "A review of relational machine learning for knowledge graphs." *Proceedings of the IEEE* 104.1 (2016): 11-33.
+
+[^111]: Abujabal, Abdalghani, et al. "ComQA: A Community-sourced Dataset for Complex Factoid Question Answering with Paraphrase Clusters." *arXiv preprint arXiv:1809.09528* (2018).
+[^112]: Liu, Xin, et al. "LCQMC: A Large-scale Chinese Question Matching Corpus." *Proceedings of the 27th International Conference on Computational Linguistics*. 2018.
 
