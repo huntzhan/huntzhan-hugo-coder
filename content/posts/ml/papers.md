@@ -15,7 +15,7 @@ Notation:
 
 *   ✔️: Done.
 *   ❤️: Love it!
-*   🤔: Probably something is not right.
+*   🤔: Probably something is not right, but I'm not sure.
 *   🏷️: Added to todo list but haven't started yet.
 *   🚧: Ongoing.
 
@@ -39,7 +39,7 @@ Notation:
         *       Enhance TBPTT by auxiliary losses. [^64] 
         *       Forget gate. [^2] 
         *       Peephole connections. [^4] 
-        *       The vanilla LSTM achieved by incorporating [^2] [^4] and full BPTT into [^1], which is the most popular LSTM architecture nowadays. [^5] 🚧
+        *       The vanilla LSTM achieved by incorporating [^2] [^4] and full BPTT into [^1], which is the most popular LSTM architecture nowadays. [^5] 
         *       Gradient norm clipping. [^6] 
         *       DropConnect dropout. [^7] ✔️
         *       Variational dropout. [^8] 
@@ -49,6 +49,7 @@ Notation:
         *       An empirical study on the LSTM architecture. This paper shows that none of the variants is significantly better than the vanilla LSTM. [^3] 🚧❤️
         *       RHN. [^31]
     *   Transformer
+        *   Attention mechanisms. [^113]🏷️ [^114]🏷️
         *   The first proposed paper and the annotated version. [^16]  [^17] 
         *   Universal transformer. [^19] 
         *   Transformer-XL. [^18] 
@@ -106,7 +107,7 @@ Notation:
 *   Semantic Textual Similarity / Natural Language Inference
     -   DSSM [^38] 
     -   CDSSM (a.k.a. CLSM) [^53] ✔️❤️ [^39] ✔️
-    -   ESIM. [^68] 🚧
+    -   ESIM. [^68] 
     -   BiMPM. [^41] ✔️
     -   pt-DecAtt. [^40] ✔️
     -   DIIN. [^42] 
@@ -116,8 +117,8 @@ Notation:
     -   COTA, Uber's practice. [^69]
     -   LCQMC dataset. [^112] ✔️❤️
 *   Text Classification
-    -   SGM. [^33] 🚧
-    -   Seq2Set. [^46] 🚧
+    -   SGM. [^33] 
+    -   Seq2Set. [^46] 
 *   Chinese Word Segmentation
     *   Wang2vec + stacking bi-LSTM, simple yet effective baseline [^96] ✔️
     *   With multi-criteria leanring (MTL). [^97]  ✔️
@@ -133,7 +134,7 @@ Notation:
     *   PyDial. [^66]
 *   Sequence-to-Sequence Modeling
     -   First proposed papers. [^48] [^49] ✔️
-    -   Beam search optimization. [^45] 🚧 [^51] 🚧
+    -   Beam search optimization. [^45] [^51] 
     -   Copy Mechanism. [^85]
 *   Information Retrieval
     *   A theoretical understanding of IDF. [^73]
@@ -291,4 +292,6 @@ Notation:
 
 [^111]: Abujabal, Abdalghani, et al. "ComQA: A Community-sourced Dataset for Complex Factoid Question Answering with Paraphrase Clusters." *arXiv preprint arXiv:1809.09528* (2018).
 [^112]: Liu, Xin, et al. "LCQMC: A Large-scale Chinese Question Matching Corpus." *Proceedings of the 27th International Conference on Computational Linguistics*. 2018.
+[^113]: Hu, Dichao. "An Introductory Survey on Attention Mechanisms in NLP Problems." *arXiv preprint arXiv:1811.05544* (2018).
+[^114]: Attention? Attention! <https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html>
 
