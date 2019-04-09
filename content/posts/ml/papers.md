@@ -14,6 +14,7 @@ This page tracks my reading roadmap of deep learning papers. I will update this 
 Notation:
 
 *   ✔️: Done.
+*   🐦: Just have a glance.
 *   ❤️: Love it!
 *   🤔: Probably something is not right, but I'm not sure.
 *   🏷️: Added to todo list but haven't started yet.
@@ -46,10 +47,10 @@ Notation:
         *       Recurrent projection. [^10] 
         *       Residual connections. [^9] 
         *       GRU. [^11] 
-        *       An empirical study on the LSTM architecture. This paper shows that none of the variants is significantly better than the vanilla LSTM. [^3] 🚧❤️
+        *       An empirical study on the LSTM architecture. This paper shows that none of the variants is significantly better than the vanilla LSTM. [^3] 🐦❤️
         *       RHN. [^31]
     *   Transformer
-        *   Attention mechanisms. [^113]🏷️ [^114]🏷️
+        *   Attention mechanisms. [^113] 🚧 [^114] 🏷️
         *   The first proposed paper and the annotated version. [^16]  [^17] 
         *   Universal transformer. [^19] 
         *   Transformer-XL. [^18] 
@@ -64,6 +65,12 @@ Notation:
 *   Pruning / Quantization:
     *   Pruning CNN. [^55] [^56]
     *   Deep Compression. [^57]
+
+
+
+## Classical Machine Learning
+
+-   CRF. [^50]
 
 
 
@@ -88,6 +95,7 @@ Notation:
         *   Evaluation on linguistic properties. [^84] [^87]
     *   Above Word-Level
         *   CNN baselines for sentence-level classification. [^101]
+        *   Sentence embedding by introducing self-attention. [^116] 🐦
         *   Skip-Thought. [^91] ✔️
         *   InferSent. [^92] ✔️
         *   Quick-Thought. [^93] ✔️
@@ -127,10 +135,10 @@ Notation:
 *   Named Entity Recognition
 *   Natural Language Understanding
 *   Question Answering
-    *   Danqi Chen's dissertation. [^67] 🚧
-    *   ComQA dataset with paraphrase clusters, showing that the current QA systems can not handle the complex (compositional, temporal, comparison) questions. This dataset could be transformed to evaluate STS/NLI/IR system.  [^111] ❤️ ✔️
+    *   Danqi Chen's dissertation. [^67] 
+    *   ComQA dataset with paraphrase clusters, showing that the current QA systems can not handle the complex (compositional, temporal, comparison) questions. This dataset could be transformed to evaluate STS/NLI/IR system.  [^111] ✔️❤️
 *   Dialogue
-    *   DSTC overview. [^65] 🚧
+    *   DSTC overview. [^65] 
     *   PyDial. [^66]
 *   Sequence-to-Sequence Modeling
     -   First proposed papers. [^48] [^49] ✔️
@@ -138,14 +146,16 @@ Notation:
     -   Copy Mechanism. [^85]
 *   Information Retrieval
     *   A theoretical understanding of IDF. [^73]
-    *   WMD. [^72]
+    *   WMD. [^72] 🐦
     *   Incorporating with word embedding. [^71] ✔️
     *   Keyphrase generation in seq2seq pattern. [^86]
 *   Knowledge Graph
     -   Survey papers. [^109] [^110]
     -   A systematic study on the geometry of various KGE. [^62]
     -   KEQA. [^108]
-*   Others
+*   Grammatical Error Correction
+    *   Nested Attention (top-down hierarchical attention). [^115] 🐦
+*   Framework
     *   PyText. [^52] ✔️
 
 
@@ -155,12 +165,6 @@ Notation:
 *   Document Layout Analysis
     *   Scholarly figure/table: PDFFigures [^105] and PDFFigures2 [^106] .
     *   TableBank. [^107]
-
-
-
-## Classical Machine Learning
-
-*   CRF. [^50]
 
 
 
@@ -294,4 +298,7 @@ Notation:
 [^112]: Liu, Xin, et al. "LCQMC: A Large-scale Chinese Question Matching Corpus." *Proceedings of the 27th International Conference on Computational Linguistics*. 2018.
 [^113]: Hu, Dichao. "An Introductory Survey on Attention Mechanisms in NLP Problems." *arXiv preprint arXiv:1811.05544* (2018).
 [^114]: Attention? Attention! <https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html>
+
+[^115]: Ji, Jianshu, et al. "A nested attention neural hybrid model for grammatical error correction." *arXiv preprint arXiv:1707.02026* (2017).
+[^116]: Lin, Zhouhan, et al. "A structured self-attentive sentence embedding." *arXiv preprint arXiv:1703.03130* (2017).
 
