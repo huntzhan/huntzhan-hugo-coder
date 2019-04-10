@@ -50,7 +50,7 @@ Notation:
         *       An empirical study on the LSTM architecture. This paper shows that none of the variants is significantly better than the vanilla LSTM. [^3] 🐦❤️
         *       RHN. [^31]
     *   Transformer
-        *   Attention mechanisms. [^113] 🚧 [^114] 🏷️
+        *   Attention mechanisms. [^113] ✔️❤️ [^114] 🏷️
         *   The first proposed paper and the annotated version. [^16]  [^17] 
         *   Universal transformer. [^19] 
         *   Transformer-XL. [^18] 
