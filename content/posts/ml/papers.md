@@ -50,7 +50,7 @@ Notation:
         *       An empirical study on the LSTM architecture. This paper shows that none of the variants is significantly better than the vanilla LSTM. [^3] 🐦❤️
         *       RHN. [^31]
     *   Transformer
-        *   Attention mechanisms. [^113] ✔️❤️ [^114] 🏷️
+        *   Attention mechanisms. [^113] ✔️❤️ [^114] ✔️
         *   The first proposed paper and the annotated version. [^16]  [^17] 
         *   Universal transformer. [^19] 
         *   Transformer-XL. [^18] 
@@ -155,8 +155,9 @@ Notation:
     -   KEQA. [^108]
 *   Grammatical Error Correction
     *   Nested Attention (top-down hierarchical attention). [^115] 🐦
-*   Framework
+*   Others
     *   PyText. [^52] ✔️
+    *   Advice for using GPUs. [^117]
 
 
 
@@ -301,4 +302,5 @@ Notation:
 
 [^115]: Ji, Jianshu, et al. "A nested attention neural hybrid model for grammatical error correction." *arXiv preprint arXiv:1707.02026* (2017).
 [^116]: Lin, Zhouhan, et al. "A structured self-attentive sentence embedding." *arXiv preprint arXiv:1703.03130* (2017).
+[^117]: Which GPU(s) to Get for Deep Learning: My Experience and Advice for Using GPUs in Deep Learning <http://timdettmers.com/2019/04/03/which-gpu-for-deep-learning/>
 
