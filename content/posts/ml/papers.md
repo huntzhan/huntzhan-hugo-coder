@@ -50,7 +50,7 @@ Notation:
         *       An empirical study on the LSTM architecture. This paper shows that none of the variants is significantly better than the vanilla LSTM. [^3] 🐦❤️
         *       RHN. [^31]
     *   Transformer
-        *   Attention mechanisms. [^113] ✔️❤️ [^114] ✔️
+        *   Attention mechanisms.  [^118] ✔️ [^113] ✔️ [^114] ✔️
         *   The first proposed paper and the annotated version. [^16]  [^17] 
         *   Universal transformer. [^19] 
         *   Transformer-XL. [^18] 
@@ -127,6 +127,9 @@ Notation:
 *   Text Classification
     -   SGM. [^33] 
     -   Seq2Set. [^46] 
+    -   HN-ATT with multi-level (word, sentence) attention. [^119] 🐦
+    -   Aspect-based sentiment classification with attention. [^120] 🐦
+    -   Aspect-based sentiment classification with BERT. [^122]
 *   Chinese Word Segmentation
     *   Wang2vec + stacking bi-LSTM, simple yet effective baseline [^96] ✔️
     *   With multi-criteria leanring (MTL). [^97]  ✔️
@@ -157,7 +160,7 @@ Notation:
     *   Nested Attention (top-down hierarchical attention). [^115] 🐦
 *   Others
     *   PyText. [^52] ✔️
-    *   Advice for using GPUs. [^117]
+    *   Advice for using GPUs [^117] ✔️❤️ and other hardware [^121] .
 
 
 
@@ -303,4 +306,10 @@ Notation:
 [^115]: Ji, Jianshu, et al. "A nested attention neural hybrid model for grammatical error correction." *arXiv preprint arXiv:1707.02026* (2017).
 [^116]: Lin, Zhouhan, et al. "A structured self-attentive sentence embedding." *arXiv preprint arXiv:1703.03130* (2017).
 [^117]: Which GPU(s) to Get for Deep Learning: My Experience and Advice for Using GPUs in Deep Learning <http://timdettmers.com/2019/04/03/which-gpu-for-deep-learning/>
+[^118]: Chaudhari, Sneha, et al. "An Attentive Survey of Attention Models." *arXiv preprint arXiv:1904.02874* (2019).
+[^119]: Yang, Zichao, et al. "Hierarchical attention networks for document classification." *Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*. 2016.
+[^120]: Wang, Yequan, Minlie Huang, and Li Zhao. "Attention-based LSTM for aspect-level sentiment classification." *Proceedings of the 2016 conference on empirical methods in natural language processing*. 2016.
+[^121]: A Full Hardware Guide to Deep Learning <https://timdettmers.com/2018/12/16/deep-learning-hardware-guide/>
+
+[^122]: Sun, Chi, Luyao Huang, and Xipeng Qiu. "Utilizing BERT for Aspect-Based Sentiment Analysis via Constructing Auxiliary Sentence." *arXiv preprint arXiv:1903.09588* (2019).
 
