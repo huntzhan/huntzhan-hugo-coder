@@ -128,8 +128,8 @@ Notation:
     -   SGM. [^33] 
     -   Seq2Set. [^46] 
     -   HN-ATT with multi-level (word, sentence) attention. [^119] 🐦
-    -   Aspect-based sentiment classification with attention. [^120] 🐦
-    -   Aspect-based sentiment classification with BERT. [^122]
+    -   ABSA with attention. [^120] 🐦
+    -   Converting (T)ABSA to sentence-pair classification problems and utilizing the advantage of BERT-pair.  [^122] ✔️❤️
 *   Chinese Word Segmentation
     *   Wang2vec + stacking bi-LSTM, simple yet effective baseline [^96] ✔️
     *   With multi-criteria leanring (MTL). [^97]  ✔️
