@@ -17,8 +17,6 @@ Notation:
 *   🐦: Just have a glance.
 *   ❤️: Love it!
 *   🤔: Probably something is not right, but I'm not sure.
-*   🏷️: Added to todo list but haven't started yet.
-*   🚧: Ongoing.
 
 
 
@@ -30,6 +28,7 @@ Notation:
         *   ResNet (deep residual nets). [^32] 
         *   Interpretations of highway and residual networks. [^30] 
         *   Maxout. [^43]
+        *   Layer normalization. [^123]
     *   CNN
         -   A guide with excellent visualization. [^58] ✔️❤️
         -   1x1 Convolutions. [^95]
@@ -50,8 +49,8 @@ Notation:
         *       An empirical study on the LSTM architecture. This paper shows that none of the variants is significantly better than the vanilla LSTM. [^3] 🐦❤️
         *       RHN. [^31]
     *   Transformer
-        *   Attention mechanisms.  [^118] ✔️ [^113] ✔️ [^114] ✔️
-        *   The first proposed paper and the annotated version. [^16]  [^17] 
+        *   Attention mechanisms.  [^118] ✔️❤️ [^113] ✔️ [^114] ✔️
+        *   The first proposed paper and the annotated version. [^16] ✔️❤️ [^17] ✔️
         *   Universal transformer. [^19] 
         *   Transformer-XL. [^18] 
 *   Optimizer
@@ -59,7 +58,7 @@ Notation:
     *   CLR. [^99]
     *   SGDR. [^100]
 *   Transfer Learning / Multi-Task Learning
-    -   MTL surveys. [^35] [^44] 🏷️
+    -   MTL surveys. [^35] [^44] 
     -   MT-DNN, achieves the SOTA of GLUE by applying MTL to the fine-tuning stage of BERT and formulating the QNLI as a pairwise ranking task which is inspired by DSSM. [^36] ✔️❤️
     -   Gradually adding new capabilities to a system. [^34] 
 *   Pruning / Quantization:
@@ -80,18 +79,18 @@ Notation:
     *   Word-Level
         *   The groundbreaking papers: Word2Vec [^81] and negative sampling [^82] .
         *   A good tutorial on CBOW, SG, hierarchical softmax, and negative sampling. [^75] ✔️ ❤️
-        *   The gains of hyperparameter optimization. [^88] 🏷️
+        *   The gains of hyperparameter optimization. [^88] 
         *   Glove. [^79] ✔️
         *   FastText. [^80] ✔️
         *   Wang2Vec. [^77] ✔️
         *   Sense2Vec. [^78] ✔️
-        *   "Discourse atoms" for polysemy. [^90] 🏷️
-        *   PMI-based. [^89] 🏷️
-        *   A theoretical understanding of the dimensionality. [^63] 🏷️❤️
+        *   "Discourse atoms" for polysemy. [^90] 
+        *   PMI-based. [^89] 
+        *   A theoretical understanding of the dimensionality. [^63] ❤️
         *   Hybrid CBOW-CMOW. [^83] ✔️
         *   DSG. [^70] ✔️
         *   Ngram2vec. [^102]
-        *   Segmentation-free embedding [^76] ✔️ [^74] ✔️ [^104] 🏷️
+        *   Segmentation-free embedding [^76] ✔️ [^74] ✔️ [^104] 
         *   Evaluation on linguistic properties. [^84] [^87]
     *   Above Word-Level
         *   CNN baselines for sentence-level classification. [^101]
@@ -110,7 +109,8 @@ Notation:
         *   ELMo and the related important references. [^23] ✔️ [^24] ✔️ [^25]  ✔️
         *   A simple sentence representation baseline. [^27] ✔️
     *   Transformer-based
-        *   BERT. [^29] 
+        *   BERT. [^29] ✔️❤️
+        *   ERNIE.
         *   GPT-2. [^54] 
 *   Semantic Textual Similarity / Natural Language Inference
     -   DSSM [^38] 
@@ -312,4 +312,7 @@ Notation:
 [^121]: A Full Hardware Guide to Deep Learning <https://timdettmers.com/2018/12/16/deep-learning-hardware-guide/>
 
 [^122]: Sun, Chi, Luyao Huang, and Xipeng Qiu. "Utilizing BERT for Aspect-Based Sentiment Analysis via Constructing Auxiliary Sentence." *arXiv preprint arXiv:1903.09588* (2019).
+
+[^123]: Lei Ba, Jimmy, Jamie Ryan Kiros, and Geoffrey E. Hinton. "Layer normalization." *arXiv preprint arXiv:1607.06450* (2016).
+[^124]: ERNIE: Enhanced Representation through Knowledge Integration Yu. <https://arxiv.org/abs/1904.09223>
 
