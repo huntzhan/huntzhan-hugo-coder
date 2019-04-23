@@ -29,6 +29,7 @@ Notation:
         *   Interpretations of highway and residual networks. [^30] 
         *   Maxout. [^43]
         *   Layer normalization. [^123]
+        *   GELU. [^125]
     *   CNN
         -   A guide with excellent visualization. [^58] ✔️❤️
         -   1x1 Convolutions. [^95]
@@ -315,4 +316,5 @@ Notation:
 
 [^123]: Lei Ba, Jimmy, Jamie Ryan Kiros, and Geoffrey E. Hinton. "Layer normalization." *arXiv preprint arXiv:1607.06450* (2016).
 [^124]: ERNIE: Enhanced Representation through Knowledge Integration Yu. <https://arxiv.org/abs/1904.09223>
+[^125]: Hendrycks, Dan, and Kevin Gimpel. "Gaussian Error Linear Units (GELUs)." *arXiv preprint arXiv:1606.08415* (2016).
 
