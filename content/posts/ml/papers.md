@@ -111,7 +111,7 @@ Notation:
         *   A simple sentence representation baseline. [^27] ✔️
     *   Transformer-based
         *   BERT. [^29] ✔️❤️
-        *   ERNIE. [^124]
+        *   ERNIE. [^124] ✔️
         *   GPT-2. [^54] 
 *   Semantic Textual Similarity / Natural Language Inference
     -   DSSM [^38] 
