@@ -126,11 +126,13 @@ Notation:
     -   COTA, Uber's practice. [^69]
     -   LCQMC dataset. [^112] ✔️❤️
 *   Text Classification
+    -   An empirical exploration of using char-level CNN for text classification. The idea of using thesaurus for data augmentation should help. [^127] ✔️
     -   SGM. [^33] 
     -   Seq2Set. [^46] 
     -   HN-ATT with multi-level (word, sentence) attention. [^119] 🐦
     -   ABSA with attention. [^120] 🐦
     -   Converting (T)ABSA to sentence-pair classification problems and utilizing the advantage of BERT-pair.  [^122] ✔️❤️
+    -   BERT post-training on domain knowledge and task-awareness knowledge with MTL, then fine-tune on RRC, AE, ASC. [^126] ✔️❤️
 *   Chinese Word Segmentation
     *   Wang2vec + stacking bi-LSTM, simple yet effective baseline [^96] ✔️
     *   With multi-criteria leanring (MTL). [^97]  ✔️
@@ -317,4 +319,7 @@ Notation:
 [^123]: Lei Ba, Jimmy, Jamie Ryan Kiros, and Geoffrey E. Hinton. "Layer normalization." *arXiv preprint arXiv:1607.06450* (2016).
 [^124]: ERNIE: Enhanced Representation through Knowledge Integration Yu. <https://arxiv.org/abs/1904.09223>
 [^125]: Hendrycks, Dan, and Kevin Gimpel. "Gaussian Error Linear Units (GELUs)." *arXiv preprint arXiv:1606.08415* (2016).
+
+[^126]: Xu, Hu, et al. "BERT Post-Training for Review Reading Comprehension and Aspect-based Sentiment Analysis." *arXiv preprint arXiv:1904.02232* (2019).
+[^127]: Zhang, Xiang, Junbo Zhao, and Yann LeCun. "Character-level convolutional networks for text classification." *Advances in neural information processing systems*. 2015.
 
