@@ -65,6 +65,7 @@ Notation:
 *   Pruning / Quantization:
     *   Pruning CNN. [^55] [^56]
     *   Deep Compression. [^57]
+    *   FP16 computation and mixed-precision training. [^130] ✔️ [^128] [^131]
 
 
 
@@ -110,7 +111,7 @@ Notation:
         *   ELMo and the related important references. [^23] ✔️ [^24] ✔️ [^25]  ✔️
         *   A simple sentence representation baseline. [^27] ✔️
     *   Transformer-based
-        *   BERT. [^29] ✔️❤️
+        *   BERT [^29] ✔️❤️ and the discussion on Reddit about the cost of pre-training BERT. [^129] ✔️
         *   ERNIE. [^124] ✔️
         *   GPT-2. [^54] 
 *   Semantic Textual Similarity / Natural Language Inference
@@ -131,8 +132,9 @@ Notation:
     -   Seq2Set. [^46] 
     -   HN-ATT with multi-level (word, sentence) attention. [^119] 🐦
     -   ABSA with attention. [^120] 🐦
-    -   Converting (T)ABSA to sentence-pair classification problems and utilizing the advantage of BERT-pair.  [^122] ✔️❤️
+    -   Converting (T)ABSA to sentence-pair classification problems and utilizing the advantage of BERT-pair.  [^122] ✔️
     -   BERT post-training on domain knowledge and task-awareness knowledge with MTL, then fine-tune on RRC, AE, ASC. [^126] ✔️❤️
+    -   AEN with label smoothing regularization for TSA. [^132]✔️
 *   Chinese Word Segmentation
     *   Wang2vec + stacking bi-LSTM, simple yet effective baseline [^96] ✔️
     *   With multi-criteria leanring (MTL). [^97]  ✔️
@@ -320,6 +322,11 @@ Notation:
 [^124]: ERNIE: Enhanced Representation through Knowledge Integration Yu. <https://arxiv.org/abs/1904.09223>
 [^125]: Hendrycks, Dan, and Kevin Gimpel. "Gaussian Error Linear Units (GELUs)." *arXiv preprint arXiv:1606.08415* (2016).
 
-[^126]: Xu, Hu, et al. "BERT Post-Training for Review Reading Comprehension and Aspect-based Sentiment Analysis." *arXiv preprint arXiv:1904.02232* (2019).
+[^126]: Xu, Hu, et al. "BERT Post-Training for Review Reading Comprehension and Aspect-based Sentiment Analysis." *arXiv preprint arXiv:1904.02232* (2019).  Github: https://github.com/howardhsu/BERT-for-RRC-ABSA
 [^127]: Zhang, Xiang, Junbo Zhao, and Yann LeCun. "Character-level convolutional networks for text classification." *Advances in neural information processing systems*. 2015.
+[^128]: https://docs.nvidia.com/deeplearning/sdk/mixed-precision-training/index.html
+[^129]: https://www.reddit.com/r/MachineLearning/comments/9nfqxz/r_bert_pretraining_of_deep_bidirectional/
+[^130]: https://devblogs.nvidia.com/mixed-precision-training-deep-neural-networks/
+[^131]: Micikevicius, Paulius, et al. "Mixed precision training." *arXiv preprint arXiv:1710.03740* (2017).
+[^132]: Song, Youwei, et al. "Attentional Encoder Network for Targeted Sentiment Classification." *arXiv preprint arXiv:1902.09314* (2019).  Github: https://github.com/songyouwei/ABSA-PyTorch/tree/aen
 
