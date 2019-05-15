@@ -114,6 +114,7 @@ Notation:
         *   BERT [^29] ✔️❤️ and the discussion on Reddit about the cost of pre-training BERT. [^129] ✔️
         *   ERNIE. [^124] ✔️
         *   GPT-2. [^54] 
+        *   Adding additional LSTM layers to BERT/GPT to capture the strong word-level context. [^133] ✔️
 *   Semantic Textual Similarity / Natural Language Inference
     -   DSSM [^38] 
     -   CDSSM (a.k.a. CLSM) [^53] ✔️❤️ [^39] ✔️
@@ -329,4 +330,6 @@ Notation:
 [^130]: https://devblogs.nvidia.com/mixed-precision-training-deep-neural-networks/
 [^131]: Micikevicius, Paulius, et al. "Mixed precision training." *arXiv preprint arXiv:1710.03740* (2017).
 [^132]: Song, Youwei, et al. "Attentional Encoder Network for Targeted Sentiment Classification." *arXiv preprint arXiv:1902.09314* (2019).  Github: https://github.com/songyouwei/ABSA-PyTorch/tree/aen
+
+[^133]: Wang, Chenguang, Mu Li, and Alexander J. Smola. "Language Models with Transformers." *arXiv preprint arXiv:1904.09408* (2019).
 
