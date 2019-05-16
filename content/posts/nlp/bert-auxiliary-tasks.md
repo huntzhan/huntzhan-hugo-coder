@@ -8,15 +8,11 @@ math: "true"
 
 本文简要解析 BERT [^1]  的预训练辅助任务（Auxiliary Task）。
 
-BERT 系列的其他文章：
-
-*   数据预处理源码解析 TODO
-
 
 
 ## 预训练辅助任务
 
-BERT 通过 Masked LM（MLM）与 Next Sentence Prediction（NSP）这两个辅助任务训练语言模型：
+BERT 通过两个辅助任务训练语言模型：Masked LM（MLM）与 Next Sentence Prediction（NSP）。
 
 *   MLM：随机 mask 15% 的输入（token），模型需要通过 context 信息还原被 masked 的输入。
 *   NSP：随机生成句子对，模型需要判断句子对是否连续（next sentence）。
@@ -27,7 +23,7 @@ BERT 通过 Masked LM（MLM）与 Next Sentence Prediction（NSP）这两个辅�
 
 ## MLM
 
-在 BERT 之前，LM 通常是**单向**的，常见做法是分别训练正向与反向的 LM，然后再做一个 ensemble 得到上下文相关表征（context dependent representation）。这种做法会有信息缺失与标注偏差的问题 [^4] 。MLM 的意义在于，可以使 BERT 作为**单模型**学习到上下文相关的表征，可以利用**双向**的信息。
+在 BERT 之前，LM 通常是**单向**的，常见做法是分别训练正向与反向的 LM，然后再做一个 ensemble 得到上下文相关表征（context dependent representation）。这种做法会有信息缺失与标注偏差的问题 [^4] 。MLM 的意义在于，可以使 BERT 作为**单模型**学习到上下文相关的表征，并能更充分地利用**双向**的信息。
 
 论文里强调了设计 MLM 任务需要注意的问题：
 
@@ -41,10 +37,10 @@ BERT 通过 Masked LM（MLM）与 Next Sentence Prediction（NSP）这两个辅�
 
 这篇博文 [^2] 提供了一个解释：
 
-*   如果把 100% 的输入替换为 `[MASK]`，模型会偏向为 `[MASK]` 建模而不会学习到 non-masked 输入的表征。
-*   如果把 90% 的输入替换为 `[MASK]`、10% 的输入替换为随机 token，模型会偏向认为 non-masked 输入是错的。
-*   如果把 90% 的输入替换为 `[MASK]`、维持 10% 的输入不变，模型会偏向直接复制 non-masked 输入的上下文无关表征。
-*   所以，需要以 1:1 的比例使用两种策略处理 non-masked 输入，这样才能得到相对有效的 non-masked 输入的上下文相关表征。论文提及，随机替换的输入只占整体的 1.5%，似乎不会对最终效果有影响（模型有足够的容错余量）。
+*   如果把 100% 的输入替换为 `[MASK]`：模型会偏向为 `[MASK]` 输入建模，而不会学习到 non-masked 输入的表征。
+*   如果把 90% 的输入替换为 `[MASK]`、10% 的输入替换为随机 token：模型会偏向认为 non-masked 输入是错的。
+*   如果把 90% 的输入替换为 `[MASK]`、维持 10% 的输入不变：模型会偏向直接复制 non-masked 输入的上下文无关表征。
+*   所以，为了使模型可以学习到相对有效的上下文相关表征，需要以 1:1 的比例使用两种策略处理 non-masked 输入。论文提及，随机替换的输入只占整体的 1.5%，似乎不会对最终效果有影响（模型有足够的容错余量）。
 
 
 
