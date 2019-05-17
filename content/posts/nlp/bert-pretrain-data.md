@@ -84,7 +84,7 @@ math: "true"
 逻辑：
 
 1.  `create_masked_lm_predictions` 函数 [^14] 包含了 Masking 的所有逻辑。Masking 是以序列为单位的，每个序列只会被 masked 一次。
-2.  Masking 的数目 `num_to_predict` 由 `masked_lm_prob [default: 0.15]`  与 `max_predictions_per_seq [default: 20]` 决定 [^20]，即随机选取 `masked_lm_prob` 占比的输入 mask，如果输入超过 `max_predictions_per_seq` 则只 mask `max_predictions_per_seq` 个 tokens。
+2.  Masking 的数目 `num_to_predict` 由 `masked_lm_prob [default: 0.15]`  与 `max_predictions_per_seq [default: 20]` 决定 [^15]，即随机选取 `masked_lm_prob` 占比的输入 mask，如果输入超过 `max_predictions_per_seq` 则只 mask `max_predictions_per_seq` 个 tokens。
 3.  对于每个需要 mask 的输入：
     1.  80% 的概率，把输入替换为 `[MASK]` [^16] 。
     2.  10% 的概率，把输入替换为随机的 token [^17]。
@@ -100,7 +100,7 @@ math: "true"
 
 ## 总结
 
-本文简要解析了 BERT 官方实现的预处理源码。对于中文场景，可以阅读 [BERT 系列：ERNIE 数据预处理源码解析 TODO]({{}}) 一文了解基于分词信息的预处理流程。
+本文简要解析了 BERT 官方实现的预处理源码。对于中文场景，可以阅读 [(TODO) BERT 系列：ERNIE 数据预处理源码解析]({{}}) 一文了解基于分词信息的预处理流程。
 
 
 
