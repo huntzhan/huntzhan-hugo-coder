@@ -57,7 +57,7 @@ BERT 通过两个辅助任务训练语言模型：Masked LM（MLM）与 Next Sen
 
 ## 总结
 
-更多细节见 数据预处理源码解析 TODO 一文。
+更多细节见 [BERT 系列：数据预处理源码解析]({{< relref path="bert-pretrain-data.md" >}}) 一文。
 
 
 
