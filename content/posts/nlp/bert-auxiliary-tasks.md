@@ -17,7 +17,7 @@ BERT 通过两个辅助任务训练语言模型：Masked LM（MLM）与 Next Sen
 *   MLM：随机 mask 15% 的输入（token），模型需要通过 context 信息还原被 masked 的输入。
 *   NSP：随机生成句子对，模型需要判断句子对是否连续（next sentence）。
 
-在训练过程中，MLM 与 NSP 的 loss 是同时计算的，属于多任务学习（MLT）。
+在训练过程中，MLM 与 NSP 的 loss 是同时计算的，属于多任务学习。
 
 
 
