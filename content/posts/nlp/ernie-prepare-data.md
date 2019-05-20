@@ -34,7 +34,7 @@ ERNIE 与 BERT 在模型结构上没有明显的差别。通过简单的转换�
 
 主要的差别在 MLM 的数据预处理逻辑部分：
 
-*   BERT 的数据预处理的输入是若干个 txt 文本，输入是带 NSP、MLM 标注的序列数据集，详见 [BERT 系列：数据预处理源码解析]({{< relref path="bert-pretrain-data.md" >}}) 一文。
+*   BERT 的数据预处理的输入是若干个 txt 文本，输出是带 NSP、MLM 标注的序列数据集，详见 [BERT 系列：数据预处理源码解析]({{< relref path="bert-pretrain-data.md" >}}) 一文。
 *   ERNIE 的数据预处理分为两个阶段：
     *   训练前的数据准备：构建序列与标记分词边界信息。
     *   训练过程中的数据准备：在每个 epoch，基于分词边界信息动态构建 MLM 标注。
@@ -47,7 +47,7 @@ ERNIE 与 BERT 在模型结构上没有明显的差别。通过简单的转换�
 
 >   每个样本由5个 '`;`' 分隔的字段组成，数据格式: `token_ids; sentence_type_ids; position_ids; seg_labels; next_sentence_label`；其中 `seg_labels` 表示分词边界信息: 0表示词首、1表示非词首、-1为占位符, 其对应的词为 `CLS`或者 `SEP`；
 
-ERNIE 没有开源这一步的代码。个人建议，可以复用 BERT 的预处理代码，然后利用百度的词法分析 API 加入分词边界信息。
+ERNIE 没有开源这一步的代码。个人建议，可以复用 BERT 的预处理代码构建序列，然后利用百度的词法分析 API 加入分词边界信息。
 
 
 

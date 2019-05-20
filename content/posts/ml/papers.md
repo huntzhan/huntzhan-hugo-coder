@@ -30,6 +30,7 @@ Notation:
         *   Maxout. [^43]
         *   Layer normalization. [^123]
         *   GELU. [^125]
+        *   Survey of dropout methods. [^134]
     *   CNN
         -   A guide with excellent visualization. [^58] ✔️❤️
         -   1x1 Convolutions. [^95]
@@ -332,4 +333,6 @@ Notation:
 [^132]: Song, Youwei, et al. "Attentional Encoder Network for Targeted Sentiment Classification." *arXiv preprint arXiv:1902.09314* (2019).  Github: https://github.com/songyouwei/ABSA-PyTorch/tree/aen
 
 [^133]: Wang, Chenguang, Mu Li, and Alexander J. Smola. "Language Models with Transformers." *arXiv preprint arXiv:1904.09408* (2019).
+
+[^134]: Labach, Alex, Hojjat Salehinejad, and Shahrokh Valaee. "Survey of Dropout Methods for Deep Neural Networks." *arXiv preprint arXiv:1904.13310*(2019).
 
