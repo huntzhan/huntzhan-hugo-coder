@@ -165,6 +165,8 @@ Notation:
     -   KEQA. [^108]
 *   Grammatical Error Correction
     *   Nested Attention (top-down hierarchical attention). [^115] 🐦
+*   Automatic Speech Recognition (ASR)
+    *   Tutorials of CTC [^135] ✔️ [^136] ✔️❤️ and the original paper [^137] .
 *   Others
     *   PyText. [^52] ✔️
     *   Advice for using GPUs [^117] ✔️❤️ and other hardware [^121] .
@@ -335,4 +337,8 @@ Notation:
 [^133]: Wang, Chenguang, Mu Li, and Alexander J. Smola. "Language Models with Transformers." *arXiv preprint arXiv:1904.09408* (2019).
 
 [^134]: Labach, Alex, Hojjat Salehinejad, and Shahrokh Valaee. "Survey of Dropout Methods for Deep Neural Networks." *arXiv preprint arXiv:1904.13310*(2019).
+
+[^135]: An Intuitive Explanation of Connectionist Temporal Classification  https://towardsdatascience.com/intuitively-understanding-connectionist-temporal-classification-3797e43a86c
+[^136]: Hannun, Awni. "Sequence modeling with ctc." *Distill* 2.11 (2017): e8.  https://distill.pub/2017/ctc/
+[^137]: Graves, Alex, et al. "Connectionist temporal classification: labelling unsegmented sequence data with recurrent neural networks." *Proceedings of the 23rd international conference on Machine learning*. ACM, 2006.
 
