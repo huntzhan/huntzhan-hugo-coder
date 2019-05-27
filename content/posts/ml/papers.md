@@ -55,6 +55,8 @@ Notation:
         *   The first proposed paper and the annotated version. [^16] ✔️❤️ [^17] ✔️
         *   Universal transformer. [^19] 
         *   Transformer-XL. [^18] 
+    *   GNN
+        *   Survey papers. [^138]
 *   Optimizer
     *   AMSGRAD. [^14] 
     *   CLR. [^99]
@@ -113,7 +115,8 @@ Notation:
         *   A simple sentence representation baseline. [^27] ✔️
     *   Transformer-based
         *   BERT [^29] ✔️❤️ and the discussion on Reddit about the cost of pre-training BERT. [^129] ✔️
-        *   ERNIE. [^124] ✔️
+        *   Baidu's ERNIE, incorporating word segmentation information with MLM to enhance BERT. [^124] ✔️
+        *   THU's ERNIE, incorporating KGE to enhance BERT. [^139] ✔️
         *   GPT-2. [^54] 
         *   Adding additional LSTM layers to BERT/GPT to capture the strong word-level context. [^133] ✔️
 *   Semantic Textual Similarity / Natural Language Inference
@@ -341,4 +344,6 @@ Notation:
 [^135]: An Intuitive Explanation of Connectionist Temporal Classification  https://towardsdatascience.com/intuitively-understanding-connectionist-temporal-classification-3797e43a86c
 [^136]: Hannun, Awni. "Sequence modeling with ctc." *Distill* 2.11 (2017): e8.  https://distill.pub/2017/ctc/
 [^137]: Graves, Alex, et al. "Connectionist temporal classification: labelling unsegmented sequence data with recurrent neural networks." *Proceedings of the 23rd international conference on Machine learning*. ACM, 2006.
+[^138]: Wu, Zonghan, et al. "A comprehensive survey on graph neural networks." *arXiv preprint arXiv:1901.00596* (2019).
+[^139]: Zhang, Zhengyan, et al. "ERNIE: Enhanced Language Representation with Informative Entities." *arXiv preprint arXiv:1905.07129* (2019).
 
