@@ -161,6 +161,9 @@ Notation:
     *   A theoretical understanding of IDF. [^73]
     *   WMD. [^72] 🐦
     *   Incorporating with word embedding. [^71] ✔️
+    *   Pointing out key differences between semantic matching and relevance matching then design a deep relevance matching model (DRMM) by explicitly addressing those key differences. [^140] ✔️ ❤️
+    *   PACRR. [^141]
+    *   Enhanced DRMM. [^142]
     *   Keyphrase generation in seq2seq pattern. [^86]
 *   Knowledge Graph
     -   Survey papers. [^109] [^110]
@@ -346,4 +349,8 @@ Notation:
 [^137]: Graves, Alex, et al. "Connectionist temporal classification: labelling unsegmented sequence data with recurrent neural networks." *Proceedings of the 23rd international conference on Machine learning*. ACM, 2006.
 [^138]: Wu, Zonghan, et al. "A comprehensive survey on graph neural networks." *arXiv preprint arXiv:1901.00596* (2019).
 [^139]: Zhang, Zhengyan, et al. "ERNIE: Enhanced Language Representation with Informative Entities." *arXiv preprint arXiv:1905.07129* (2019).
+
+[^140]: Guo, Jiafeng, et al. "A deep relevance matching model for ad-hoc retrieval." *Proceedings of the 25th ACM International on Conference on Information and Knowledge Management*. ACM, 2016.
+[^141]: Hui, Kai, et al. "PACRR: A position-aware neural IR model for relevance matching." *arXiv preprint arXiv:1704.03940* (2017).
+[^142]: McDonald, Ryan, Georgios-Ioannis Brokos, and Ion Androutsopoulos. "Deep relevance ranking using enhanced document-query interactions." *arXiv preprint arXiv:1809.01682* (2018).
 
