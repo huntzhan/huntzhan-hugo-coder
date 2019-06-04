@@ -146,6 +146,7 @@ Notation:
     *   WEB-CWS. [^98]
     *   With Lattice LSTM. [^103]
 *   Named Entity Recognition
+    *   AutoNER. [^146]
 *   Natural Language Understanding
 *   Question Answering
     *   Danqi Chen's dissertation. [^67] 
@@ -165,6 +166,10 @@ Notation:
     *   PACRR. [^141]
     *   Enhanced DRMM. [^142]
     *   Keyphrase generation in seq2seq pattern. [^86]
+*   Phrase Mining
+    *   Distant supervision. [^145]
+    *   SegPhrase. [^143] ✔️
+    *   AutoPhrase. [^144] ✔️ ❤️
 *   Knowledge Graph
     -   Survey papers. [^109] [^110]
     -   A systematic study on the geometry of various KGE. [^62]
@@ -353,4 +358,8 @@ Notation:
 [^140]: Guo, Jiafeng, et al. "A deep relevance matching model for ad-hoc retrieval." *Proceedings of the 25th ACM International on Conference on Information and Knowledge Management*. ACM, 2016.
 [^141]: Hui, Kai, et al. "PACRR: A position-aware neural IR model for relevance matching." *arXiv preprint arXiv:1704.03940* (2017).
 [^142]: McDonald, Ryan, Georgios-Ioannis Brokos, and Ion Androutsopoulos. "Deep relevance ranking using enhanced document-query interactions." *arXiv preprint arXiv:1809.01682* (2018).
+[^143]: Liu, Jialu, et al. "Mining quality phrases from massive text corpora." *Proceedings of the 2015 ACM SIGMOD International Conference on Management of Data*. ACM, 2015.
+[^144]: Shang, Jingbo, et al. "Automated phrase mining from massive text corpora." *IEEE Transactions on Knowledge and Data Engineering* 30.10 (2018): 1825-1837.
+[^145]: Mintz, Mike, et al. "Distant supervision for relation extraction without labeled data." *Proceedings of the Joint Conference of the 47th Annual Meeting of the ACL and the 4th International Joint Conference on Natural Language Processing of the AFNLP: Volume 2-Volume 2*. Association for Computational Linguistics, 2009.
+[^146]: Shang, Jingbo, et al. "Learning named entity tagger using domain-specific dictionary." *arXiv preprint arXiv:1809.03599* (2018).
 
