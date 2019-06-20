@@ -119,6 +119,7 @@ Notation:
         *   THU's ERNIE, incorporating KGE to enhance BERT. [^139] ✔️
         *   GPT-2. [^54] 
         *   Adding additional LSTM layers to BERT/GPT to capture the strong word-level context. [^133] ✔️
+        *   XLNet. [^147] ❤️
 *   Semantic Textual Similarity / Natural Language Inference
     -   DSSM [^38] 
     -   CDSSM (a.k.a. CLSM) [^53] ✔️❤️ [^39] ✔️
@@ -159,6 +160,7 @@ Notation:
     -   Beam search optimization. [^45] [^51] 
     -   Copy Mechanism. [^85]
 *   Information Retrieval
+    *   PRF and BM25. [^148]
     *   A theoretical understanding of IDF. [^73]
     *   WMD. [^72] 🐦
     *   Incorporating with word embedding. [^71] ✔️
@@ -362,4 +364,7 @@ Notation:
 [^144]: Shang, Jingbo, et al. "Automated phrase mining from massive text corpora." *IEEE Transactions on Knowledge and Data Engineering* 30.10 (2018): 1825-1837.
 [^145]: Mintz, Mike, et al. "Distant supervision for relation extraction without labeled data." *Proceedings of the Joint Conference of the 47th Annual Meeting of the ACL and the 4th International Joint Conference on Natural Language Processing of the AFNLP: Volume 2-Volume 2*. Association for Computational Linguistics, 2009.
 [^146]: Shang, Jingbo, et al. "Learning named entity tagger using domain-specific dictionary." *arXiv preprint arXiv:1809.03599* (2018).
+
+[^147]: XLNet: Generalized Autoregressive Pretraining for Language Understanding.  https://arxiv.org/abs/1906.08237
+[^148]: Robertson, Stephen, and Hugo Zaragoza. "The probabilistic relevance framework: BM25 and beyond." *Foundations and Trends® in Information Retrieval* 3.4 (2009): 333-389.
 
