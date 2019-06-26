@@ -119,7 +119,7 @@ Notation:
         *   THU's ERNIE, incorporating KGE to enhance BERT. [^139] ✔️
         *   GPT-2. [^54] 
         *   Adding additional LSTM layers to BERT/GPT to capture the strong word-level context. [^133] ✔️
-        *   XLNet. [^147] ❤️
+        *   XLNet. [^147] ✔️❤️
 *   Semantic Textual Similarity / Natural Language Inference
     -   DSSM [^38] 
     -   CDSSM (a.k.a. CLSM) [^53] ✔️❤️ [^39] ✔️
@@ -168,6 +168,7 @@ Notation:
     *   PACRR. [^141]
     *   Enhanced DRMM. [^142]
     *   Keyphrase generation in seq2seq pattern. [^86]
+    *   Showing that BERT can be finetuned to capture document relevance. [^149] ✔️ [^150] ✔️
 *   Phrase Mining
     *   Distant supervision. [^145]
     *   SegPhrase. [^143] ✔️
@@ -367,4 +368,7 @@ Notation:
 
 [^147]: XLNet: Generalized Autoregressive Pretraining for Language Understanding.  https://arxiv.org/abs/1906.08237
 [^148]: Robertson, Stephen, and Hugo Zaragoza. "The probabilistic relevance framework: BM25 and beyond." *Foundations and Trends® in Information Retrieval* 3.4 (2009): 333-389.
+
+[^149]: Yang, Wei, Haotian Zhang, and Jimmy Lin. "Simple Applications of BERT for Ad Hoc Document Retrieval." *arXiv preprint arXiv:1903.10972* (2019).
+[^150]: Nogueira, Rodrigo, and Kyunghyun Cho. "Passage Re-ranking with BERT." *arXiv preprint arXiv:1901.04085* (2019).
 
