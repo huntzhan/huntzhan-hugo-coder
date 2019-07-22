@@ -11,15 +11,15 @@ It has been a long time since I graduated from university, and I think this is t
 
 Courses:
 
-*   Single Variable Calculus
+*   Calculus
 *   Linear Algebra
 *   Probability & Statistics
 
 
 
-### Single Variable Calculus
+### Calculus
 
-The courses [^1] provided by Robert Ghrist are recommended:
+The *Single Variable Calculus* courses [^1] provided by Robert Ghrist are recommended:
 
 - [x] Part 1: Functions [^2]
     - [x] Week 1: Introduction to the Course
@@ -93,6 +93,98 @@ The courses [^1] provided by Robert Ghrist are recommended:
     - [ ] Week 5: Chapter 5 Review & Exam
     - [ ] Week 5: THE 5-CHAPTER GREAT BIG FINAL EXAM
 
+Followed by the *Multivariable Calculus* courses [^7]:
+
+- [ ] Volume 1: Vectors and Matrices
+    - [ ] PROLOGUE
+    - [ ] Chapter 1: Lines and Planes
+    - [ ] Chapter 2: Curves and Surfaces
+    - [ ] Chapter 3: Coordinates
+    - [ ] Chapter 4: Vectors
+    - [ ] Chapter 5: The Dot Product
+    - [ ] Chapter 6: The Cross Product
+    - [ ] Chapter 7: Intro to Vector Calculus
+    - [ ] Chapter 8: Vector Calculus and Motion
+    - [ ] INTERLUDE...
+    - [ ] Chapter 9: Matrices
+    - [ ] Chapter 10: Matrix Algebra
+    - [ ] Chapter 11: Matrix Equations
+    - [ ] Chapter 12: Row Reduction
+    - [ ] Chapter 13: Inverse Matrices
+    - [ ] Chapter 14: Linear Transformations
+    - [ ] Chapter 15: Coordinate Changes
+    - [ ] Chapter 16: Algebraic Determinants
+    - [ ] Chapter 17: Geometric Determinants
+    - [ ] Chapter 18: Computing Determinants
+    - [ ] EPILOGUE
+    - [ ] FORESHADOWING
+- [ ] Volume 2: Derivatives
+    - [ ] PROLOGUE
+    - [ ] Chapter 1: Multivariate Functions
+    - [ ] Chapter 2: Partial Derivatives
+    - [ ] Chapter 3: The Derivative
+    - [ ] Chapter 4: Differentiation
+    - [ ] Chapter 5: The Chain Rule
+    - [ ] Chapter 6: Differentiation Rules
+    - [ ] Chapter 7: The Inverse Function Theorem
+    - [ ] Chapter 8: The Implicit Function Theorem
+    - [ ] Chapter 9: Gradients
+    - [ ] Chapter 10: Tangent Spaces
+    - [ ] Chapter 11: Linearization
+    - [ ] Chapter 12: Taylor Series
+    - [ ] Chapter 13: Computing Taylor Series
+    - [ ] Chapter 14: Optimization
+    - [ ] Chapter 15: Optimization and Linear Regression
+    - [ ] Chapter 16: Optimization and Game Theory
+    - [ ] Chapter 17: Constrained Optimization
+    - [ ] Chapter 18: The Lagrange Multipler
+    - [ ] Chapter 19: Using the Lagrange Multiplier
+    - [ ] EPILOGUE
+    - [ ] FORESHADOWING
+- [ ] Volume 3: Integrals
+    - [ ] PROLOGUE
+    - [ ] Chapter 1: Defining Integrals
+    - [ ] Chapter 2: The Fubini Theorem
+    - [ ] Chapter 3: Double Integrals
+    - [ ] Chapter 4: Triple Integrals
+    - [ ] Chapter 5: Averages
+    - [ ] Chapter 6: Centroids and Centers
+    - [ ] Chapter 7: Moments of Inertia
+    - [ ] Chapter 8: The Inertia Matrix
+    - [ ] Chapter 9: Solid Body Mechanics
+    - [ ] Chapter 10: Probability and Integration
+    - [ ] Chapter 11: Multiple Random Variables
+    - [ ] Chapter 12: Covariance Matrices
+    - [ ] Chapter 13: Cylindrical Coordinates
+    - [ ] Chapter 14: Spherical Coordinates
+    - [ ] Chapter 15: Changes of Variables
+    - [ ] Chapter 16: Choosing Coordinates
+    - [ ] Chapter 17: Surface Integrals
+    - [ ] Chapter 18: Gaussians Redux
+    - [ ] Chapter 19: Data and Dimension
+    - [ ] EPILOGUE (coming soon...)
+    - [ ] FORESHADOWING (coming soon...)
+- [ ] Volume 4: Fields
+    - [ ] PROLOGUE
+    - [ ] Chapter 1: Fields
+    - [ ] Chapter 2: Path Integrals
+    - [ ] Chapter 3: Integrating 1-Forms
+    - [ ] Chapter 4: Independence of Path
+    - [ ] Chapter 5: Work, Circulation, and Flux
+    - [ ] Chapter 6: Green's Theorem
+    - [ ] Chapter 7: Grad, Curl, and Div
+    - [ ] Chapter 8: Differential Forms in 3-D
+    - [ ] Chapter 9: Integrating 2-Forms
+    - [ ] Chapter 10: Gauss' Theorem
+    - [ ] Chapter 11: Stokes' Theorem
+    - [ ] Chapter 12: Which Theorem When?
+    - [ ] Chapter 13: Forms and Fluids
+    - [ ] Chapter 14: Forms and Electromagnetics
+    - [ ] Chapter 15: Forms and Data
+    - [ ] INTERLUDE...
+    - [ ] Chapter 16: Differential Forms in n-D
+    - [ ] Chapter 17: Calculus Redux
+    - [ ] Chapter 18: Stokes' Theorem Redux
 
 
 ### Linear Algebra
@@ -126,4 +218,4 @@ TODO
 [^4]: https://www.coursera.org/learn/integration-calculus/home/welcome
 [^5]: https://www.coursera.org/learn/applications-calculus/home/welcome
 [^6]: http://immersivemath.com/ila/index.html
-
+[^7]: https://www.math.upenn.edu/~ghrist/calculus.html
