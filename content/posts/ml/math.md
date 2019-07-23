@@ -192,8 +192,8 @@ Followed by the *Multivariable Calculus* courses [^7]:
 The interactive illustration provided by the *immersive linear algebra* [^6] is great:
 
 - [x] Preface
-- [ ] Chapter 1: Introduction
-- [ ] Chapter 2: Vectors
+- [x] Chapter 1: Introduction
+- [x] Chapter 2: Vectors
 - [ ] Chapter 3: The Dot Product
 - [ ] Chapter 4: The Vector Product
 - [ ] Chapter 5: Gaussian Elimination
