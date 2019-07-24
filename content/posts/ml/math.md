@@ -60,7 +60,7 @@ The *Single Variable Calculus* courses [^1] provided by Robert Ghrist are recomm
 - [ ] Part 4: Applications [^5]
 	- [x] Week 1: Simple Areas
 	- [x] Week 1: Complex Areas
-	- [ ] Week 1: Volumes
+	- [x] Week 1: Volumes
 	- [ ] Week 1: Complex Volumes
 	- [ ] Week 2: Volume & Dimension
 	- [ ] Week 2: Arclength
