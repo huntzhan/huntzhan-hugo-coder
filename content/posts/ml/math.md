@@ -65,7 +65,7 @@ The *Single Variable Calculus* courses [^1] provided by Robert Ghrist are recomm
 	- [x] Week 2: Volume & Dimension
 	- [x] Week 2: Arclength
 	- [x] Week 2: Surface Area
-	- [ ] Week 3: Work
+	- [x] Week 3: Work
 	- [ ] Week 3: Elements
 	- [ ] Week 4: Averages
 	- [ ] Week 4: Centroids
