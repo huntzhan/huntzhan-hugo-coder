@@ -67,7 +67,7 @@ The *Single Variable Calculus* courses [^1] provided by Robert Ghrist are recomm
 	- [x] Week 2: Surface Area
 	- [x] Week 3: Work
 	- [x] Week 3: Elements
-	- [ ] Week 4: Averages
+	- [x] Week 4: Averages
 	- [ ] Week 4: Centroids
 	- [ ] Week 4: Moments and Gyrations
 	- [ ] Week 5: Fair Probability
