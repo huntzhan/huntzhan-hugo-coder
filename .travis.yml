@@ -1,3 +1,4 @@
+dist: xenial
 git:
   depth: false
 go:
