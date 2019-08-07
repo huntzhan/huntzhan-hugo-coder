@@ -1,3 +1,6 @@
+# Append timestamps.
+python .travis/md_append_timestamp.py . content/posts/ml/math.md content/posts/ml/math.md 2019-07-22
+
 # build site (generate ./public)
 hugo
 # copy ./public to /tmp/hugo-public

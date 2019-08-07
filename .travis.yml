@@ -8,15 +8,7 @@ git:
   depth: false
 
 install:
-  # This op is heavy:
-  #   Need to get 85.5 MB of archives.
-  #   After this operation, 401 MB of additional disk space will be used.
-  #
-  # - sudo apt-get install -y snapd
-  # - sudo snap install hugo
-  #
-  # Hack to install from deb now.
-  - pip install requests Pygments
+  - pip install requests Pygments gitpython
   - python .travis/hugo_deb.py
   - sudo dpkg -i hugo.deb
 
