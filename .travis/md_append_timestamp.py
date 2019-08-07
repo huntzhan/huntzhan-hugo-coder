@@ -15,7 +15,7 @@ for commit, lines in repo.blame('HEAD', md_path):
     if date_str == ignored_date_str:
         date_str = 'INIT'
 
-    suffix = f' &nbsp; &nbsp; \[**Done {date_str}**\]'
+    suffix = f'<div style="display:inline; float:right; font-family:serif;"><strong>Done {date_str}</strong></div>'
     for line in lines:
         if date_str and ''.join(line.strip().split()).startswith('-[x]'):
             line += suffix
