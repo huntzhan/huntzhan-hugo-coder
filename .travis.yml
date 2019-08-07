@@ -2,10 +2,10 @@ dist: xenial
 language: python
 python:
   - "3.6"
-git:
-  depth: false
 go:
   - "1.11"
+git:
+  depth: false
 
 install:
   # This op is heavy:
@@ -16,7 +16,7 @@ install:
   # - sudo snap install hugo
   #
   # Hack to install from deb now.
-  - sudo pip install requests Pygments
+  - pip install requests Pygments
   - python .travis/hugo_deb.py
   - sudo dpkg -i hugo.deb
 
