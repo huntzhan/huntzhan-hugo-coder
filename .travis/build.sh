@@ -1,5 +1,5 @@
 # Append timestamps.
-python .travis/md_append_timestamp.py . content/posts/ml/math.md content/posts/ml/math.md 2019-07-22
+python .travis/md_append_timestamp.py . content/posts/ml/math.md content/posts/ml/math.md None
 
 # build site (generate ./public)
 hugo
