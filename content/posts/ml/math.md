@@ -218,4 +218,4 @@ TODO
 [^4]: https://www.coursera.org/learn/integration-calculus/home/welcome
 [^5]: https://www.coursera.org/learn/applications-calculus/home/welcome
 [^6]: http://immersivemath.com/ila/index.html
-[^7]: https://www.math.upenn.edu/~ghrist/calculus.htmlq
+[^7]: https://www.math.upenn.edu/~ghrist/calculus.html
