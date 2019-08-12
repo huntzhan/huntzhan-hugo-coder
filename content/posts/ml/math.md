@@ -71,7 +71,7 @@ The *Single Variable Calculus* courses [^1] provided by Robert Ghrist are recomm
 	- [x] Week 4: Centroids
 	- [x] Week 4: Moments and Gyrations
 	- [x] Week 5: Fair Probability
-	- [ ] Week 5: Probability Densities
+	- [x] Week 5: Probability Densities
 	- [ ] Week 5: Expectation and Variance
 	- [ ] Week 5: Chapter 4 Review & Exam
 - [ ] Part 5: Discrete Calculus [^6]
@@ -218,4 +218,4 @@ TODO
 [^4]: https://www.coursera.org/learn/integration-calculus/home/welcome
 [^5]: https://www.coursera.org/learn/applications-calculus/home/welcome
 [^6]: http://immersivemath.com/ila/index.html
-[^7]: https://www.math.upenn.edu/~ghrist/calculus.html
+[^7]: https://www.math.upenn.edu/~ghrist/calculus.htmlq
