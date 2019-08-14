@@ -72,7 +72,7 @@ The *Single Variable Calculus* courses [^1] provided by Robert Ghrist are recomm
 	- [x] Week 4: Moments and Gyrations
 	- [x] Week 5: Fair Probability
 	- [x] Week 5: Probability Densities
-	- [ ] Week 5: Expectation and Variance
+	- [x] Week 5: Expectation and Variance
 	- [ ] Week 5: Chapter 4 Review & Exam
 - [ ] Part 5: Discrete Calculus [^6]
     - [ ] Week 1: Sequences
