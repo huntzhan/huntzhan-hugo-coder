@@ -16,25 +16,24 @@ Courses:
 *   Probability & Statistics
 
 
-
 ### Calculus
 
 The *Single Variable Calculus* courses [^1] provided by Robert Ghrist are recommended:
 
-- [x] @(2019-05-26 01:31) Part 1: Functions [^2] 
-    - [x] @(2019-04-15 00:17) Week 1: Introduction to the Course 
-	- [x] @(2019-04-15 22:19) Week 2: Functions 
-	- [x] @(2019-04-17 00:39) Week 2: Exponentials 
-	- [x] @(2019-04-17 23:16) Week 3: Taylor Series 
-	- [x] @(2019-04-20 01:57) Week 3: Computing Taylor Series 
-	- [x] @(2019-04-24 01:36) Week 3: Convergence 
+- Part 1: Functions [^2]
+    - [x] @(2019-04-15 00:17) Week 1: Introduction to the Course
+	- [x] @(2019-04-15 22:19) Week 2: Functions
+	- [x] @(2019-04-17 00:39) Week 2: Exponentials
+	- [x] @(2019-04-17 23:16) Week 3: Taylor Series
+	- [x] @(2019-04-20 01:57) Week 3: Computing Taylor Series
+	- [x] @(2019-04-24 01:36) Week 3: Convergence
 	- [x] @(2019-05-03 20:33) Week 3: Expansion Points
-	- [x] @(2019-05-14 01:31) Week 4: Limits 
-	- [x] @(2019-05-16 00:23) Week 4: l'Hôpital's Rule 
+	- [x] @(2019-05-14 01:31) Week 4: Limits
+	- [x] @(2019-05-16 00:23) Week 4: l'Hôpital's Rule
 	- [x] @(2019-05-24 03:50) Week 4: Orders of Growth
-	- [x] @(2019-05-26 01:31) Week 4: Chapter 1 Review & Exam 
-- [x] @(2019-06-13 22:17) Part 2: Differentiation [^3] 
-	- [x] @(2019-05-30 00:18) Week 1: Derivatives 
+	- [x] @(2019-05-26 01:31) Week 4: Chapter 1 Review & Exam
+- Part 2: Differentiation [^3]
+	- [x] @(2019-05-30 00:18) Week 1: Derivatives
 	- [x] @(2019-05-31 23:18) Week 1: Differentiation Rules
 	- [x] @(2019-06-01 18:24) Week 2: Linearization
 	- [x] @(2019-06-03 00:30) Week 2: Higher Derivatives
@@ -42,7 +41,7 @@ The *Single Variable Calculus* courses [^1] provided by Robert Ghrist are recomm
 	- [x] @(2019-06-08 22:37) Week 3: Differentials
 	- [x] @(2019-06-10 00:30) Week 3: Differentiation Operator
 	- [x] @(2019-06-13 22:17) Week 3: Chapter 2 Review & Exam
-- [x] @(2019-07-03 03:24) Part 3: Integration [^4]
+- Part 3: Integration [^4]
 	- [x] @(2019-06-15 01:13) Week 1: Indefinite Integrals
 	- [x] @(2019-06-15 14:27) Week 1: A Simple O.D.E.
 	- [x] @(2019-06-16 21:07) Week 1: More O.D.E.s
@@ -57,7 +56,7 @@ The *Single Variable Calculus* courses [^1] provided by Robert Ghrist are recomm
 	- [x] @(2019-06-29 16:43) Week 4: Trigonometric Integrals
 	- [x] @(2019-06-29 23:02) Week 4: Tables and Software
 	- [x] @(2019-07-03 03:24) Week 4: Chapter 3 Review & Exam
-- [ ] Part 4: Applications [^5]
+- Part 4: Applications [^5]
 	- [x] @(2019-07-12 00:56) Week 1: Simple Areas
 	- [x] @(2019-07-23 01:47) Week 1: Complex Areas
 	- [x] @(2019-07-25 00:30) Week 1: Volumes
@@ -74,7 +73,7 @@ The *Single Variable Calculus* courses [^1] provided by Robert Ghrist are recomm
 	- [x] @(2019-08-13 00:15) Week 5: Probability Densities
 	- [x] @(2019-08-15 01:31) Week 5: Expectation and Variance
 	- [ ] Week 5: Chapter 4 Review & Exam
-- [ ] Part 5: Discrete Calculus [^6]
+- Part 5: Discrete Calculus [^6]
     - [ ] Week 1: Sequences
     - [ ] Week 1: Differences
     - [ ] Week 1: Discrete Calculus
@@ -86,7 +85,7 @@ The *Single Variable Calculus* courses [^1] provided by Robert Ghrist are recomm
     - [ ] Week 3: Absolute & Conditional
     - [ ] Week 4: Power Series
     - [ ] Week 4: Taylor Series Redux
-    - [ ] Week 4: Approximation and Error 
+    - [ ] Week 4: Approximation and Error
     - [ ] Week 5: Calculus Redux
     - [ ] Week 5: Foreshadowing
     - [ ] Week 5: Credits
@@ -95,7 +94,7 @@ The *Single Variable Calculus* courses [^1] provided by Robert Ghrist are recomm
 
 Followed by the *Multivariable Calculus* courses [^7]:
 
-- [ ] Volume 1: Vectors and Matrices
+- Volume 1: Vectors and Matrices
     - [ ] PROLOGUE
     - [ ] Chapter 1: Lines and Planes
     - [ ] Chapter 2: Curves and Surfaces
@@ -118,7 +117,7 @@ Followed by the *Multivariable Calculus* courses [^7]:
     - [ ] Chapter 18: Computing Determinants
     - [ ] EPILOGUE
     - [ ] FORESHADOWING
-- [ ] Volume 2: Derivatives
+- Volume 2: Derivatives
     - [ ] PROLOGUE
     - [ ] Chapter 1: Multivariate Functions
     - [ ] Chapter 2: Partial Derivatives
@@ -141,7 +140,7 @@ Followed by the *Multivariable Calculus* courses [^7]:
     - [ ] Chapter 19: Using the Lagrange Multiplier
     - [ ] EPILOGUE
     - [ ] FORESHADOWING
-- [ ] Volume 3: Integrals
+- Volume 3: Integrals
     - [ ] PROLOGUE
     - [ ] Chapter 1: Defining Integrals
     - [ ] Chapter 2: The Fubini Theorem
@@ -164,7 +163,7 @@ Followed by the *Multivariable Calculus* courses [^7]:
     - [ ] Chapter 19: Data and Dimension
     - [ ] EPILOGUE (coming soon...)
     - [ ] FORESHADOWING (coming soon...)
-- [ ] Volume 4: Fields
+- Volume 4: Fields
     - [ ] PROLOGUE
     - [ ] Chapter 1: Fields
     - [ ] Chapter 2: Path Integrals
@@ -208,7 +207,6 @@ The interactive illustration provided by the *immersive linear algebra* [^6] is 
 ### Probability & Statistics
 
 TODO
-
 
 
 
