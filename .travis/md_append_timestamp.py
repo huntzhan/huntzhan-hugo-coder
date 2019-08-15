@@ -1,27 +1,30 @@
 import sys
-from git import Repo
+import re
 
-repo = Repo(sys.argv[1])
-print('repo', repo)
-
-md_path = sys.argv[2]
+md_path = sys.argv[1]
 print('md_path', md_path)
 
-ignored_date_str = sys.argv[4]
+with open(md_path) as fin:
+    lines = fin.readlines()
 
 processed = []
-for commit, lines in repo.blame('HEAD', md_path):
-    date_str = commit.committed_datetime.strftime('%Y-%m-%d')
-    if date_str == ignored_date_str:
-        date_str = 'INIT'
+for line in lines:
+    line = line.rstrip()
 
-    suffix = f'<div style="display:inline; float:right; font-family:serif;"><strong>Done {date_str}</strong></div>'
-    for line in lines:
-        if date_str and ''.join(line.strip().split()).startswith('-[x]'):
-            line += suffix
+    if not ''.join(line.strip().split()).startswith('-[x]'):
         processed.append(line)
+        continue
 
-out_path = sys.argv[3]
+    pat = r'\s*@\((\d{4}-\d{2}-\d{2} \d{2}:\d{2})\)\s*'
+    match = re.search(pat, line)
+    assert match
+    
+    dt_prefix = match.group(1)[:len('yyyy-mm-dd')]   
+    suffix = f'<div style="display:inline; float:right; font-family:serif;"><strong>Done {dt_prefix}</strong></div>'
+    
+    processed.append(re.sub(pat, ' ', line) + suffix)
+        
+out_path = sys.argv[2]
 print('out_path', out_path)
 
 with open(out_path, 'w') as fout:

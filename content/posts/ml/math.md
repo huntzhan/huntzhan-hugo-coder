@@ -21,58 +21,58 @@ Courses:
 
 The *Single Variable Calculus* courses [^1] provided by Robert Ghrist are recommended:
 
-- [x] Part 1: Functions [^2]
-    - [x] Week 1: Introduction to the Course
-	- [x] Week 2: Functions
-	- [x] Week 2: Exponentials
-	- [x] Week 3: Taylor Series
-	- [x] Week 3: Computing Taylor Series
-	- [x] Week 3: Convergence
-	- [x] Week 3: Expansion Points
-	- [x] Week 4: Limits
-	- [x] Week 4: l'Hôpital's Rule
-	- [x] Week 4: Orders of Growth
-	- [x] Week 4: Chapter 1 Review & Exam
-- [x] Part 2: Differentiation [^3]
-	- [x] Week 1: Derivatives
-	- [x] Week 1: Differentiation Rules
-	- [x] Week 2: Linearization
-	- [x] Week 2: Higher Derivatives
-	- [x] Week 2: Optimization
-	- [x] Week 3: Differentials
-	- [x] Week 3: Differentiation Operator
-	- [x] Week 3: Chapter 2 Review & Exam
-- [x] Part 3: Integration [^4]
-	- [x] Week 1: Indefinite Integrals
-	- [x] Week 1: A Simple O.D.E.
-	- [x] Week 1: More O.D.E.s
-	- [x] Week 1: O.D.E. Linearization
-	- [x] Week 2: Integration by Substitution
-	- [x] Week 2: Integration by Parts
-	- [x] Week 2: Trig Substitution
-	- [x] Week 2: Partial Fractions
-	- [x] Week 3: Definite Integrals
-	- [x] Week 3: The F.T.I.C.
-	- [x] Week 4: Improper Integrals
-	- [x] Week 4: Trigonometric Integrals
-	- [x] Week 4: Tables and Software
-	- [x] Week 4: Chapter 3 Review & Exam
+- [x] @(2019-05-26 01:31) Part 1: Functions [^2] 
+    - [x] @(2019-04-15 00:17) Week 1: Introduction to the Course 
+	- [x] @(2019-04-15 22:19) Week 2: Functions 
+	- [x] @(2019-04-17 00:39) Week 2: Exponentials 
+	- [x] @(2019-04-17 23:16) Week 3: Taylor Series 
+	- [x] @(2019-04-20 01:57) Week 3: Computing Taylor Series 
+	- [x] @(2019-04-24 01:36) Week 3: Convergence 
+	- [x] @(2019-05-03 20:33) Week 3: Expansion Points
+	- [x] @(2019-05-14 01:31) Week 4: Limits 
+	- [x] @(2019-05-16 00:23) Week 4: l'Hôpital's Rule 
+	- [x] @(2019-05-24 03:50) Week 4: Orders of Growth
+	- [x] @(2019-05-26 01:31) Week 4: Chapter 1 Review & Exam 
+- [x] @(2019-06-13 22:17) Part 2: Differentiation [^3] 
+	- [x] @(2019-05-30 00:18) Week 1: Derivatives 
+	- [x] @(2019-05-31 23:18) Week 1: Differentiation Rules
+	- [x] @(2019-06-01 18:24) Week 2: Linearization
+	- [x] @(2019-06-03 00:30) Week 2: Higher Derivatives
+	- [x] @(2019-06-04 22:39) Week 2: Optimization
+	- [x] @(2019-06-08 22:37) Week 3: Differentials
+	- [x] @(2019-06-10 00:30) Week 3: Differentiation Operator
+	- [x] @(2019-06-13 22:17) Week 3: Chapter 2 Review & Exam
+- [x] @(2019-07-03 03:24) Part 3: Integration [^4]
+	- [x] @(2019-06-15 01:13) Week 1: Indefinite Integrals
+	- [x] @(2019-06-15 14:27) Week 1: A Simple O.D.E.
+	- [x] @(2019-06-16 21:07) Week 1: More O.D.E.s
+	- [x] @(2019-06-18 21:18) Week 1: O.D.E. Linearization
+	- [x] @(2019-06-19 21:21) Week 2: Integration by Substitution
+	- [x] @(2019-06-20 23:16) Week 2: Integration by Parts
+	- [x] @(2019-06-22 02:15) Week 2: Trig Substitution
+	- [x] @(2019-06-23 19:58) Week 2: Partial Fractions
+	- [x] @(2019-06-24 22:41) Week 3: Definite Integrals
+	- [x] @(2019-06-26 01:09) Week 3: The F.T.I.C.
+	- [x] @(2019-06-28 00:33) Week 4: Improper Integrals
+	- [x] @(2019-06-29 16:43) Week 4: Trigonometric Integrals
+	- [x] @(2019-06-29 23:02) Week 4: Tables and Software
+	- [x] @(2019-07-03 03:24) Week 4: Chapter 3 Review & Exam
 - [ ] Part 4: Applications [^5]
-	- [x] Week 1: Simple Areas
-	- [x] Week 1: Complex Areas
-	- [x] Week 1: Volumes
-	- [x] Week 1: Complex Volumes
-	- [x] Week 2: Volume & Dimension
-	- [x] Week 2: Arclength
-	- [x] Week 2: Surface Area
-	- [x] Week 3: Work
-	- [x] Week 3: Elements
-	- [x] Week 4: Averages
-	- [x] Week 4: Centroids
-	- [x] Week 4: Moments and Gyrations
-	- [x] Week 5: Fair Probability
-	- [x] Week 5: Probability Densities
-	- [x] Week 5: Expectation and Variance
+	- [x] @(2019-07-12 00:56) Week 1: Simple Areas
+	- [x] @(2019-07-23 01:47) Week 1: Complex Areas
+	- [x] @(2019-07-25 00:30) Week 1: Volumes
+	- [x] @(2019-07-26 02:09) Week 1: Complex Volumes
+	- [x] @(2019-07-28 13:48) Week 2: Volume & Dimension
+	- [x] @(2019-07-30 00:49) Week 2: Arclength
+	- [x] @(2019-07-31 13:01) Week 2: Surface Area
+	- [x] @(2019-08-02 02:32) Week 3: Work
+	- [x] @(2019-08-03 17:54) Week 3: Elements
+	- [x] @(2019-08-06 22:53) Week 4: Averages
+	- [x] @(2019-08-10 00:30) Week 4: Centroids
+	- [x] @(2019-08-11 17:23) Week 4: Moments and Gyrations
+	- [x] @(2019-08-12 01:58) Week 5: Fair Probability
+	- [x] @(2019-08-13 00:15) Week 5: Probability Densities
+	- [x] @(2019-08-15 01:31) Week 5: Expectation and Variance
 	- [ ] Week 5: Chapter 4 Review & Exam
 - [ ] Part 5: Discrete Calculus [^6]
     - [ ] Week 1: Sequences
@@ -191,10 +191,10 @@ Followed by the *Multivariable Calculus* courses [^7]:
 
 The interactive illustration provided by the *immersive linear algebra* [^6] is great:
 
-- [x] Preface
-- [x] Chapter 1: Introduction
-- [x] Chapter 2: Vectors
-- [x] Chapter 3: The Dot Product
+- [x] @(2019-07-22 13:05) Preface
+- [x] @(2019-07-23 15:42) Chapter 1: Introduction
+- [x] @(2019-07-23 15:42) Chapter 2: Vectors
+- [x] @(2019-07-27 02:57) Chapter 3: The Dot Product
 - [ ] Chapter 4: The Vector Product
 - [ ] Chapter 5: Gaussian Elimination
 - [ ] Chapter 6: The Matrix

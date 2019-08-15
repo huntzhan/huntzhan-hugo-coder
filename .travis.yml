@@ -8,7 +8,7 @@ git:
   depth: false
 
 install:
-  - pip install requests Pygments gitpython
+  - pip install requests Pygments
   - python .travis/hugo_deb.py
   - sudo dpkg -i hugo.deb
 
