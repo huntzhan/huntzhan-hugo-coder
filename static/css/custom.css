@@ -5,8 +5,14 @@
 }
 
 .footnote-ref > a:after {
-    content:"]";
+    content: "]";
 }
+
 .footnote-ref > a:before {
-    content:"[";
+    content: "[";
+}
+
+section > h1.title {
+    display: block;
+    visibility: hidden;
 }
