@@ -54,7 +54,7 @@ googleAnalytics = "UA-132899384-1"
 
 # Menu links
 [[menu.main]]
-    name = "Posts"
+    name = "POSTS"
     weight = 1
     url  = "/posts/"
 
@@ -64,7 +64,7 @@ googleAnalytics = "UA-132899384-1"
     url = "/gtd/"
 
 [[menu.main]]
-    name = "About"
+    name = "ABOUT"
     weight = 3
     url = "/about/"
 
