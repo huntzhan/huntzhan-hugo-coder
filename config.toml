@@ -59,14 +59,14 @@ googleAnalytics = "UA-132899384-1"
     url  = "/posts/"
 
 [[menu.main]]
-    name = "About"
+    name = "G.T.D."
     weight = 2
-    url = "/about/"
+    url = "/gtd/"
 
 [[menu.main]]
-    name = "Links"
-    weight = 2
-    url = "/link-exchange/"
+    name = "About"
+    weight = 3
+    url = "/about/"
 
 [[menu.main]]
     name = "RSS"

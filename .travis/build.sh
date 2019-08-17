@@ -1,5 +1,5 @@
 # Append timestamps.
-python .travis/md_append_timestamp.py content/posts/ml/math.md content/posts/ml/math.md
+python .travis/md_append_timestamp.py content/gtd/math.md content/gtd/math.md
 
 # build site (generate ./public)
 hugo
