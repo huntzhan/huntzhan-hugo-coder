@@ -74,7 +74,7 @@ The *Single Variable Calculus* courses [^1] provided by Robert Ghrist are recomm
 	- [x] @(2019-08-15 01:31) Week 5: Expectation and Variance
 	- [x] @(2019-08-16 22:41) Week 5: Chapter 4 Review & Exam
 - Part 5: Discrete Calculus [^6]
-    - [ ] Week 1: Sequences
+    - [x] @(2019-08-20 00:36) Week 1: Sequences
     - [ ] Week 1: Differences
     - [ ] Week 1: Discrete Calculus
     - [ ] Week 2: Numerical O.D.E.s
