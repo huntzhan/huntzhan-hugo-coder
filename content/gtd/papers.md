@@ -75,6 +75,7 @@ Notation:
 ## Classical Machine Learning
 
 -   CRF. [^50]
+-   Density-based Clustering: DBSCAN [^151]✔️ and OPTICS [^152] ✔️ ❤️.
 
 
 
@@ -371,4 +372,7 @@ Notation:
 
 [^149]: Yang, Wei, Haotian Zhang, and Jimmy Lin. "Simple Applications of BERT for Ad Hoc Document Retrieval." *arXiv preprint arXiv:1903.10972* (2019).
 [^150]: Nogueira, Rodrigo, and Kyunghyun Cho. "Passage Re-ranking with BERT." *arXiv preprint arXiv:1901.04085* (2019).
+
+[^151]: Ester, Martin, et al. "A density-based algorithm for discovering clusters in large spatial databases with noise." *Kdd*. Vol. 96. No. 34. 1996.
+[^152]: Ankerst, Mihael, et al. "OPTICS: ordering points to identify the clustering structure." *ACM Sigmod record*. Vol. 28. No. 2. ACM, 1999.
 
