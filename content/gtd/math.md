@@ -78,7 +78,7 @@ The *Single Variable Calculus* courses [^1] provided by Robert Ghrist are recomm
     - [x] @(2019-08-21 14:13) Week 1: Differences
     - [x] @(2019-08-25 01:41) Week 1: Discrete Calculus
     - [x] @(2019-08-26 01:04) Week 2: Numerical O.D.E.s
-    - [ ] Week 2: Numerical Integration
+    - [x] @(2019-08-26 11:05) Week 2: Numerical Integration
     - [ ] Week 3: Infinite Series
     - [ ] Week 3: Convergence Tests I
     - [ ] Week 3: Convergence Tests II
