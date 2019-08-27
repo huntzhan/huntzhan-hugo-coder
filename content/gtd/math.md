@@ -12,13 +12,16 @@ It has been a long time since I graduated from university, and I think this is t
 Courses:
 
 *   Calculus
+    *   Single Variable Calculus
+    *   Multivariable Calculus
 *   Linear Algebra
 *   Probability & Statistics
 
-
 ### Calculus
 
-The *Single Variable Calculus* courses [^1] provided by Robert Ghrist are recommended:
+#### Single Variable Calculus
+
+Robert Ghrist's series on coursera [^1] is recommened.
 
 - Part 1: Functions [^2]
     - [x] @(2019-04-15 00:17) Week 1: Introduction to the Course
@@ -91,6 +94,8 @@ The *Single Variable Calculus* courses [^1] provided by Robert Ghrist are recomm
     - [ ] Week 5: Credits
     - [ ] Week 5: Chapter 5 Review & Exam
     - [ ] Week 5: THE 5-CHAPTER GREAT BIG FINAL EXAM
+
+#### Multivariable Calculus
 
 Followed by the *Multivariable Calculus* courses [^7]:
 
@@ -188,7 +193,7 @@ Followed by the *Multivariable Calculus* courses [^7]:
 
 ### Linear Algebra
 
-The interactive illustration provided by the *immersive linear algebra* [^6] is great:
+The interactive illustration provided by the *immersive linear algebra* [^8] is great:
 
 - [x] @(2019-07-22 13:05) Preface
 - [x] @(2019-07-23 15:42) Chapter 1: Introduction
@@ -215,5 +220,6 @@ TODO
 [^3]: https://www.coursera.org/learn/differentiation-calculus/home/welcome
 [^4]: https://www.coursera.org/learn/integration-calculus/home/welcome
 [^5]: https://www.coursera.org/learn/applications-calculus/home/welcome
-[^6]: http://immersivemath.com/ila/index.html
-[^7]: https://www.math.upenn.edu/~ghrist/calculus.html
+[^6]: https://www.coursera.org/learn/discrete-calculus/home/welcome
+[^7]: https://www.math.upenn.edu/~ghrist/BLUE.html
+[^8]: http://immersivemath.com/ila/index.html
