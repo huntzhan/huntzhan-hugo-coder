@@ -11,7 +11,7 @@ processed = []
 for line in lines:
     line = line.rstrip()
 
-    if not ''.join(line.strip().split()).startswith('-[x]'):
+    if not ''.join(line.strip().split()).startswith('*[x]'):
         processed.append(line)
         continue
 
