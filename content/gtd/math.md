@@ -85,7 +85,7 @@ Robert Ghrist's series on coursera [^1] is recommened.
   * [x] @(2019-08-26 01:04) Week 2: Numerical O.D.E.s
   * [x] @(2019-08-26 11:05) Week 2: Numerical Integration
   * [x] @(2019-08-28 03:30) Week 3: Infinite Series
-  * [ ] Week 3: Convergence Tests I
+  * [x] @(2019-08-29 11:47) Week 3: Convergence Tests I
   * [ ] Week 3: Convergence Tests II
   * [ ] Week 3: Absolute & Conditional
   * [ ] Week 4: Power Series
