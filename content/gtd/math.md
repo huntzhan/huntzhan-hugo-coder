@@ -26,68 +26,68 @@ Courses:
 Robert Ghrist's series on coursera [^1] is recommened.
 
 * Part 1: Functions [^2]
-  * [x] @(2019-04-15 00:17) Week 1: Introduction to the Course
-  * [x] @(2019-04-15 22:19) Week 2: Functions
-  * [x] @(2019-04-17 00:39) Week 2: Exponentials
-  * [x] @(2019-04-17 23:16) Week 3: Taylor Series
-  * [x] @(2019-04-20 01:57) Week 3: Computing Taylor Series
-  * [x] @(2019-04-24 01:36) Week 3: Convergence
-  * [x] @(2019-05-03 20:33) Week 3: Expansion Points
-  * [x] @(2019-05-14 01:31) Week 4: Limits
-  * [x] @(2019-05-16 00:23) Week 4: l'Hôpital's Rule
-  * [x] @(2019-05-24 03:50) Week 4: Orders of Growth
-  * [x] @(2019-05-26 01:31) Week 4: Chapter 1 Review & Exam
+  * [x] Week 1: Introduction to the Course @(2019-04-15 00:17)
+  * [x] Week 2: Functions @(2019-04-15 22:19)
+  * [x] Week 2: Exponentials @(2019-04-17 00:39)
+  * [x] Week 3: Taylor Series @(2019-04-17 23:16)
+  * [x] Week 3: Computing Taylor Series @(2019-04-20 01:57)
+  * [x] Week 3: Convergence @(2019-04-24 01:36)
+  * [x] Week 3: Expansion Points @(2019-05-03 20:33)
+  * [x] Week 4: Limits @(2019-05-14 01:31)
+  * [x] Week 4: l'Hôpital's Rule @(2019-05-16 00:23)
+  * [x] Week 4: Orders of Growth @(2019-05-24 03:50)
+  * [x] Week 4: Chapter 1 Review & Exam @(2019-05-26 01:31)
 * Part 2: Differentiation [^3]
-  * [x] @(2019-05-30 00:18) Week 1: Derivatives
-  * [x] @(2019-05-31 23:18) Week 1: Differentiation Rules
-  * [x] @(2019-06-01 18:24) Week 2: Linearization
-  * [x] @(2019-06-03 00:30) Week 2: Higher Derivatives
-  * [x] @(2019-06-04 22:39) Week 2: Optimization
-  * [x] @(2019-06-08 22:37) Week 3: Differentials
-  * [x] @(2019-06-10 00:30) Week 3: Differentiation Operator
-  * [x] @(2019-06-13 22:17) Week 3: Chapter 2 Review & Exam
+  * [x] Week 1: Derivatives @(2019-05-30 00:18)
+  * [x] Week 1: Differentiation Rules @(2019-05-31 23:18)
+  * [x] Week 2: Linearization @(2019-06-01 18:24)
+  * [x] Week 2: Higher Derivatives @(2019-06-03 00:30)
+  * [x] Week 2: Optimization @(2019-06-04 22:39)
+  * [x] Week 3: Differentials @(2019-06-08 22:37)
+  * [x] Week 3: Differentiation Operator @(2019-06-10 00:30)
+  * [x] Week 3: Chapter 2 Review & Exam @(2019-06-13 22:17)
 * Part 3: Integration [^4]
-  * [x] @(2019-06-15 01:13) Week 1: Indefinite Integrals
-  * [x] @(2019-06-15 14:27) Week 1: A Simple O.D.E.
-  * [x] @(2019-06-16 21:07) Week 1: More O.D.E.s
-  * [x] @(2019-06-18 21:18) Week 1: O.D.E. Linearization
-  * [x] @(2019-06-19 21:21) Week 2: Integration by Substitution
-  * [x] @(2019-06-20 23:16) Week 2: Integration by Parts
-  * [x] @(2019-06-22 02:15) Week 2: Trig Substitution
-  * [x] @(2019-06-23 19:58) Week 2: Partial Fractions
-  * [x] @(2019-06-24 22:41) Week 3: Definite Integrals
-  * [x] @(2019-06-26 01:09) Week 3: The F.T.I.C.
-  * [x] @(2019-06-28 00:33) Week 4: Improper Integrals
-  * [x] @(2019-06-29 16:43) Week 4: Trigonometric Integrals
-  * [x] @(2019-06-29 23:02) Week 4: Tables and Software
-  * [x] @(2019-07-03 03:24) Week 4: Chapter 3 Review & Exam
+  * [x] Week 1: Indefinite Integrals @(2019-06-15 01:13)
+  * [x] Week 1: A Simple O.D.E. @(2019-06-15 14:27)
+  * [x] Week 1: More O.D.E.s @(2019-06-16 21:07)
+  * [x] Week 1: O.D.E. Linearization @(2019-06-18 21:18)
+  * [x] Week 2: Integration by Substitution @(2019-06-19 21:21)
+  * [x] Week 2: Integration by Parts @(2019-06-20 23:16)
+  * [x] Week 2: Trig Substitution @(2019-06-22 02:15)
+  * [x] Week 2: Partial Fractions @(2019-06-23 19:58)
+  * [x] Week 3: Definite Integrals @(2019-06-24 22:41)
+  * [x] Week 3: The F.T.I.C. @(2019-06-26 01:09)
+  * [x] Week 4: Improper Integrals @(2019-06-28 00:33)
+  * [x] Week 4: Trigonometric Integrals @(2019-06-29 16:43)
+  * [x] Week 4: Tables and Software @(2019-06-29 23:02)
+  * [x] Week 4: Chapter 3 Review & Exam @(2019-07-03 03:24)
 * Part 4: Applications [^5]
-  * [x] @(2019-07-12 00:56) Week 1: Simple Areas
-  * [x] @(2019-07-23 01:47) Week 1: Complex Areas
-  * [x] @(2019-07-25 00:30) Week 1: Volumes
-  * [x] @(2019-07-26 02:09) Week 1: Complex Volumes
-  * [x] @(2019-07-28 13:48) Week 2: Volume & Dimension
-  * [x] @(2019-07-30 00:49) Week 2: Arclength
-  * [x] @(2019-07-31 13:01) Week 2: Surface Area
-  * [x] @(2019-08-02 02:32) Week 3: Work
-  * [x] @(2019-08-03 17:54) Week 3: Elements
-  * [x] @(2019-08-06 22:53) Week 4: Averages
-  * [x] @(2019-08-10 00:30) Week 4: Centroids
-  * [x] @(2019-08-11 17:23) Week 4: Moments and Gyrations
-  * [x] @(2019-08-12 01:58) Week 5: Fair Probability
-  * [x] @(2019-08-13 00:15) Week 5: Probability Densities
-  * [x] @(2019-08-15 01:31) Week 5: Expectation and Variance
-  * [x] @(2019-08-16 22:41) Week 5: Chapter 4 Review & Exam
+  * [x] Week 1: Simple Areas @(2019-07-12 00:56)
+  * [x] Week 1: Complex Areas @(2019-07-23 01:47)
+  * [x] Week 1: Volumes @(2019-07-25 00:30)
+  * [x] Week 1: Complex Volumes @(2019-07-26 02:09)
+  * [x] Week 2: Volume & Dimension @(2019-07-28 13:48)
+  * [x] Week 2: Arclength @(2019-07-30 00:49)
+  * [x] Week 2: Surface Area @(2019-07-31 13:01)
+  * [x] Week 3: Work @(2019-08-02 02:32)
+  * [x] Week 3: Elements @(2019-08-03 17:54)
+  * [x] Week 4: Averages @(2019-08-06 22:53)
+  * [x] Week 4: Centroids @(2019-08-10 00:30)
+  * [x] Week 4: Moments and Gyrations @(2019-08-11 17:23)
+  * [x] Week 5: Fair Probability @(2019-08-12 01:58)
+  * [x] Week 5: Probability Densities @(2019-08-13 00:15)
+  * [x] Week 5: Expectation and Variance @(2019-08-15 01:31)
+  * [x] Week 5: Chapter 4 Review & Exam @(2019-08-16 22:41)
 * Part 5: Discrete Calculus [^6]
-  * [x] @(2019-08-20 00:36) Week 1: Sequences
-  * [x] @(2019-08-21 14:13) Week 1: Differences
-  * [x] @(2019-08-25 01:41) Week 1: Discrete Calculus
-  * [x] @(2019-08-26 01:04) Week 2: Numerical O.D.E.s
-  * [x] @(2019-08-26 11:05) Week 2: Numerical Integration
-  * [x] @(2019-08-28 03:30) Week 3: Infinite Series
-  * [x] @(2019-08-29 11:47) Week 3: Convergence Tests I
-  * [x] @(2019-08-31 13:13) Week 3: Convergence Tests II
-  * [x] @(2019-09-01 13:48) Week 3: Absolute & Conditional
+  * [x] Week 1: Sequences @(2019-08-20 00:36)
+  * [x] Week 1: Differences @(2019-08-21 14:13)
+  * [x] Week 1: Discrete Calculus @(2019-08-25 01:41)
+  * [x] Week 2: Numerical O.D.E.s @(2019-08-26 01:04)
+  * [x] Week 2: Numerical Integration @(2019-08-26 11:05)
+  * [x] Week 3: Infinite Series @(2019-08-28 03:30)
+  * [x] Week 3: Convergence Tests I @(2019-08-29 11:47)
+  * [x] Week 3: Convergence Tests II @(2019-08-31 13:13)
+  * [x] Week 3: Absolute & Conditional @(2019-09-01 13:48)
   * [ ] Week 4: Power Series
   * [ ] Week 4: Taylor Series Redux
   * [ ] Week 4: Approximation and Error
@@ -196,10 +196,10 @@ Followed by the *Multivariable Calculus* courses [^7]:
 
 The interactive illustration provided by the *immersive linear algebra* [^8] is great:
 
-* [x] @(2019-07-22 13:05) Preface
-* [x] @(2019-07-23 15:42) Chapter 1: Introduction
-* [x] @(2019-07-23 15:42) Chapter 2: Vectors
-* [x] @(2019-07-27 02:57) Chapter 3: The Dot Product
+* [x] Preface @(2019-07-22 13:05)
+* [x] Chapter 1: Introduction @(2019-07-23 15:42)
+* [x] Chapter 2: Vectors @(2019-07-23 15:42)
+* [x] Chapter 3: The Dot Product @(2019-07-27 02:57)
 * [ ] Chapter 4: The Vector Product
 * [ ] Chapter 5: Gaussian Elimination
 * [ ] Chapter 6: The Matrix
