@@ -88,7 +88,7 @@ Robert Ghrist's series on coursera [^1] is recommened.
   * [x] Week 3: Convergence Tests I @(2019-08-29 11:47)
   * [x] Week 3: Convergence Tests II @(2019-08-31 13:13)
   * [x] Week 3: Absolute & Conditional @(2019-09-01 13:48)
-  * [ ] Week 4: Power Series
+  * [x] Week 4: Power Series @(2019-09-02 02:08)
   * [ ] Week 4: Taylor Series Redux
   * [ ] Week 4: Approximation and Error
   * [ ] Week 5: Calculus Redux
