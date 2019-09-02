@@ -15,7 +15,6 @@ Subjects are listed below:
 
 * Single Variable Calculus
 * Multivariable Calculus
-
 * Differential Equations
 * Complex Analysis
 * Linear Algebra
@@ -199,8 +198,8 @@ TODO
 
 Candidates:
 
-*   18.03x on edX https://www.edx.org/xseries/mitx-18.03x-differential-equations
-*   18.03 on OCW https://ocw.mit.edu/courses/mathematics/18-03-differential-equations-spring-2010/ 
+* 18.03x on edX https://www.edx.org/xseries/mitx-18.03x-differential-equations
+* 18.03 on OCW https://ocw.mit.edu/courses/mathematics/18-03-differential-equations-spring-2010/ 
 
 ### Complex Analysis
 
@@ -208,7 +207,7 @@ TODO
 
 Candidates:
 
-*   https://www.coursera.org/learn/complex-analysis
+* https://www.coursera.org/learn/complex-analysis
 
 ### Linear Algebra
 
@@ -303,7 +302,5 @@ TODO
 [^6]: https://www.coursera.org/learn/discrete-calculus/home/welcome
 [^7]: https://www.math.upenn.edu/~ghrist/BLUE.html
 [^8]: http://immersivemath.com/ila/index.html
-
 [^9]: https://courses.edx.org/courses/course-v1:HarvardX+STAT110x+2T2017/course/
-
 [^10]: https://www.harshsikka.me/self-studying-the-mit-applied-math-curriculum/
