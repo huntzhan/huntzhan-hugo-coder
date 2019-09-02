@@ -211,7 +211,99 @@ Candidates:
 
 ### Linear Algebra
 
-The interactive illustration provided by the *immersive linear algebra* [^8] is great:
+*Linear Algebra - Foundations to Frontiers* on edX [^11] is recommended:
+
+* Week 0 - Overview of Course
+  * [ ] Opening Remarks
+  * [ ] Navigating this Course
+  * [ ] Programming with MATLAB
+  * [ ] Enrichments
+  * [ ] Wrap Up
+* Week 1 - Vectors in Linear Algebra
+  * [ ] Opening Remarks
+  * [ ] What is a Vector?
+  * [ ] Simple Vector Operations
+  * [ ] Advanced Vector Operations
+  * [ ] LAFF Package Development: Vectors
+  * [ ] Slicing and Dicing
+  * [ ] Enrichment
+  * [ ] Wrap Up
+* Week 2 - Linear Transformations and Matrices
+  * [ ] Opening Remarks
+  * [ ] Linear Transformations
+  * [ ] Mathematical Induction
+  * [ ] Representing Linear Transformations as Matrices
+  * [ ] Enrichment
+  * [ ] Wrap Up
+* Week 3 - Matrix-Vector Operations
+  * [ ] Opening Remarks
+  * [ ] Special Matrices
+  * [ ] Operations with Matrices
+  * [ ] Matrix-Vector Multiplication Algorithms
+  * [ ] Wrap Up
+* Week 4 - From Matrix-Vector Multiplication to Matrix-Matrix Multiplication
+  * [ ] Opening Remarks
+  * [ ] Preparation
+  * [ ] Matrix-Vector Multiplication with Special Matrices
+  * [ ] Matrix-Matrix Multiplication (Product)
+  * [ ] Enrichment
+  * [ ] Wrap Up
+* Week 5 - Matrix-Matrix Multiplication
+  * [ ] Opening Remarks
+  * [ ] Observations
+  * [ ] Algorithms for Computing Matrix-Matrix Multiplication
+  * [ ] Enrichment
+  * [ ] Wrap Up
+* Week 6 - Gaussian Elimination
+  * [ ] Opening Remarks
+  * [ ] Gaussian Elimination System
+  * [ ] Solving A x = b via LU Factorization
+  * [ ] Enrichment
+  * [ ] Wrap Up
+* Week 7 - More Gaussian Elimination and Matrix Inversion
+  * [ ] Opening Remarks
+  * [ ] When Gaussian Elimination Breaks Down
+  * [ ] The Inverse Matrix
+  * [ ] Enrichment
+  * [ ] Wrap Up
+* Week 8 - More on Matrix Inversion
+  * [ ] Opening Remarks
+  * [ ] Gauss-Jordan Elimination
+  * [ ] (Almost) Never, Ever Invert a Matrix
+  * [ ] (Very Important) Enrichment
+  * [ ] Wrap Up
+* Week 9 - Vector Spaces
+  * [ ] Opening Remarks
+  * [ ] When Systems Don't Have a Unique Solution
+  * [ ] Review of Sets
+  * [ ] Vector Spaces
+  * [ ] Span, Linear Independence, and Bases
+  * [ ] Enrichment
+  * [ ] Wrap Up
+* Week 10 - Vector Spaces, Orthogonality, and Linear Least Squares
+  * [ ] Opening Remarks
+  * [ ] How the Row Echelon Form Answers (Almost) Everything
+  * [ ] Orthogonal Vectors and Spaces
+  * [ ] Approximating a Solution
+  * [ ] Enrichment
+  * [ ] Wrap Up
+* Week 11 - Orthogonal Projection, Low Rank Approximation, and Orthogonal Bases
+  * [ ] Opening Remarks
+  * [ ] Projecting a Vector onto a Subspace
+  * [ ] Orthonormal Bases
+  * [ ] Orthonormal Bases
+  * [ ] Singular Value Decomposition
+  * [ ] Enrichment
+  * [ ] Wrap Up
+* Week 12 - Eigenvalues, Eigenvectors, and Diagonalization
+  * [ ] Opening Remarks
+  * [ ] Getting Started
+  * [ ] The General Case
+  * [ ] Practical Methods for Computing Eigenvectors and Eigenvalues
+  * [ ] Enrichment
+  * [ ] Wrap Up
+
+The interactive illustration provided by the *immersive linear algebra* [^8] is recommended as the supplemental material:
 
 * [x] Preface @(2019-07-22 13:05)
 * [x] Chapter 1: Introduction @(2019-07-23 15:42)
@@ -304,3 +396,6 @@ TODO
 [^8]: http://immersivemath.com/ila/index.html
 [^9]: https://courses.edx.org/courses/course-v1:HarvardX+STAT110x+2T2017/course/
 [^10]: https://www.harshsikka.me/self-studying-the-mit-applied-math-curriculum/
+
+[^11]: https://courses.edx.org/courses/course-v1:UTAustinX+UT.5.05x+2T2019/course/
+
