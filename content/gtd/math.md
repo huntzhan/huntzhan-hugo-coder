@@ -7,7 +7,7 @@ math = "true"
 
 ## Introduction
 
-It has been a long time since I graduated from the university, and I think this is the right time to refresh my mathematical skill after reading this post [^10]. This post serves as a progress tracker.
+It has been a long time since I graduated from university, and I think this is the right time to refresh my mathematical skill, as inspired by this blog post [^10]. This page serves as a progress tracker.
 
 ## Subjects
 
