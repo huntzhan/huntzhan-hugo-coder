@@ -269,8 +269,8 @@ Candidates:
 * Week 8 - More on Matrix Inversion
   * [ ] Opening Remarks
   * [ ] Gauss-Jordan Elimination
-  * [ ] (Almost) Never, Ever Invert a Matrix
-  * [ ] (Very Important) Enrichment
+  * [ ] \(Almost\) Never, Ever Invert a Matrix
+  * [ ] \(Very Important\) Enrichment
   * [ ] Wrap Up
 * Week 9 - Vector Spaces
   * [ ] Opening Remarks
