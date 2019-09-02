@@ -326,61 +326,61 @@ STAT110 on edX [^9] is recommaned:
   * [ ] Introduce Yourself
   * [ ] Unit 0 Help and Discussion Forum
 * Unit1: Probability, Counting, and Story Proofs
-  * [ ] 1.0 Introduction
-  * [ ] 1.1 Reading
-  * [ ] 1.2 Interactive: Birthday Problem
-  * [ ] 1.3 Practice Problems
-  * [ ] 1.3.5 Unit 1 Content and Practice Problem Help & Discussion Forum
-  * [ ] 1.4 Homework Problems
-  * [ ] 1.4.5 Unit 1 Homework Discussion ONLY Forum
+  * [ ] Introduction
+  * [ ] Reading
+  * [ ] Interactive: Birthday Problem
+  * [ ] Practice Problems
+  * [ ] Unit 1 Content and Practice Problem Help & Discussion Forum
+  * [ ] Homework Problems
+  * [ ] Unit 1 Homework Discussion ONLY Forum
 * Unit2: Conditional Probability and Bayes' Rule
-  * [ ] 2.0 Introduction
-  * [ ] 2.1 Reading
-  * [ ] 2.2 Interactive: Monty Hall Simulation
-  * [ ] 2.3 Practice Problems
-  * [ ] 2.3.5 Unit 2 Content and Practice Problem Help & Discussion Forum
-  * [ ] 2.4 Homework Problems
-  * [ ] 2.4.5 Unit 2 Homework Discussion ONLY Forum
+  * [ ] Introduction
+  * [ ] Reading
+  * [ ] Interactive: Monty Hall Simulation
+  * [ ] Practice Problems
+  * [ ] Unit 2 Content and Practice Problem Help & Discussion Forum
+  * [ ] Homework Problems
+  * [ ] Unit 2 Homework Discussion ONLY Forum
 * Unit3: Discrete Random Variables
-  * [ ] 3.0 Introduction
-  * [ ] 3.1 Reading
-  * [ ] 3.2 Interactive: Normalization
-  * [ ] 3.3 Practice Problems
-  * [ ] 3.3.5 Unit 3 Content and Practice Problem Help & Discussion Forum
-  * [ ] 3.4 Homework Problems
-  * [ ] 3.5 Unit 3 Homework Discussion ONLY Forum
+  * [ ] Introduction
+  * [ ] Reading
+  * [ ] Interactive: Normalization
+  * [ ] Practice Problems
+  * [ ] Unit 3 Content and Practice Problem Help & Discussion Forum
+  * [ ] Homework Problems
+  * [ ] Unit 3 Homework Discussion ONLY Forum
 * Unit4: Continuous Random Variables
-  * [ ] 4.0 Introduction
-  * [ ] 4.1 Reading
-  * [ ] 4.2 Interactive: PDF/CDF
-  * [ ] 4.3 Practice Problems
-  * [ ] 4.3.5 Unit 4 Content and Practice Problem Help & Discussion Forum
-  * [ ] 4.4 Homework Problems
-  * [ ] 4.5 Unit 4 Homework Discussion ONLY Forum
+  * [ ] Introduction
+  * [ ] Reading
+  * [ ] Interactive: PDF/CDF
+  * [ ] Practice Problems
+  * [ ] Unit 4 Content and Practice Problem Help & Discussion Forum
+  * [ ] Homework Problems
+  * [ ] Unit 4 Homework Discussion ONLY Forum
 * Unit5: Averages, Law of Large Numbers, and Central Limit Theorem
-  * [ ] 5.0 Introduction
-  * [ ] 5.1 Reading
-  * [ ] 5.2 Interactives: Bus Stop Paradox and Central Limit Theorem
-  * [ ] 5.3 Practice Problems
-  * [ ] 5.3.5 Unit 5 Content and Practice Problem Help & Discussion Forum
-  * [ ] 5.4 Homework Problems
-  * [ ] 5.5 Unit 5 Homework Discussion ONLY Forum
+  * [ ] Introduction
+  * [ ] Reading
+  * [ ] Interactives: Bus Stop Paradox and Central Limit Theorem
+  * [ ] Practice Problems
+  * [ ] Unit 5 Content and Practice Problem Help & Discussion Forum
+  * [ ] Homework Problems
+  * [ ] Unit 5 Homework Discussion ONLY Forum
 * Unit6: Joint Distributions and Conditional Expectation
-  * [ ] 6.0 Introduction
-  * [ ] 6.1 Reading
-  * [ ] 6.2 Interactives: Bivariate Normal, Patterns in Sequences, Bayesian Updating
-  * [ ] 6.3 Practice Problems
-  * [ ] 6.3.5 Unit 6 Content and Practice Problem Help & Discussion Forum
-  * [ ] 6.4 Homework Problems
-  * [ ] 6.5 Unit 6 Homework Discussion ONLY Forum
+  * [ ] Introduction
+  * [ ] Reading
+  * [ ] Interactives: Bivariate Normal, Patterns in Sequences, Bayesian Updating
+  * [ ] Practice Problems
+  * [ ] Unit 6 Content and Practice Problem Help & Discussion Forum
+  * [ ] Homework Problems
+  * [ ] Unit 6 Homework Discussion ONLY Forum
 * Unit7: Markov Chains
-  * [ ] 7.0 Introduction
-  * [ ] 7.1 Reading
-  * [ ] 7.2 Interactive: Markov Chain Simulation
-  * [ ] 7.3 Practice Problems
-  * [ ] 7.3.5 Unit 7 Content and Practice Problem Help & Discussion Forum
-  * [ ] 7.4 Homework Problems
-  * [ ] 7.5 Unit 7 Homework Discussion ONLY Forum
+  * [ ] Introduction
+  * [ ] Reading
+  * [ ] Interactive: Markov Chain Simulation
+  * [ ] Practice Problems
+  * [ ] Unit 7 Content and Practice Problem Help & Discussion Forum
+  * [ ] Homework Problems
+  * [ ] Unit 7 Homework Discussion ONLY Forum
 
 ### Statistics
 
@@ -396,6 +396,4 @@ TODO
 [^8]: http://immersivemath.com/ila/index.html
 [^9]: https://courses.edx.org/courses/course-v1:HarvardX+STAT110x+2T2017/course/
 [^10]: https://www.harshsikka.me/self-studying-the-mit-applied-math-curriculum/
-
 [^11]: https://courses.edx.org/courses/course-v1:UTAustinX+UT.5.05x+2T2019/course/
-
