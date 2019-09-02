@@ -7,21 +7,22 @@ math = "true"
 
 ## Introduction
 
-It has been a long time since I graduated from university, and I think this is the right time to refresh my mathematical skill. This post serves as a progress tracker.
+It has been a long time since I graduated from the university, and I think this is the right time to refresh my mathematical skill after reading this post [^10]. This post serves as a progress tracker.
 
-Courses:
+## Subjects
 
-* Calculus
-  * Single Variable Calculus
-  * Multivariable Calculus
+Subjects are listed below:
+
+* Single Variable Calculus
+* Multivariable Calculus
+
+* Differential Equations
+* Complex Analysis
 * Linear Algebra
-* Probability & Statistics
-  * Probability
-  * Statistics
+* Probability
+* Statistics
 
-### Calculus
-
-#### Single Variable Calculus
+### Single Variable Calculus
 
 Robert Ghrist's series on coursera [^1] is recommened.
 
@@ -97,7 +98,7 @@ Robert Ghrist's series on coursera [^1] is recommened.
   * [ ] Week 5: Chapter 5 Review & Exam
   * [ ] Week 5: THE 5-CHAPTER GREAT BIG FINAL EXAM
 
-#### Multivariable Calculus
+### Multivariable Calculus
 
 Followed by the *Multivariable Calculus* courses [^7]:
 
@@ -192,6 +193,23 @@ Followed by the *Multivariable Calculus* courses [^7]:
   * [ ] Chapter 17: Calculus Redux
   * [ ] Chapter 18: Stokes' Theorem Redux
 
+### Differential Equations
+
+TODO
+
+Candidates:
+
+*   18.03x on edX https://www.edx.org/xseries/mitx-18.03x-differential-equations
+*   18.03 on OCW https://ocw.mit.edu/courses/mathematics/18-03-differential-equations-spring-2010/ 
+
+### Complex Analysis
+
+TODO
+
+Candidates:
+
+*   https://www.coursera.org/learn/complex-analysis
+
 ### Linear Algebra
 
 The interactive illustration provided by the *immersive linear algebra* [^8] is great:
@@ -208,9 +226,7 @@ The interactive illustration provided by the *immersive linear algebra* [^8] is 
 * [ ] Chapter 9: Linear Mappings
 * [ ] Chapter 10: Eigenvalues and Eigenvectors
 
-### Probability & Statistics
-
-#### Probability
+### Probability
 
 STAT110 on edX [^9] is recommaned:
 
@@ -275,7 +291,7 @@ STAT110 on edX [^9] is recommaned:
   * [ ] 7.4 Homework Problems
   * [ ] 7.5 Unit 7 Homework Discussion ONLY Forum
 
-#### Statistics
+### Statistics
 
 TODO
 
@@ -289,3 +305,5 @@ TODO
 [^8]: http://immersivemath.com/ila/index.html
 
 [^9]: https://courses.edx.org/courses/course-v1:HarvardX+STAT110x+2T2017/course/
+
+[^10]: https://www.harshsikka.me/self-studying-the-mit-applied-math-curriculum/
