@@ -90,7 +90,7 @@ Robert Ghrist's series on coursera [^1] is recommened.
   * [x] Week 3: Absolute & Conditional @(2019-09-01 13:48)
   * [x] Week 4: Power Series @(2019-09-02 02:08)
   * [x] Week 4: Taylor Series Redux @(2019-09-03 01:49)
-  * [ ] Week 4: Approximation and Error
+  * [x] Week 4: Approximation and Error @(2019-09-04 02:14)
   * [ ] Week 5: Calculus Redux
   * [ ] Week 5: Foreshadowing
   * [ ] Week 5: Credits
