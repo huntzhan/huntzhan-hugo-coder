@@ -91,7 +91,7 @@ Robert Ghrist's series on coursera [^1] is recommened.
   * [x] Week 4: Power Series @(2019-09-02 02:08)
   * [x] Week 4: Taylor Series Redux @(2019-09-03 01:49)
   * [x] Week 4: Approximation and Error @(2019-09-04 02:14)
-  * [ ] Week 5: Calculus Redux
+  * [x] Week 5: Calculus Redux @(2019-09-04 10:01)
   * [ ] Week 5: Foreshadowing
   * [ ] Week 5: Credits
   * [ ] Week 5: Chapter 5 Review & Exam
