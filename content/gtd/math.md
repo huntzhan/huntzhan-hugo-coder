@@ -94,7 +94,7 @@ Robert Ghrist's series on coursera [^1] is recommened.
   * [x] Week 5: Calculus Redux @(2019-09-04 10:01)
   * [x] Week 5: Foreshadowing @(2019-09-04 20:53)
   * [x] Week 5: Credits @(2019-09-04 20:54)
-  * [ ] Week 5: Chapter 5 Review & Exam
+  * [x] Week 5: Chapter 5 Review & Exam @(2019-09-06 01:48)
   * [ ] Week 5: THE 5-CHAPTER GREAT BIG FINAL EXAM
 
 ### Multivariable Calculus
