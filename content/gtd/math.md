@@ -13,13 +13,13 @@ It has been a long time since I graduated from university, and I think this is t
 
 Subjects are listed below:
 
-* Single Variable Calculus
-* Multivariable Calculus
-* Differential Equations
-* Complex Analysis
-* Linear Algebra
-* Probability
-* Statistics
+* Single Variable Calculus (P0, almost finished)
+* Multivariable Calculus (P1, todo)
+* Differential Equations (P1, todo)
+* Complex Analysis (P2, todo)
+* Linear Algebra (P0, planned to engage next)
+* Probability (P0, planned to engage next)
+* Statistics (P1, todo)
 
 ### Single Variable Calculus
 
