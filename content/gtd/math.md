@@ -13,13 +13,13 @@ It has been a long time since I graduated from university, and I think this is t
 
 Subjects are listed below:
 
-* Single Variable Calculus (P0, almost finished)
-* Multivariable Calculus (P1, todo)
-* Differential Equations (P1, todo)
-* Complex Analysis (P2, todo)
-* Linear Algebra (P0, planned to engage next)
-* Probability (P0, planned to engage next)
-* Statistics (P1, todo)
+* Single Variable Calculus ✅
+* Multivariable Calculus
+* Differential Equations
+* Complex Analysis
+* Linear Algebra 🚧
+* Probability 🚧
+* Statistics
 
 ### Single Variable Calculus
 
@@ -95,7 +95,7 @@ Robert Ghrist's series on coursera [^1] is recommened.
   * [x] Week 5: Foreshadowing @(2019-09-04 20:53)
   * [x] Week 5: Credits @(2019-09-04 20:54)
   * [x] Week 5: Chapter 5 Review & Exam @(2019-09-06 01:48)
-  * [ ] Week 5: THE 5-CHAPTER GREAT BIG FINAL EXAM
+  * [x] Week 5: THE 5-CHAPTER GREAT BIG FINAL EXAM @(2019-09-06 03:40)
 
 ### Multivariable Calculus
 
