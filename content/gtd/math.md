@@ -95,7 +95,7 @@ Robert Ghrist's series on coursera [^1] is recommened.
   * [x] Week 5: Foreshadowing @(2019-09-04 20:53)
   * [x] Week 5: Credits @(2019-09-04 20:54)
   * [x] Week 5: Chapter 5 Review & Exam @(2019-09-06 01:48)
-  * [x] Week 5: THE 5-CHAPTER GREAT BIG FINAL EXAM @(2019-09-06 03:40)
+  * [x] Week 5: THE 5-CHAPTER GREAT BIG FINAL EXAM @(2019-09-09 03:40)
 
 ### Multivariable Calculus
 
