@@ -25,7 +25,7 @@ googleAnalytics = "UA-132899384-1"
     favicon_32 = "https://gravatar.com/avatar/9e114d2564d6ace057250e5c4b415c8d?s=32"
     favicon_16 = "https://gravatar.com/avatar/9e114d2564d6ace057250e5c4b415c8d?s=16"
 
-    footercontent = "All rights reserved"
+    footercontent = ""
 
     hidecredits = true
     hidecopyright = true
