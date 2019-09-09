@@ -27,8 +27,8 @@ googleAnalytics = "UA-132899384-1"
 
     footercontent = "All rights reserved"
 
-    hidecredits = false
-    hidecopyright = false
+    hidecredits = true
+    hidecopyright = true
 
     rtl = false
 
