@@ -322,9 +322,9 @@ The interactive illustration provided by the *immersive linear algebra* [^8] is 
 STAT110 on edX [^9] is recommaned:
 
 * Unit0: Introduction and Course Orientation
-  * [ ] Introduction to the Course
-  * [ ] Introduce Yourself
-  * [ ] Unit 0 Help and Discussion Forum
+  * [x] Introduction to the Course @(2019-09-10 16:25)
+  * [x] Introduce Yourself @(2019-09-10 16:25)
+  * [x] Unit 0 Help and Discussion Forum @(2019-09-10 16:25)
 * Unit1: Probability, Counting, and Story Proofs
   * [ ] Introduction
   * [ ] Reading
