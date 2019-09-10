@@ -325,7 +325,7 @@ STAT110 on edX [^9] is recommaned:
   * [x] Introduction to the Course @(2019-09-10 16:25)
   * [x] Introduce Yourself @(2019-09-10 16:25)
   * [x] Unit 0 Help and Discussion Forum @(2019-09-10 16:25)
-* Unit1: Probability, Counting, and Story Proof
+* Unit1: Probability, Counting, and Story Proofs
   * [x] Introduction @(2019-09-11 02:15)
   * [x] Reading @(2019-09-11 02:15)
   * [x] Interactive: Birthday Problem @(2019-09-11 02:15)
