@@ -331,8 +331,8 @@ STAT110 on edX [^9] is recommaned:
   * [x] Practice Problems @(2019-09-11 21:15)
   * [x] Homework Problems @(2019-09-12 01:23)
 * Unit2: Conditional Probability and Bayes' Rule
-  * [ ] Introduction
-  * [ ] Reading
+  * [x] Introduction @(2019-09-16 02:25)
+  * [x] Reading (and the materials of difference equation [^12]) @(2019-09-16 02:25)
   * [ ] Interactive: Monty Hall Simulation
   * [ ] Practice Problems
   * [ ] Homework Problems
@@ -382,3 +382,6 @@ TODO
 [^9]: https://courses.edx.org/courses/course-v1:HarvardX+STAT110x+2T2017/course/
 [^10]: https://www.harshsikka.me/self-studying-the-mit-applied-math-curriculum/
 [^11]: https://courses.edx.org/courses/course-v1:UTAustinX+UT.5.05x+2T2019/course/
+
+[^12]: http://people.math.umass.edu/~lr7q/ps_files/teaching/math456/Chapter3.pdf , https://mjo.osborne.economics.utoronto.ca/index.php/tutorial/index/1/fod/t , https://mjo.osborne.economics.utoronto.ca/index.php/tutorial/index/1/sod/t
+
