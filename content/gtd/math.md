@@ -333,9 +333,9 @@ STAT110 on edX [^9] is recommaned:
 * Unit2: Conditional Probability and Bayes' Rule
   * [x] Introduction @(2019-09-16 02:25)
   * [x] Reading (and the materials of difference equation [^12]) @(2019-09-16 02:25)
-  * [ ] Interactive: Monty Hall Simulation
-  * [ ] Practice Problems
-  * [ ] Homework Problems
+  * [x] Interactive: Monty Hall Simulation @(2019-09-17 02:25)
+  * [x] Practice Problems @(2019-09-17 02:25)
+  * [x] Homework Problems @(2019-09-17 02:25)
 * Unit3: Discrete Random Variables
   * [ ] Introduction
   * [ ] Reading
