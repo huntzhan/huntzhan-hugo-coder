@@ -337,8 +337,8 @@ STAT110 on edX [^9] is recommaned:
   * [x] Practice Problems @(2019-09-17 02:25)
   * [x] Homework Problems @(2019-09-17 02:25)
 * Unit3: Discrete Random Variables
-  * [ ] Introduction
-  * [ ] Reading
+  * [x] Introduction @(2019-09-19 02:28)
+  * [x] Reading @(2019-09-19 02:28)
   * [ ] Interactive: Normalization
   * [ ] Practice Problems
   * [ ] Homework Problems
