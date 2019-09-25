@@ -343,8 +343,8 @@ STAT110 on edX [^9] is recommaned:
   * [x] Practice Problems @(2019-09-20 01:28)
   * [x] Homework Problems @(2019-09-20 01:28)
 * Unit4: Continuous Random Variables
-  * [ ] Introduction
-  * [ ] Reading
+  * [x] Introduction @(2019-09-25 14:26)
+  * [x] Reading @(2019-09-25 14:26)
   * [ ] Interactive: PDF/CDF
   * [ ] Practice Problems
   * [ ] Homework Problems
