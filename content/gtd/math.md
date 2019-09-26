@@ -343,7 +343,7 @@ STAT110 on edX [^9] is recommaned:
   * [x] Introduction @(2019-09-25 14:26)
   * [x] Reading @(2019-09-25 14:26)
   * [x] Practice Problems @(2019-09-26 11:08)
-  * [x] Homework Problems @(2019-09-2 7 02:09)
+  * [x] Homework Problems @(2019-09-27 02:09)
 * Unit5: Averages, Law of Large Numbers, and Central Limit Theorem
   * [ ] Introduction
   * [ ] Reading
