@@ -327,43 +327,36 @@ STAT110 on edX [^9] is recommaned:
 * Unit1: Probability, Counting, and Story Proofs
   * [x] Introduction @(2019-09-11 02:15)
   * [x] Reading @(2019-09-11 02:15)
-  * [x] Interactive: Birthday Problem @(2019-09-11 02:15)
   * [x] Practice Problems @(2019-09-11 21:15)
   * [x] Homework Problems @(2019-09-12 01:23)
 * Unit2: Conditional Probability and Bayes' Rule
   * [x] Introduction @(2019-09-16 02:25)
   * [x] Reading (and the materials of difference equation [^12]) @(2019-09-16 02:25)
-  * [x] Interactive: Monty Hall Simulation @(2019-09-17 02:25)
   * [x] Practice Problems @(2019-09-17 02:25)
   * [x] Homework Problems @(2019-09-17 02:25)
 * Unit3: Discrete Random Variables
   * [x] Introduction @(2019-09-19 02:28)
   * [x] Reading @(2019-09-19 02:28)
-  * [x] Interactive: Normalization @(2019-09-20 01:28)
   * [x] Practice Problems @(2019-09-20 01:28)
   * [x] Homework Problems @(2019-09-20 01:28)
 * Unit4: Continuous Random Variables
   * [x] Introduction @(2019-09-25 14:26)
   * [x] Reading @(2019-09-25 14:26)
-  * [ ] Interactive: PDF/CDF
-  * [ ] Practice Problems
+  * [x] Practice Problems @(2019-09-26 11:08)
   * [ ] Homework Problems
 * Unit5: Averages, Law of Large Numbers, and Central Limit Theorem
   * [ ] Introduction
   * [ ] Reading
-  * [ ] Interactives: Bus Stop Paradox and Central Limit Theorem
   * [ ] Practice Problems
   * [ ] Homework Problems
 * Unit6: Joint Distributions and Conditional Expectation
   * [ ] Introduction
   * [ ] Reading
-  * [ ] Interactives: Bivariate Normal, Patterns in Sequences, Bayesian Updating
   * [ ] Practice Problems
   * [ ] Homework Problems
 * Unit7: Markov Chains
   * [ ] Introduction
   * [ ] Reading
-  * [ ] Interactive: Markov Chain Simulation
   * [ ] Practice Problems
   * [ ] Homework Problems
 
