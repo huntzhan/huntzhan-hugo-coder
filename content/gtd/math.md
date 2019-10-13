@@ -325,37 +325,30 @@ STAT110 on edX [^9] is recommaned:
   * [x] Introduction to the Course @(2019-09-10 16:25)
   * [x] Introduce Yourself @(2019-09-10 16:25)
 * Unit1: Probability, Counting, and Story Proofs
-  * [x] Introduction @(2019-09-11 02:15)
   * [x] Reading @(2019-09-11 02:15)
   * [x] Practice Problems @(2019-09-11 21:15)
   * [x] Homework Problems @(2019-09-12 01:23)
 * Unit2: Conditional Probability and Bayes' Rule
-  * [x] Introduction @(2019-09-16 02:25)
   * [x] Reading (and the materials of difference equation [^12]) @(2019-09-16 02:25)
   * [x] Practice Problems @(2019-09-17 02:25)
   * [x] Homework Problems @(2019-09-17 02:25)
 * Unit3: Discrete Random Variables
-  * [x] Introduction @(2019-09-19 02:28)
   * [x] Reading @(2019-09-19 02:28)
   * [x] Practice Problems @(2019-09-20 01:28)
   * [x] Homework Problems @(2019-09-20 01:28)
 * Unit4: Continuous Random Variables
-  * [x] Introduction @(2019-09-25 14:26)
   * [x] Reading @(2019-09-25 14:26)
   * [x] Practice Problems @(2019-09-26 11:08)
   * [x] Homework Problems @(2019-09-27 02:09)
 * Unit5: Averages, Law of Large Numbers, and Central Limit Theorem
-  * [ ] Introduction
-  * [ ] Reading
+  * [x] Reading @(2019-10-14 01:40)
   * [ ] Practice Problems
   * [ ] Homework Problems
 * Unit6: Joint Distributions and Conditional Expectation
-  * [ ] Introduction
   * [ ] Reading
   * [ ] Practice Problems
   * [ ] Homework Problems
 * Unit7: Markov Chains
-  * [ ] Introduction
   * [ ] Reading
   * [ ] Practice Problems
   * [ ] Homework Problems
