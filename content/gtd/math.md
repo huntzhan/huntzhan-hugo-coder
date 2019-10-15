@@ -342,7 +342,7 @@ STAT110 on edX [^9] is recommaned:
   * [x] Homework Problems @(2019-09-27 02:09)
 * Unit5: Averages, Law of Large Numbers, and Central Limit Theorem
   * [x] Reading @(2019-10-14 01:40)
-  * [ ] Practice Problems
+  * [x] Practice Problems @(2019-10-15 10:08)
   * [ ] Homework Problems
 * Unit6: Joint Distributions and Conditional Expectation
   * [ ] Reading
